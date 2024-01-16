@@ -8,7 +8,16 @@
     <string>AddPlanetIdHere</string>
     <string>AddAnotherPlanetIdHere</string>
   </SpawnTypePlanetBlacklist>
-  <PlanetSpawnFilters />
+  <PlanetSpawnFilters>
+    <PlanetSpawnFilter>
+      <PlanetName>BlackHole</PlanetName>
+      <PlanetId>-7042660506472184355</PlanetId>
+      <PlanetSpawnGroupBlacklist>
+        <SpawnGroup>AddSpawnGroupIdHere</SpawnGroup>
+        <SpawnGroup>AddAnotherSpawnGroupIdHere</SpawnGroup>
+      </PlanetSpawnGroupBlacklist>
+    </PlanetSpawnFilter>
+  </PlanetSpawnFilters>
   <UseTypeDisownTimer>false</UseTypeDisownTimer>
   <TypeDisownTimer>0</TypeDisownTimer>
   <UseTimeout>true</UseTimeout>
