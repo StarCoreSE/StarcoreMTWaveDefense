@@ -5,12 +5,12 @@
   <SessionName>StarcoreMTWaveDefense</SessionName>
   <SpectatorPosition>
     <Position x="9988.141464457507" y="13.456531939639211" z="9.8330106474877574" />
-    <Forward x="0.883093238" y="-0.0234440714" z="-0.468611479" />
-    <Up x="0.0144064249" y="0.9996348" z="-0.0228617843" />
+    <Forward x="0.883093238" y="-0.02344407" z="-0.468611419" />
+    <Up x="0.0144064231" y="0.9996348" z="-0.0228617843" />
     <Orientation>
       <X>-0.013509444</X>
       <Y>-0.515278339</Y>
-      <Z>-0.000282510882</Z>
+      <Z>-0.000282510038</Z>
       <W>0.856916368</W>
     </Orientation>
   </SpectatorPosition>
@@ -845,14 +845,14 @@ SiegeCooldownTimer=18000
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
-    <ModItem FriendlyName="Modular Encounters Systems">
-      <Name>1521905890.sbm</Name>
-      <PublishedFileId>1521905890</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="StarCoreMESAI">
       <Name>2890542787.sbm</Name>
       <PublishedFileId>2890542787</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Modular Encounters Systems">
+      <Name>1521905890.sbm</Name>
+      <PublishedFileId>1521905890</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="AE NPC Dummies - Interactable NPC Blocks v. 0.6">
@@ -1261,6 +1261,7 @@ SiegeCooldownTimer=18000
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
   </Mods>
+  <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
@@ -1596,6 +1597,8 @@ SiegeCooldownTimer=18000
       </item>
     </dictionary>
   </AllPlayersColors>
+  <ChatHistory />
+  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855896</long>
     <long>144115188075855897</long>
@@ -64430,4 +64433,7 @@ SiegeCooldownTimer=18000
   </VicinityArmorModelsCache>
   <VicinityVoxelCache />
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
+  <RemoteAdminSettings>
+    <dictionary />
+  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>

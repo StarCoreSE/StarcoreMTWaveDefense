@@ -145,14 +145,14 @@
     <EnableTrashSettingsPlatformOverride>true</EnableTrashSettingsPlatformOverride>
   </Settings>
   <Mods>
-    <ModItem FriendlyName="Modular Encounters Systems">
-      <Name>1521905890.sbm</Name>
-      <PublishedFileId>1521905890</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="StarCoreMESAI">
       <Name>2890542787.sbm</Name>
       <PublishedFileId>2890542787</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Modular Encounters Systems">
+      <Name>1521905890.sbm</Name>
+      <PublishedFileId>1521905890</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="AE NPC Dummies - Interactable NPC Blocks v. 0.6">
