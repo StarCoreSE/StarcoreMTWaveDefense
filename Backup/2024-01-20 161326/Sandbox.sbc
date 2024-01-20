@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>1458880000</ElapsedGameTime>
+  <ElapsedGameTime>1390560000</ElapsedGameTime>
   <SessionName>StarCoreMTWaveDefense</SessionName>
   <SpectatorPosition>
     <Position x="-0.32934382554148806" y="-0.074394008015407867" z="1.5750704078872861" />
@@ -21,8 +21,8 @@
   <ControlledObject>124168712738897777</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2024-01-20T16:13:40.4372866-06:00</LastSaveTime>
-  <SpectatorDistance>3.04549623</SpectatorDistance>
+  <LastSaveTime>2024-01-20T16:13:26.7150767-06:00</LastSaveTime>
+  <SpectatorDistance>2.6</SpectatorDistance>
   <WorkshopId xsi:nil="true" />
   <WorkshopId1 xsi:nil="true" />
   <CharacterToolbar>
@@ -325,7 +325,7 @@
       <SavedCharacters>
         <long>124168712738897777</long>
       </SavedCharacters>
-      <LastLogoutTime>2024-01-20T16:13:40.4372866-06:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T16:13:26.7320772-06:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -429,13 +429,7 @@
             </Slots>
             <SlotsGamepad />
           </Toolbar>
-          <EntityCameraData>
-            <CameraControllerSettings EntityId="124168712738897777">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>3.045496141773341</Distance>
-              <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
-          </EntityCameraData>
+          <EntityCameraData />
           <BuildColorSlots>
             <Vector3>
               <X>0</X>
@@ -723,7 +717,7 @@
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
       <BaseSunDirection x="0.339467347" y="0.709795356" z="-0.617213368" />
-      <SunDirectionNormalized x="0.330152422" y="0.7097555" z="-0.6222914" />
+      <SunDirectionNormalized x="0.3305905" y="0.7097591" z="-0.6220546" />
       <WeatherPlanetData />
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentAssetModifiers" />
@@ -788,7 +782,7 @@
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AntennaSessionComponent" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
-      <TimeSinceLastEventInMs>43062</TimeSinceLastEventInMs>
+      <TimeSinceLastEventInMs>35946</TimeSinceLastEventInMs>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_TradingManager" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">

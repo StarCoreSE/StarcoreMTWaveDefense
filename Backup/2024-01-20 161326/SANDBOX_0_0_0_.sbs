@@ -26,14 +26,14 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>124168712738897777</Name>
       <PositionAndOrientation>
-        <Position x="-6.9523415079332764" y="-4.1021589331425652" z="5.3180969209482853" />
-        <Forward x="0.3155551" y="0.6191344" z="-0.719095" />
-        <Up x="0.7018293" y="0.35774833" z="0.6159967" />
+        <Position x="-6.0488120560982175" y="-3.6210254084516516" z="6.22544597487423" />
+        <Forward x="0.2737792" y="0.7332352" z="-0.6224235" />
+        <Up x="0.5815677" y="0.389232457" z="0.7143368" />
         <Orientation>
-          <X>0.374765426</X>
-          <Y>0.00184548646</Y>
-          <Z>-0.425060868</Z>
-          <W>0.8239361</W>
+          <X>0.434277683</X>
+          <Y>0.0138250738</Y>
+          <Z>-0.341740668</Z>
+          <W>0.8333217</W>
         </Orientation>
       </PositionAndOrientation>
       <LocalPositionAndOrientation xsi:nil="true" />
@@ -218,7 +218,7 @@
       <LightEnabled>false</LightEnabled>
       <UsingLadder xsi:nil="true" />
       <HeadAngle x="0" y="0" />
-      <LinearVelocity x="-0.00334928581" y="-0.00215387414" z="-0.00420298753" />
+      <LinearVelocity x="0" y="0" z="0" />
       <AutoenableJetpackDelay>-1</AutoenableJetpackDelay>
       <JetpackEnabled>true</JetpackEnabled>
       <ColorMaskHSV x="0.0222222228" y="0" z="7.450581E-09" />
