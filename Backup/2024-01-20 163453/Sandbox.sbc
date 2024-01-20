@@ -6,9 +6,9 @@
   <SpectatorPosition>
     <Position x="-6.2225925655751624" y="-2.0273901143553363" z="33.43713668686862" />
     <Forward x="0.1431635" y="0.1935867" z="0.9705815" />
-    <Up x="0.207455963" y="0.953026652" z="-0.220685661" />
+    <Up x="0.207455978" y="0.953026652" z="-0.220685676" />
     <Orientation>
-      <X>0.111627653</X>
+      <X>0.111627661</X>
       <Y>0.986321449</Y>
       <Z>-0.1050044</Z>
       <W>-0.06069051</W>
@@ -977,6 +977,11 @@ ReplacePaintSurvival=False
       <PublishedFileId>1359618037</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="PickmeRevengeance + FactionControl">
+      <Name>2986589130.sbm</Name>
+      <PublishedFileId>2986589130</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Paint Gun - realistic painting for survival + special creative features">
       <Name>500818376.sbm</Name>
       <PublishedFileId>500818376</PublishedFileId>
@@ -1168,7 +1173,6 @@ ReplacePaintSurvival=False
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
   </Mods>
-  <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
@@ -1574,8 +1578,6 @@ ReplacePaintSurvival=False
       </item>
     </dictionary>
   </AllPlayersColors>
-  <ChatHistory />
-  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855896</long>
     <long>144115188075855897</long>
@@ -2043,7 +2045,4 @@ ReplacePaintSurvival=False
   </VicinityArmorModelsCache>
   <VicinityVoxelCache />
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
-  <RemoteAdminSettings>
-    <dictionary />
-  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>

@@ -146,15 +146,6 @@
     <EnableTrashSettingsPlatformOverride>true</EnableTrashSettingsPlatformOverride>
   </Settings>
   <Mods>
-    <ModItem FriendlyName="StarCorePracticeAI">
-      <Name>3024311955.sbm</Name>
-      <PublishedFileId>3024311955</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="StarCoreMESAI">
-      <Name>StarCoreMESAI</Name>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="Modular Encounters Systems">
       <Name>1521905890.sbm</Name>
       <PublishedFileId>1521905890</PublishedFileId>
@@ -360,6 +351,11 @@
       <PublishedFileId>1359618037</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="PickmeRevengeance + FactionControl">
+      <Name>2986589130.sbm</Name>
+      <PublishedFileId>2986589130</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Paint Gun - realistic painting for survival + special creative features">
       <Name>500818376.sbm</Name>
       <PublishedFileId>500818376</PublishedFileId>
@@ -552,5 +548,5 @@
     </ModItem>
   </Mods>
   <SessionName>StarCoreMTWaveDefense</SessionName>
-  <LastSaveTime>2024-01-20T16:34:53.9066184-06:00</LastSaveTime>
+  <LastSaveTime>2024-01-20T16:30:01.0671808-06:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>

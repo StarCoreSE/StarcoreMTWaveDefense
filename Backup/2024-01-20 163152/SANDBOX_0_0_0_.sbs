@@ -26,14 +26,14 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>138211380933816796</Name>
       <PositionAndOrientation>
-        <Position x="-3.8200573402027658" y="-2.442809158745149" z="20.627719860834986" />
-        <Forward x="-0.880821943" y="-0.0577703454" z="-0.469909817" />
-        <Up x="0.063170664" y="-0.997993469" z="0.00428236276" />
+        <Position x="-3.8200573470021482" y="-2.4428087135929673" z="20.627719942460317" />
+        <Forward x="0.8714386" y="0.0530676469" z="-0.487625331" />
+        <Up x="0.06317065" y="-0.9979934" z="0.004282344" />
         <Orientation>
-          <X>0.5145069</X>
-          <Y>0.0181038138</Y>
-          <Z>0.85690105</Z>
-          <W>-0.0259899274</W>
+          <X>-0.5059517</X>
+          <Y>-0.0141491974</Y>
+          <Z>0.8619801</Z>
+          <W>-0.0283376835</W>
         </Orientation>
       </PositionAndOrientation>
       <LocalPositionAndOrientation xsi:nil="true" />
@@ -46,7 +46,7 @@
                 <dictionary>
                   <item>
                     <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
-                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjAwsbg8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjAwsbg8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjAr8Dg8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjAr8Dg8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
                   </item>
                 </dictionary>
               </Storage>
@@ -520,8 +520,8 @@ Issue Form</Text>
           <RotationSpeed>0.08</RotationSpeed>
         </MyObjectBuilder_CubeBlock>
       </CubeBlocks>
-      <LinearVelocity x="1.73721992E-06" y="2.84734779E-06" z="3.69822374E-07" />
-      <AngularVelocity x="-0.00661509531" y="0.104509525" z="-0.000448110077" />
+      <LinearVelocity x="4.49656227E-06" y="3.708122E-05" z="1.254346E-06" />
+      <AngularVelocity x="-0.006615006" y="0.10450951" z="-0.00044869355" />
       <DisplayName>neuspinny</DisplayName>
       <DestructibleBlocks>false</DestructibleBlocks>
       <IsRespawnGrid>false</IsRespawnGrid>
@@ -558,7 +558,7 @@ Issue Form</Text>
                   </item>
                   <item>
                     <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
-                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjAwsbg8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjAwsbg8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjAr8Dg8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjAr8Dg8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
                   </item>
                 </dictionary>
               </Storage>
@@ -3194,7 +3194,7 @@ SPAWN</Text>
           <TargetVelocity>0.0333333</TargetVelocity>
           <MinAngle xsi:nil="true" />
           <MaxAngle xsi:nil="true" />
-          <CurrentAngle>1.07674229</CurrentAngle>
+          <CurrentAngle>5.216902</CurrentAngle>
           <LimitsActive>false</LimitsActive>
           <RotorLock>false</RotorLock>
           <Torque>3.36E+07</Torque>
@@ -3264,14 +3264,14 @@ SPAWN</Text>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>89235351130583265</Name>
       <PositionAndOrientation>
-        <Position x="-20.488537185130554" y="-33.425814444008211" z="-132.62191965213606" />
-        <Forward x="-0.547311842" y="-0.5909914" z="-0.592603445" />
-        <Up x="0.789311647" y="-0.5999209" z="-0.130696982" />
+        <Position x="15.882356480178714" y="-35.934802140869579" z="-81.570298118536812" />
+        <Forward x="0.354416847" y="-0.659561038" z="0.6628483" />
+        <Up x="0.9201186" y="0.37231344" z="-0.121509135" />
         <Orientation>
-          <X>0.426920116</X>
-          <Y>0.146415472</Y>
-          <Z>0.78593874</Z>
-          <W>-0.4226133</W>
+          <X>0.530068457</X>
+          <Y>0.7419242</Y>
+          <Z>0.18130286</Z>
+          <W>-0.368381768</W>
         </Orientation>
       </PositionAndOrientation>
       <LocalPositionAndOrientation xsi:nil="true" />
@@ -3746,7 +3746,7 @@ SPAWN</Text>
                     <dictionary>
                       <item>
                         <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAIAIYASCXgICAgICAgAIwADgAQABIAVIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGIPD///8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABACUgIUAgIIg==</Value>
+                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAIAIYASCXgICAgICAgAIwADgAQABIAFIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGIPD///8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABAAUgAUAAIIg==</Value>
                       </item>
                     </dictionary>
                   </Storage>
@@ -4052,7 +4052,7 @@ SPAWN</Text>
                     <dictionary>
                       <item>
                         <Key>85bbb4f5-4fb9-4230-beef-bb79c9811503</Key>
-                        <Value>CAEQABivAQ==</Value>
+                        <Value>CAEQABitAQ==</Value>
                       </item>
                     </dictionary>
                   </Storage>
@@ -4087,7 +4087,7 @@ SPAWN</Text>
                     <dictionary>
                       <item>
                         <Key>85bbb4f5-4fb9-4230-beef-bb79c9811508</Key>
-                        <Value>FQAA8EEdAADwQSUAAPBBKAAwAD0AAEhCQAFIAFAAeAKIAQKSAQYIACAAOACYAa0BoAEAsAEAugEPCAIg////////////ATgAwAEByAEA1QEAwHlE2AEA</Value>
+                        <Value>FQAA8EEdAADwQSUAAPBBKAAwAD0AAEhCQAFIAFAAeAKIAQKSAQYIACAAOACYAawBoAEAsAEAugEPCAIg////////////ATgAwAEByAEA1QEAwHlE2AEA</Value>
                       </item>
                       <item>
                         <Key>85bbb4f5-4fb9-4230-beef-bb79c9811511</Key>
@@ -4095,7 +4095,7 @@ SPAWN</Text>
                       </item>
                       <item>
                         <Key>85bbb4f5-4fb9-4230-beef-bb79c9811505</Key>
-                        <Value>DdJdRUcoAjDoBzgBQABIAFAAWABgAGgAcAB4AIABAZABAJgBAaEBOEtGU/z88T+qARsJAAAAAABAMEAhAAAAAABAMEA5AAAAAABgSECwAQG4AQHFAQAAAADQAQDdAQAAyEL1AQAAgD/4AQCAAp3XofuWvqbFAYgC6EuQAgOdAuXRHEGlAkmSuECqAg8NAACCQSUAAIJBPQAAQ0K1AgAAoD+9AgAAAADyAgcN4ZMDRhAB8gIHDeGTA0YQAfICBw3hkwNGEAHyAgcN4ZMDRhAB8gIHDeGTA0YQAfICBw3hkwNGEAE=</Value>
+                        <Value>DdRdRUcoAjDoBzgBQABIAFAAWABgAGgAcAB4AIABAZABAJgBAaEBOEtGU/z88T+qARsJAAAAAABAMEAhAAAAAABAMEA5AAAAAABgSECwAQG4AQHFAQAAAADQAQDdAQAAyEL1AQAAgD/4AQCAAp3XofuWvqbFAYgC50uQAgOdAuXRHEGlAkmSuECqAg8NAACCQSUAAIJBPQAAQ0K1AgAAoD+9AgAAAADyAgcN45MDRhAB8gIHDeOTA0YQAfICBw3jkwNGEAHyAgcN45MDRhAB8gIHDeOTA0YQAfICBw3jkwNGEAE=</Value>
                       </item>
                     </dictionary>
                   </Storage>
@@ -4713,20 +4713,20 @@ SPAWN</Text>
                       <PersistentFlags>CastShadows InScene</PersistentFlags>
                       <Name>124168712738897777</Name>
                       <PositionAndOrientation>
-                        <Position x="4.2987763059754833" y="0.60083753448453392" z="-100.85675387612174" />
-                        <Forward x="-0.547311842" y="-0.5909914" z="-0.592603445" />
-                        <Up x="0.789311647" y="-0.5999209" z="-0.130696982" />
+                        <Position x="-7.3251208509827821" y="-3.1694148441929522" z="-115.76228786820685" />
+                        <Forward x="0.354416847" y="-0.659561038" z="0.6628483" />
+                        <Up x="0.9201186" y="0.37231344" z="-0.121509135" />
                         <Orientation>
-                          <X>0.426920116</X>
-                          <Y>0.146415472</Y>
-                          <Z>0.78593874</Z>
-                          <W>-0.4226133</W>
+                          <X>0.530068457</X>
+                          <Y>0.7419242</Y>
+                          <Z>0.18130286</Z>
+                          <W>-0.368381768</W>
                         </Orientation>
                       </PositionAndOrientation>
                       <LocalPositionAndOrientation>
                         <Position x="-1.4210854715202004E-14" y="0" z="0" />
                         <Forward x="-0" y="-3.18145575E-18" z="-1" />
-                        <Up x="-8.67361738E-19" y="1" z="-3.18145575E-18" />
+                        <Up x="-8.67361738E-19" y="1" z="4.64174055E-18" />
                         <Orientation>
                           <X>-1.59072787E-18</X>
                           <Y>6.89868247E-37</Y>
@@ -5466,14 +5466,14 @@ TV: -/-/- DV: -/-/- WV: -/-/-
             <PersistentFlags>CastShadows InScene</PersistentFlags>
             <Name>124168712738897777</Name>
             <PositionAndOrientation>
-              <Position x="4.2987763059754833" y="0.60083753448453392" z="-100.85675387612174" />
-              <Forward x="-0.547311842" y="-0.5909914" z="-0.592603445" />
-              <Up x="0.789311647" y="-0.5999209" z="-0.130696982" />
+              <Position x="-7.3251208509827821" y="-3.1694148441929522" z="-115.76228786820685" />
+              <Forward x="0.354416847" y="-0.659561038" z="0.6628483" />
+              <Up x="0.9201186" y="0.37231344" z="-0.121509135" />
               <Orientation>
-                <X>0.426920116</X>
-                <Y>0.146415472</Y>
-                <Z>0.78593874</Z>
-                <W>-0.4226133</W>
+                <X>0.530068457</X>
+                <Y>0.7419242</Y>
+                <Z>0.18130286</Z>
+                <W>-0.368381768</W>
               </Orientation>
             </PositionAndOrientation>
             <LocalPositionAndOrientation xsi:nil="true" />
@@ -5694,7 +5694,7 @@ TV: -/-/- DV: -/-/- WV: -/-/-
           <PilotRelativeWorld>
             <Position x="52.220359802246094" y="11.339126586914063" z="-13.060267448425293" />
             <Forward x="-0.9966986" y="-0.07857101" z="-0.02045674" />
-            <Up x="0.07941506" y="-0.9958537" z="-0.0443694741" />
+            <Up x="0.07941504" y="-0.9958537" z="-0.0443694741" />
             <Orientation>
               <X>0.6997341</X>
               <Y>0.0119929472</Y>
@@ -5938,7 +5938,7 @@ TV: -/-/- DV: -/-/- WV: -/-/-
                     <dictionary>
                       <item>
                         <Key>85bbb4f5-4fb9-4230-beef-bb79c9811506</Key>
-                        <Value>GAEgACgAMAE4AUGXFt1maGdLQFCd16H7lr6mxQFYTQ==</Value>
+                        <Value>GAEgACgAMAE4AUGXFt1maGdLQFCd16H7lr6mxQFYTA==</Value>
                       </item>
                     </dictionary>
                   </Storage>
@@ -9283,7 +9283,7 @@ TV: -/-/- DV: -/-/- WV: -/-/-
                     <dictionary>
                       <item>
                         <Key>85bbb4f5-4fb9-4230-beef-bb79c9811506</Key>
-                        <Value>GAAgASgBMAFQAFge</Value>
+                        <Value>GAAgASgBMAE4AEEAAAAAAAAAAFAAWB0=</Value>
                       </item>
                     </dictionary>
                   </Storage>
@@ -12646,11 +12646,11 @@ Filter=
                     <dictionary>
                       <item>
                         <Key>85bbb4f5-4fb9-4230-beef-bb79c9811509</Key>
-                        <Value>CAAYACAAKAAweTgA</Value>
+                        <Value>CAAYACAAKAAweDgA</Value>
                       </item>
                       <item>
                         <Key>85bbb4f5-4fb9-4230-beef-bb79c9811510</Key>
-                        <Value>CAEoADABOPUC</Value>
+                        <Value>CAEoADABOPQC</Value>
                       </item>
                     </dictionary>
                   </Storage>
@@ -16178,11 +16178,11 @@ Filter=
           <PilotRelativeWorld>
             <Position x="-5.4967365264892578" y="6.31836462020874" z="17.281665802001953" />
             <Forward x="0.233913764" y="-0.256875" z="-0.937709749" />
-            <Up x="0.0276042931" y="0.9658325" z="-0.257692963" />
+            <Up x="0.0276042949" y="0.9658325" z="-0.257692963" />
             <Orientation>
               <X>-0.130693525</X>
               <Y>-0.118593119</Y>
-              <Z>0.00172427238</Z>
+              <Z>0.00172427145</Z>
               <W>0.984302759</W>
             </Orientation>
           </PilotRelativeWorld>
@@ -17230,7 +17230,7 @@ Filter=
                     <dictionary>
                       <item>
                         <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAIBkYASCXgICAgICAgAIwADgAQABIAVIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGIP3+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABACUgIUAgIIg==</Value>
+                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAIBkYASCXgICAgICAgAIwADgAQABIAFIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGIP3+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABAAUgAUAAIIg==</Value>
                       </item>
                     </dictionary>
                   </Storage>
@@ -18051,7 +18051,7 @@ Filter=
                     <dictionary>
                       <item>
                         <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAIBoYASCXgICAgICAgAIwADgAQABIAVIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGIPj+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABACUgIUAgIIg==</Value>
+                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAIBoYASCXgICAgICAgAIwADgAQABIAFIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGIPj+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABAAUgAUAAIIg==</Value>
                       </item>
                     </dictionary>
                   </Storage>
@@ -18103,7 +18103,7 @@ Filter=
                     <dictionary>
                       <item>
                         <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAIBsYASCXgICAgICAgAIwADgAQABIAVIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGIPP+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABACUgIUAgIIg==</Value>
+                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAIBsYASCXgICAgICAgAIwADgAQABIAFIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGIPP+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABAAUgAUAAIIg==</Value>
                       </item>
                     </dictionary>
                   </Storage>
@@ -24887,7 +24887,7 @@ Filter=
                     <dictionary>
                       <item>
                         <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAICAYASCXgICAgICAgAIwADgAQABIAVIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGINr+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABACUgIUAgIIg==</Value>
+                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAICAYASCXgICAgICAgAIwADgAQABIAFIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGINr+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABAAUgAUAAIIg==</Value>
                       </item>
                     </dictionary>
                   </Storage>
@@ -24939,7 +24939,7 @@ Filter=
                     <dictionary>
                       <item>
                         <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAICEYASCXgICAgICAgAIwADgAQABIAVIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGINX+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABACUgIUAgIIg==</Value>
+                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAICEYASCXgICAgICAgAIwADgAQABIAFIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGINX+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABAAUgAUAAIIg==</Value>
                       </item>
                     </dictionary>
                   </Storage>
@@ -24998,7 +24998,7 @@ Filter=
                     <dictionary>
                       <item>
                         <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAICIYASCXgICAgICAgAIwADgAQABIAVIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGIND+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABACUgIUAgIIg==</Value>
+                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAICIYASCXgICAgICAgAIwADgAQABIAFIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGIND+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABAAUgAUAAIIg==</Value>
                       </item>
                     </dictionary>
                   </Storage>
@@ -25050,7 +25050,7 @@ Filter=
                     <dictionary>
                       <item>
                         <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAICMYASCXgICAgICAgAIwADgAQABIAVIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGIMv+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABACUgIUAgIIg==</Value>
+                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAICMYASCXgICAgICAgAIwADgAQABIAFIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGIMv+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABAAUgAUAAIIg==</Value>
                       </item>
                     </dictionary>
                   </Storage>
@@ -25102,7 +25102,7 @@ Filter=
                     <dictionary>
                       <item>
                         <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAICQYASCXgICAgICAgAIwADgAQABIAVIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGIMb+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABACUgIUAgIIg==</Value>
+                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAICQYASCXgICAgICAgAIwADgAQABIAFIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGIMb+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABAAUgAUAAIIg==</Value>
                       </item>
                     </dictionary>
                   </Storage>
@@ -25154,7 +25154,7 @@ Filter=
                     <dictionary>
                       <item>
                         <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAICUYASCXgICAgICAgAIwADgAQABIAVIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGIMH+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABACUgIUAgIIg==</Value>
+                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAICUYASCXgICAgICAgAIwADgAQABIAFIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGIMH+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABAAUgAUAAIIg==</Value>
                       </item>
                     </dictionary>
                   </Storage>
@@ -25206,7 +25206,7 @@ Filter=
                     <dictionary>
                       <item>
                         <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAICYYASCXgICAgICAgAIwADgAQABIAVIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGILz+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABACUgIUAgIIg==</Value>
+                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAICYYASCXgICAgICAgAIwADgAQABIAFIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGILz+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABAAUgAUAAIIg==</Value>
                       </item>
                     </dictionary>
                   </Storage>
@@ -25258,7 +25258,7 @@ Filter=
                     <dictionary>
                       <item>
                         <Key>75bbb4f5-4fb9-4230-beef-bb79c9811501</Key>
-                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAICcYASCXgICAgICAgAIwADgAQABIAVIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGILf+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABACUgIUAgIIg==</Value>
+                        <Value>+nzWAQoJCAAQAx0AAAAAEsgBCAASPy0AwFpFMjgIARAAGAAgACgAMABIAFAAWAB4AIABAJABAKABALABAMABANABeNgBAeABAegBAPABAfgBAZACABpEEgkNAAAAABAAICcYASCXgICAgICAgAIwADgAQABIAFIjGhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAgACgAMAAiKwgAEAAgACoGILf+//8HMhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAAAqEAgAIAEoADAAOABAAUgAUAAIIg==</Value>
                       </item>
                     </dictionary>
                   </Storage>
@@ -26506,6 +26506,8 @@ Filter=
           <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
       </CubeBlocks>
+      <LinearVelocity x="0.136910528" y="-0.5398223" z="-0.61558187" />
+      <AngularVelocity x="-0.001235559" y="-0.0001055024" z="0.00055566" />
       <XMirroxPlane x="0" y="0" z="0" />
       <YMirroxPlane x="5" y="0" z="11" />
       <ConveyorLines>
