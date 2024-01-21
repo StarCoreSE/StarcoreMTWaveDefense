@@ -2,9 +2,7 @@
 <ConfigGrids xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <EnableGlobalNPCWeaponRandomizer>true</EnableGlobalNPCWeaponRandomizer>
   <EnableGlobalNPCShieldProvider>false</EnableGlobalNPCShieldProvider>
-  <WeaponReplacerBlacklist>
-    <string>fuck</string>
-  </WeaponReplacerBlacklist>
+  <WeaponReplacerBlacklist />
   <WeaponReplacerWhitelist />
   <WeaponReplacerTargetBlacklist />
   <WeaponReplacerTargetWhitelist />
@@ -15,7 +13,7 @@
   <WeaponReplacerTotalGridMassMultiplier>1.2</WeaponReplacerTotalGridMassMultiplier>
   <RandomizedWeaponsUseFullRange>false</RandomizedWeaponsUseFullRange>
   <ShieldProviderChance>100</ShieldProviderChance>
-  <UseGlobalBlockReplacer>true</UseGlobalBlockReplacer>
+  <UseGlobalBlockReplacer>false</UseGlobalBlockReplacer>
   <GlobalBlockReplacerReference />
   <GlobalBlockReplacerProfiles>
     <string>MES-Turret-InteriorToNpcInterior</string>
