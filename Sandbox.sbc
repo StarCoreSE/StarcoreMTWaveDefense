@@ -5,13 +5,13 @@
   <SessionName>StarCoreMTWaveDefense</SessionName>
   <SpectatorPosition>
     <Position x="44.390859910156493" y="-8.7777438923165487" z="-95.16231318978852" />
-    <Forward x="0.751447439" y="0.6584136" z="-0.0426410623" />
-    <Up x="0.2563543" y="-0.2318048" z="0.9383757" />
+    <Forward x="0.751447558" y="0.6584136" z="-0.04264095" />
+    <Up x="0.256354272" y="-0.231804967" z="0.9383758" />
     <Orientation>
       <X>0.6702833</X>
       <Y>-0.1714637</Y>
       <Z>-0.4081945</Z>
-      <W>0.5955651</W>
+      <W>0.595565</W>
     </Orientation>
   </SpectatorPosition>
   <SpectatorSpeed x="0.1" y="1" />
@@ -947,6 +947,11 @@ ReplacePaintSurvival=False
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
+    <ModItem FriendlyName="ModAdjusterV2">
+      <Name>3017795356.sbm</Name>
+      <PublishedFileId>3017795356</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="StarCorePracticeAI">
       <Name>3024311955.sbm</Name>
       <PublishedFileId>3024311955</PublishedFileId>
@@ -1352,6 +1357,7 @@ ReplacePaintSurvival=False
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
   </Mods>
+  <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
@@ -1785,6 +1791,8 @@ ReplacePaintSurvival=False
       </item>
     </dictionary>
   </AllPlayersColors>
+  <ChatHistory />
+  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855896</long>
     <long>144115188075855897</long>
@@ -2258,4 +2266,7 @@ ReplacePaintSurvival=False
   </VicinityArmorModelsCache>
   <VicinityVoxelCache />
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
+  <RemoteAdminSettings>
+    <dictionary />
+  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>
