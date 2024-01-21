@@ -26,14 +26,14 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>124168712738897777</Name>
       <PositionAndOrientation>
-        <Position x="-15.858736310135228" y="-3.7633484923485896" z="17.806613606514226" />
-        <Forward x="0.9256278" y="0.3751421" z="0.04981211" />
-        <Up x="0.355350822" y="-0.906871736" z="0.226514637" />
+        <Position x="-17.679920702946056" y="-5.7122019014859742" z="17.555679438401949" />
+        <Forward x="0.7496309" y="0.5215793" z="0.407441765" />
+        <Up x="0.36392653" y="-0.8390176" z="0.404483944" />
         <Orientation>
-          <X>0.7222937</X>
-          <Y>0.0565501824</Y>
-          <Z>-0.65706</Z>
-          <W>0.208245233</W>
+          <X>0.8365525</X>
+          <Y>0.0624562465</Y>
+          <Z>-0.468709558</Z>
+          <W>0.276749849</W>
         </Orientation>
       </PositionAndOrientation>
       <LocalPositionAndOrientation xsi:nil="true" />
@@ -217,14 +217,14 @@
         <PersistentFlags>CastShadows InScene</PersistentFlags>
         <Name>74165248863625912</Name>
         <PositionAndOrientation>
-          <Position x="-14.998925154301235" y="-4.9648081758683285" z="18.003421953627459" />
-          <Forward x="0.925627947" y="0.375142157" z="0.0498121157" />
-          <Up x="0.3553509" y="-0.906872" z="0.2265147" />
+          <Position x="-16.761331350889694" y="-6.7515879051958345" z="18.14471273112251" />
+          <Forward x="0.7496308" y="0.521579266" z="0.4074417" />
+          <Up x="0.36392647" y="-0.839017451" z="0.404483885" />
           <Orientation>
-            <X>0.7222937</X>
-            <Y>0.0565501861</Y>
-            <Z>-0.65706</Z>
-            <W>0.208245233</W>
+            <X>0.8365525</X>
+            <Y>0.0624562465</Y>
+            <Z>-0.468709558</Z>
+            <W>0.276749849</W>
           </Orientation>
         </PositionAndOrientation>
         <LocalPositionAndOrientation xsi:nil="true" />
@@ -246,7 +246,7 @@
       <LightEnabled>false</LightEnabled>
       <UsingLadder xsi:nil="true" />
       <HeadAngle x="0" y="0" />
-      <LinearVelocity x="-2.668864" y="-0.04805431" z="0.09260196" />
+      <LinearVelocity x="-1.15933216" y="0.530043" z="-0.120847739" />
       <AutoenableJetpackDelay>0</AutoenableJetpackDelay>
       <JetpackEnabled>true</JetpackEnabled>
       <ColorMaskHSV x="0.0222222228" y="0" z="7.450581E-09" />
@@ -2946,6 +2946,76 @@ SPAWN</Text>
       <DestructibleBlocks>false</DestructibleBlocks>
       <IsRespawnGrid>false</IsRespawnGrid>
       <LocalCoordSys>2</LocalCoordSys>
+      <TargetingTargets />
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>83943527265062628</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <Name>83943527265062628</Name>
+      <PositionAndOrientation>
+        <Position x="-3.791523211839376" y="-2.441152888297438" z="20.605369328737652" />
+        <Forward x="-0.754557669" y="-0.05056848" z="-0.6542825" />
+        <Up x="0.063169606" y="-0.9979938" z="0.00428241864" />
+        <Orientation>
+          <X>0.4154891</X>
+          <Y>0.0150847342</Y>
+          <Z>0.909046531</Z>
+          <W>-0.0278503411</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <LocalPositionAndOrientation xsi:nil="true" />
+      <ComponentContainer>
+        <Components>
+          <ComponentData>
+            <TypeId>MyModStorageComponentBase</TypeId>
+            <Component xsi:type="MyObjectBuilder_ModStorageComponent">
+              <Storage>
+                <dictionary>
+                  <item>
+                    <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjA1fng8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjA1fng8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                  </item>
+                </dictionary>
+              </Storage>
+            </Component>
+          </ComponentData>
+        </Components>
+      </ComponentContainer>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ReflectorLight">
+          <SubtypeName>RotatingLightLarge</SubtypeName>
+          <EntityId>131097356801657485</EntityId>
+          <Name>131097356801657485</Name>
+          <Min x="0" y="2" z="0" />
+          <BlockOrientation Forward="Up" Up="Backward" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <ShowInInventory>true</ShowInInventory>
+          <NumberInGrid>1</NumberInGrid>
+          <Enabled>true</Enabled>
+          <Radius>6.666667</Radius>
+          <ReflectorRadius>20</ReflectorRadius>
+          <ColorRed>0</ColorRed>
+          <ColorBlue>0</ColorBlue>
+          <Falloff>0.5</Falloff>
+          <Intensity>6</Intensity>
+          <BlinkIntervalSeconds>0</BlinkIntervalSeconds>
+          <BlinkLenght>10</BlinkLenght>
+          <BlinkOffset>0</BlinkOffset>
+          <Offset>0.5</Offset>
+          <RotationSpeed>0.08</RotationSpeed>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <DisplayName>Large Grid 2628</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
       <TargetingTargets />
     </MyObjectBuilder_EntityBase>
   </SectorObjects>
