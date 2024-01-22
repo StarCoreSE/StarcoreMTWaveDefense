@@ -20,165 +20,20 @@
   </Environment>
   <VoxelHandVolumeChanged>0</VoxelHandVolumeChanged>
   <SectorObjects>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
-      <SubtypeName />
-      <EntityId>109683251314162912</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <Name>109683251314162912</Name>
-      <PositionAndOrientation>
-        <Position x="-1008.9489125312375" y="-2.3202606596987607" z="1.4353954656671704" />
-        <Forward x="-0.999125063" y="0.0415913761" z="0.00438580848" />
-        <Up x="-0.0415704139" y="-0.9991242" z="0.00476728566" />
-        <Orientation>
-          <X>0.7085355</X>
-          <Y>-0.0130514354</Y>
-          <Z>0.7053649</Z>
-          <W>0.0163572133</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <LocalPositionAndOrientation xsi:nil="true" />
-      <GridSizeEnum>Large</GridSizeEnum>
-      <CubeBlocks>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
-          <SubtypeName>EntityCoverEVEDepot</SubtypeName>
-          <EntityId>109683251314162913</EntityId>
-          <Name>109683251314162913</Name>
-          <Owner>144115188075855895</Owner>
-          <BuiltBy>144115188075855895</BuiltBy>
-          <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>true</ShowInTerminal>
-          <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <ShowInInventory>true</ShowInInventory>
-          <NumberInGrid>1</NumberInGrid>
-          <Enabled>true</Enabled>
-          <CurrentStoredPower>3</CurrentStoredPower>
-          <ProducerEnabled>true</ProducerEnabled>
-          <MaxStoredPower>0</MaxStoredPower>
-          <SemiautoEnabled>false</SemiautoEnabled>
-          <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
-          <ChargeMode>0</ChargeMode>
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Beacon">
-          <SubtypeName>ZoneBlock</SubtypeName>
-          <EntityId>89848540652678756</EntityId>
-          <Name>89848540652678756</Name>
-          <Min x="0" y="1" z="0" />
-          <Owner>144115188075855895</Owner>
-          <BuiltBy>144115188075855895</BuiltBy>
-          <ShareMode>Faction</ShareMode>
-          <ComponentContainer>
-            <Components>
-              <ComponentData>
-                <TypeId>MyInventoryBase</TypeId>
-                <Component xsi:type="MyObjectBuilder_Inventory">
-                  <Items />
-                  <nextItemId>0</nextItemId>
-                  <Volume>124999.999488</Volume>
-                  <Mass>9223372036854.775807</Mass>
-                  <MaxItemCount>2147483647</MaxItemCount>
-                  <Size xsi:nil="true" />
-                  <InventoryFlags />
-                  <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
-                </Component>
-              </ComponentData>
-              <ComponentData>
-                <TypeId>MyModStorageComponentBase</TypeId>
-                <Component xsi:type="MyObjectBuilder_ModStorageComponent">
-                  <Storage>
-                    <dictionary>
-                      <item>
-                        <Key>b7af750e-68e3-4826-bd0e-a75bf36ba3e5</Key>
-                        <Value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;ZoneDescription xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
-  &lt;GridId&gt;109683251314162912&lt;/GridId&gt;
-  &lt;BlockId&gt;89848540652678756&lt;/BlockId&gt;
-  &lt;Progress&gt;0&lt;/Progress&gt;
-  &lt;ProgressWhenComplete&gt;3599.99976&lt;/ProgressWhenComplete&gt;
-  &lt;ControlledBy&gt;0&lt;/ControlledBy&gt;
-  &lt;Radius&gt;3000&lt;/Radius&gt;
-  &lt;ActivateOnPlayerCount&gt;1&lt;/ActivateOnPlayerCount&gt;
-  &lt;ActivateOnCharacter&gt;false&lt;/ActivateOnCharacter&gt;
-  &lt;ActivateOnSmallGrid&gt;false&lt;/ActivateOnSmallGrid&gt;
-  &lt;ActivateOnLargeGrid&gt;true&lt;/ActivateOnLargeGrid&gt;
-  &lt;ActivateOnUnpoweredGrid&gt;false&lt;/ActivateOnUnpoweredGrid&gt;
-  &lt;IgnoreCopilot&gt;false&lt;/IgnoreCopilot&gt;
-  &lt;AwardPointsAsCredits&gt;false&lt;/AwardPointsAsCredits&gt;
-  &lt;CreditsPerPoint&gt;1000&lt;/CreditsPerPoint&gt;
-  &lt;PointsRemovedOnDeath&gt;0&lt;/PointsRemovedOnDeath&gt;
-  &lt;MinSmallGridBlockCount&gt;50&lt;/MinSmallGridBlockCount&gt;
-  &lt;MinLargeGridBlockCount&gt;25&lt;/MinLargeGridBlockCount&gt;
-  &lt;IdleDrainRate&gt;3&lt;/IdleDrainRate&gt;
-  &lt;ContestedDrainRate&gt;0&lt;/ContestedDrainRate&gt;
-  &lt;FlatProgressRate&gt;false&lt;/FlatProgressRate&gt;
-  &lt;ActiveProgressRate&gt;1&lt;/ActiveProgressRate&gt;
-  &lt;AutomaticActivation&gt;false&lt;/AutomaticActivation&gt;
-  &lt;ActivationDay&gt;3&lt;/ActivationDay&gt;
-  &lt;ActivationStartTime&gt;120&lt;/ActivationStartTime&gt;
-  &lt;ActivationEndTime&gt;1200&lt;/ActivationEndTime&gt;
-  &lt;AwardPointsToAllActiveFactions&gt;false&lt;/AwardPointsToAllActiveFactions&gt;
-  &lt;EncampmentMode&gt;false&lt;/EncampmentMode&gt;
-  &lt;PointsOnCap&gt;0&lt;/PointsOnCap&gt;
-  &lt;Opacity&gt;10&lt;/Opacity&gt;
-  &lt;PointsForPrize&gt;1&lt;/PointsForPrize&gt;
-  &lt;PrizeAmountComponent&gt;1&lt;/PrizeAmountComponent&gt;
-  &lt;PrizeAmountOre&gt;1&lt;/PrizeAmountOre&gt;
-  &lt;PrizeAmountIngot&gt;1&lt;/PrizeAmountIngot&gt;
-  &lt;UseComponentReward&gt;true&lt;/UseComponentReward&gt;
-  &lt;UseOreReward&gt;false&lt;/UseOreReward&gt;
-  &lt;UseIngotReward&gt;false&lt;/UseIngotReward&gt;
-  &lt;PrizeComponentSubtypeId&gt;subtypeId&lt;/PrizeComponentSubtypeId&gt;
-  &lt;PrizeOreSubtypeId&gt;subtypeId&lt;/PrizeOreSubtypeId&gt;
-  &lt;PrizeIngotSubtypeId&gt;subtypeId&lt;/PrizeIngotSubtypeId&gt;
-  &lt;SelectedComponentString /&gt;
-  &lt;AdvancedComponentSelection&gt;false&lt;/AdvancedComponentSelection&gt;
-  &lt;SelectedOreString /&gt;
-  &lt;AdvancedOreSelection&gt;false&lt;/AdvancedOreSelection&gt;
-  &lt;SelectedIngotString /&gt;
-  &lt;AdvancedIngotSelection&gt;false&lt;/AdvancedIngotSelection&gt;
-  &lt;IsLocationNamed&gt;false&lt;/IsLocationNamed&gt;
-  &lt;SpawnIntoPrizeBox&gt;true&lt;/SpawnIntoPrizeBox&gt;
-  &lt;PointsEarnedSincePrize&gt;0&lt;/PointsEarnedSincePrize&gt;
-&lt;/ZoneDescription&gt;</Value>
-                      </item>
-                    </dictionary>
-                  </Storage>
-                </Component>
-              </ComponentData>
-            </Components>
-          </ComponentContainer>
-          <CustomName>IDLE - 0% </CustomName>
-          <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>true</ShowInTerminal>
-          <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <ShowInInventory>true</ShowInInventory>
-          <NumberInGrid>1</NumberInGrid>
-          <Enabled>true</Enabled>
-          <BroadcastRadius>3000.00049</BroadcastRadius>
-          <HudText />
-        </MyObjectBuilder_CubeBlock>
-      </CubeBlocks>
-      <IsStatic>true</IsStatic>
-      <IsUnsupportedStation>true</IsUnsupportedStation>
-      <DisplayName>#EntityCover</DisplayName>
-      <DestructibleBlocks>false</DestructibleBlocks>
-      <IsRespawnGrid>false</IsRespawnGrid>
-      <LocalCoordSys>0</LocalCoordSys>
-      <TargetingTargets />
-    </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Character">
       <SubtypeName>Default_Astronaut</SubtypeName>
       <EntityId>124168712738897777</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>124168712738897777</Name>
       <PositionAndOrientation>
-        <Position x="-964.78028318599945" y="-19.193071630587539" z="38.905600682146471" />
-        <Forward x="-0.8171363" y="0.255852044" z="-0.5165542" />
-        <Up x="-0.252504021" y="-0.9644269" z="-0.07824994" />
+        <Position x="-8.7910044352707128" y="0.61111944048106148" z="38.143682604791714" />
+        <Forward x="-0.972595453" y="-0.06030272" z="0.224546909" />
+        <Up x="0.06285541" y="-0.998013437" z="0.00423055328" />
         <Orientation>
-          <X>0.482097924</X>
-          <Y>-0.09646012</Y>
-          <Z>0.865907</Z>
-          <W>0.09209856</W>
+          <X>0.7820496</X>
+          <Y>0.0259203613</Y>
+          <Z>0.6224189</Z>
+          <W>-0.01792475</W>
         </Orientation>
       </PositionAndOrientation>
       <LocalPositionAndOrientation xsi:nil="true" />
@@ -362,10 +217,10 @@
       </Battery>
       <LightEnabled>false</LightEnabled>
       <UsingLadder xsi:nil="true" />
-      <HeadAngle x="0" y="0" />
-      <LinearVelocity x="-0.958766758" y="0.191928" z="0.7284486" />
+      <HeadAngle x="-8.099848" y="0" />
+      <LinearVelocity x="0" y="0" z="0" />
       <AutoenableJetpackDelay>0</AutoenableJetpackDelay>
-      <JetpackEnabled>true</JetpackEnabled>
+      <JetpackEnabled>false</JetpackEnabled>
       <ColorMaskHSV x="0.0222222228" y="0" z="7.450581E-09" />
       <LootingCounter>0</LootingCounter>
       <DisplayName>Invalid</DisplayName>
@@ -383,7 +238,6 @@
           <FillLevel>1</FillLevel>
         </StoredGas>
       </StoredGases>
-      <MovementState>Flying</MovementState>
       <EnabledComponents>
         <string>RagdollComponent</string>
         <string>InventorySpawnComponent</string>
@@ -395,6 +249,262 @@
       <RelativeDampeningEntity>0</RelativeDampeningEntity>
       <UsingLadderInfo xsi:nil="true" />
       <EnableBroadcastingPlayerToggle>true</EnableBroadcastingPlayerToggle>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>100368098177292335</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <Name>95066932544157656</Name>
+      <PositionAndOrientation>
+        <Position x="-19471.310477403535" y="-20.646443367425647" z="855.62878900480393" />
+        <Forward x="0.976365864" y="-0.0566056371" z="0.208579823" />
+        <Up x="-0.20776464" y="0.01998845" z="0.9779746" />
+        <Orientation>
+          <X>-0.531286955</X>
+          <Y>0.5674717</Y>
+          <Z>0.455784976</Z>
+          <W>-0.433555216</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <LocalPositionAndOrientation xsi:nil="true" />
+      <ComponentContainer>
+        <Components>
+          <ComponentData>
+            <TypeId>MyModStorageComponentBase</TypeId>
+            <Component xsi:type="MyObjectBuilder_ModStorageComponent">
+              <Storage>
+                <dictionary>
+                  <item>
+                    <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjA0/zi8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjA0/zi8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                  </item>
+                </dictionary>
+              </Storage>
+            </Component>
+          </ComponentData>
+        </Components>
+      </ComponentContainer>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+          <SubtypeName>EntityCoverSatellite</SubtypeName>
+          <EntityId>135216034915307870</EntityId>
+          <Name>135216034915307870</Name>
+          <Owner>144115188075855897</Owner>
+          <BuiltBy>144115188075855895</BuiltBy>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <ShowInInventory>true</ShowInInventory>
+          <NumberInGrid>1</NumberInGrid>
+          <Enabled>true</Enabled>
+          <CurrentStoredPower>3</CurrentStoredPower>
+          <ProducerEnabled>true</ProducerEnabled>
+          <MaxStoredPower>0</MaxStoredPower>
+          <SemiautoEnabled>false</SemiautoEnabled>
+          <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+          <ChargeMode>0</ChargeMode>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <IsUnsupportedStation>true</IsUnsupportedStation>
+      <DisplayName>#EntityCover</DisplayName>
+      <DestructibleBlocks>false</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>9</LocalCoordSys>
+      <TargetingTargets />
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>82053612844443031</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <Name>82656839088622602</Name>
+      <PositionAndOrientation>
+        <Position x="-19131.320169971947" y="-174.38180675676017" z="-641.61186366479524" />
+        <Forward x="0.976365864" y="-0.0566056333" z="0.208579853" />
+        <Up x="0.206120431" y="-0.04633841" z="-0.977428854" />
+        <Orientation>
+          <X>0.574437</X>
+          <Y>0.52374804</Y>
+          <Z>-0.43953535</Z>
+          <W>-0.4500208</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <LocalPositionAndOrientation xsi:nil="true" />
+      <ComponentContainer>
+        <Components>
+          <ComponentData>
+            <TypeId>MyModStorageComponentBase</TypeId>
+            <Component xsi:type="MyObjectBuilder_ModStorageComponent">
+              <Storage>
+                <dictionary>
+                  <item>
+                    <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjA0/zi8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjA0/zi8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                  </item>
+                </dictionary>
+              </Storage>
+            </Component>
+          </ComponentData>
+        </Components>
+      </ComponentContainer>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+          <SubtypeName>EntityCoverSatellite</SubtypeName>
+          <EntityId>104877283659992523</EntityId>
+          <Name>104877283659992523</Name>
+          <Owner>144115188075855897</Owner>
+          <BuiltBy>144115188075855895</BuiltBy>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <ShowInInventory>true</ShowInInventory>
+          <NumberInGrid>1</NumberInGrid>
+          <Enabled>true</Enabled>
+          <CurrentStoredPower>3</CurrentStoredPower>
+          <ProducerEnabled>true</ProducerEnabled>
+          <MaxStoredPower>0</MaxStoredPower>
+          <SemiautoEnabled>false</SemiautoEnabled>
+          <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+          <ChargeMode>0</ChargeMode>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <IsUnsupportedStation>true</IsUnsupportedStation>
+      <DisplayName>#EntityCover</DisplayName>
+      <DestructibleBlocks>false</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>10</LocalCoordSys>
+      <TargetingTargets />
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>120450100864697911</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <Name>107685946150256286</Name>
+      <PositionAndOrientation>
+        <Position x="-19208.915497757131" y="-598.38180551902735" z="154.83865429244457" />
+        <Forward x="0.976365864" y="-0.0566056333" z="0.208579853" />
+        <Up x="-0.05694963" y="-0.998367548" z="-0.004360687" />
+        <Orientation>
+          <X>0.7770833</X>
+          <Y>-0.020773368</Y>
+          <Z>-0.628749</Z>
+          <W>-0.01961383</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <LocalPositionAndOrientation xsi:nil="true" />
+      <ComponentContainer>
+        <Components>
+          <ComponentData>
+            <TypeId>MyModStorageComponentBase</TypeId>
+            <Component xsi:type="MyObjectBuilder_ModStorageComponent">
+              <Storage>
+                <dictionary>
+                  <item>
+                    <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjA0/zi8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjA0/zi8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                  </item>
+                </dictionary>
+              </Storage>
+            </Component>
+          </ComponentData>
+        </Components>
+      </ComponentContainer>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+          <SubtypeName>EntityCoverSatellite</SubtypeName>
+          <EntityId>123105897484553686</EntityId>
+          <Name>123105897484553686</Name>
+          <Owner>144115188075855897</Owner>
+          <BuiltBy>144115188075855895</BuiltBy>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <ShowInInventory>true</ShowInInventory>
+          <NumberInGrid>1</NumberInGrid>
+          <Enabled>true</Enabled>
+          <CurrentStoredPower>3</CurrentStoredPower>
+          <ProducerEnabled>true</ProducerEnabled>
+          <MaxStoredPower>0</MaxStoredPower>
+          <SemiautoEnabled>false</SemiautoEnabled>
+          <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+          <ChargeMode>0</ChargeMode>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <IsUnsupportedStation>true</IsUnsupportedStation>
+      <DisplayName>#EntityCover</DisplayName>
+      <DestructibleBlocks>false</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>12</LocalCoordSys>
+      <TargetingTargets />
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>125650504315046047</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <Name>115161051855144852</Name>
+      <PositionAndOrientation>
+        <Position x="-19162.124680826564" y="508.0203020204525" z="165.65376168005241" />
+        <Forward x="0.976365864" y="-0.0566056445" z="0.208579853" />
+        <Up x="0.0589468926" y="0.9982485" z="-0.005020789" />
+        <Orientation>
+          <X>-0.0245002043</X>
+          <Y>-0.7769747</Y>
+          <Z>-0.0165979844</Z>
+          <W>0.6288359</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <LocalPositionAndOrientation xsi:nil="true" />
+      <ComponentContainer>
+        <Components>
+          <ComponentData>
+            <TypeId>MyModStorageComponentBase</TypeId>
+            <Component xsi:type="MyObjectBuilder_ModStorageComponent">
+              <Storage>
+                <dictionary>
+                  <item>
+                    <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjA0/zi8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjA0/zi8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                  </item>
+                </dictionary>
+              </Storage>
+            </Component>
+          </ComponentData>
+        </Components>
+      </ComponentContainer>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+          <SubtypeName>EntityCoverSatellite</SubtypeName>
+          <EntityId>90069094272092738</EntityId>
+          <Name>90069094272092738</Name>
+          <Owner>144115188075855897</Owner>
+          <BuiltBy>144115188075855895</BuiltBy>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <ShowInInventory>true</ShowInInventory>
+          <NumberInGrid>1</NumberInGrid>
+          <Enabled>true</Enabled>
+          <CurrentStoredPower>3</CurrentStoredPower>
+          <ProducerEnabled>true</ProducerEnabled>
+          <MaxStoredPower>0</MaxStoredPower>
+          <SemiautoEnabled>false</SemiautoEnabled>
+          <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+          <ChargeMode>0</ChargeMode>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <IsUnsupportedStation>true</IsUnsupportedStation>
+      <DisplayName>#EntityCover</DisplayName>
+      <DestructibleBlocks>false</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>11</LocalCoordSys>
+      <TargetingTargets />
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
       <SubtypeName />
@@ -422,11 +532,11 @@
                 <dictionary>
                   <item>
                     <Key>3ffd5fcf-e241-4f07-99ef-907509d40268</Key>
-                    <Value>CmAKDw0JAHBAJdw6NcA9p37twBIPDf//f78lLACAsz1GVrWoGg8NUfmOMCVR+I68PQb2f78l3rVEQCokZjhhOTNkMjEtNTk4OC1jYmMyLWE0OTUtMzllZWUyYzM5N2VkMAAKYAoPDSyAVz8lR8SFQD0GEvTAEg8NBAAANCX+/3+/PVWIqKgaDw1yIaIzJROZ+Sg9AACAvyVSSR0/KiRmOGE5M2QyMS01OTg4LWNiYzItYTQ5NS0zOWVlZTJjMzk3ZWQwAApgCg8NLAAIPyXUpaNAPY3u7MASDw3+/3+/JSsAgLM99GYGqRoPDQyEhLIl74OEPj3rRne/JQAAgD8qJDcwNzc0MjhkLThmYzgtNjRjZS05OGE1LWY5NWRkYTdmZTI0NDAACmAKDw0pQFc/JUjEhUA985LewBIPDQQAADQl/v9/vz1ViKioGg8NjviOPCXo+A4xPQX2f78lzcxMPyokOTZhYzVhODItM2M5ZS05YTdjLTY0MmMtOGRjNTVkMmQ5NTcyMAAKYAoPDQvQJUAlv9GqPz1WJgXBEg8NBAAANCX+/3+/PVWIqKgaDw3GqYo0JfftXik9AACAvyUYt9E+KiQ5NmFjNWE4Mi0zYzllLTlhN2MtNjQyYy04ZGM1NWQyZDk1NzIwAApgCg8NBwDIQCUprqE/Pf1IJ8ESDw3//38/JSwAgDM9Rla1KBoPDUF/sjEl0X6yvT2eBn+/Jd61ZEAqJGZhMTlkNzRlLTVjN2UtZjZiZS02NGNiLTliZWExMjliMTZkNjAACmAKDw3aKs2/JeP/x8A9rCQJwRIPDQAgryMlAACAPz0AAAAAGg8Nc2NDviVoqYUiPetLe78luB5lQCokMjg3NDk1MTMtZDgwZC1hY2JjLTEzZDYtY2M1MDA1MTE3ZDAzMAA=</Value>
+                    <Value>CmAKDw0JAHBAJdw6NcA9p37twBIPDf//f78lLACAsz1GVrWoGg8NUfmOMCVR+I68PQb2f78l3rVEQCokZjhhOTNkMjEtNTk4OC1jYmMyLWE0OTUtMzllZWUyYzM5N2VkMAAKYAoPDSyAVz8lR8SFQD0GEvTAEg8NBAAANCX+/3+/PVWIqKgaDw1yIaIzJROZ+Sg9AACAvyVSSR0/KiRmOGE5M2QyMS01OTg4LWNiYzItYTQ5NS0zOWVlZTJjMzk3ZWQwAApgCg8NLAAIPyXUpaNAPY3u7MASDw3+/3+/JSsAgLM99GYGqRoPDQyEhLIl74OEPj3rRne/JQAAgD8qJDcwNzc0MjhkLThmYzgtNjRjZS05OGE1LWY5NWRkYTdmZTI0NDAACmAKDw0pQFc/JUjEhUA985LewBIPDQQAADQl/v9/vz1ViKioGg8NjviOPCXo+A4xPQX2f78lzcxMPyokOTZhYzVhODItM2M5ZS05YTdjLTY0MmMtOGRjNTVkMmQ5NTcyMAAKYAoPDQvQJUAlv9GqPz1WJgXBEg8NBAAANCX+/3+/PVWIqKgaDw3GqYo0JfftXik9AACAvyUYt9E+KiQ5NmFjNWE4Mi0zYzllLTlhN2MtNjQyYy04ZGM1NWQyZDk1NzIwAApgCg8NBwDIQCUprqE/Pf1IJ8ESDw3//38/JSwAgDM9Rla1KBoPDUF/sjEl0X6yvT2eBn+/Jd61ZEAqJGZhMTlkNzRlLTVjN2UtZjZiZS02NGNiLTliZWExMjliMTZkNjAA</Value>
                   </item>
                   <item>
                     <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
-                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjArZTh8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjArZTh8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjA0/zi8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjA0/zi8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
                   </item>
                 </dictionary>
               </Storage>
@@ -443,7 +553,7 @@
           <Min x="-1" y="-1" z="-1" />
           <BlockOrientation Forward="Up" Up="Forward" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
           <Owner>144115188075855897</Owner>
           <ShareMode>Faction</ShareMode>
           <CustomName>Battery 4</CustomName>
@@ -464,25 +574,25 @@
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="0" z="0" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="0" z="0" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="-1" z="0" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="1" z="0" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
           <SubtypeName>LargeBlockBatteryBlock</SubtypeName>
@@ -491,6 +601,7 @@
           <Min x="1" y="1" z="0" />
           <BlockOrientation Forward="Down" Up="Forward" />
           <ColorMaskHSV x="0.608333349" y="0.2" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
           <Owner>144115188075855897</Owner>
           <ShareMode>Faction</ShareMode>
           <CustomName>Battery 5</CustomName>
@@ -514,6 +625,7 @@
           <Min x="-1" y="1" z="0" />
           <BlockOrientation Forward="Down" Up="Forward" />
           <ColorMaskHSV x="0.608333349" y="0.2" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
           <Owner>144115188075855897</Owner>
           <ShareMode>Faction</ShareMode>
           <CustomName>Battery 7</CustomName>
@@ -537,6 +649,7 @@
           <Min x="1" y="-1" z="0" />
           <BlockOrientation Forward="Up" Up="Forward" />
           <ColorMaskHSV x="0.608333349" y="0.2" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
           <Owner>144115188075855897</Owner>
           <ShareMode>Faction</ShareMode>
           <CustomName>Battery</CustomName>
@@ -560,6 +673,7 @@
           <Min x="-1" y="-1" z="0" />
           <BlockOrientation Forward="Up" Up="Forward" />
           <ColorMaskHSV x="0.608333349" y="0.2" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
           <Owner>144115188075855897</Owner>
           <ShareMode>Faction</ShareMode>
           <CustomName>Battery 3</CustomName>
@@ -583,7 +697,7 @@
           <Min x="1" y="-1" z="-1" />
           <BlockOrientation Forward="Up" Up="Forward" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
           <Owner>144115188075855897</Owner>
           <ShareMode>Faction</ShareMode>
           <CustomName>Battery 2</CustomName>
@@ -607,7 +721,7 @@
           <Min x="-1" y="1" z="-1" />
           <BlockOrientation Forward="Down" Up="Forward" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
           <Owner>144115188075855897</Owner>
           <ShareMode>Faction</ShareMode>
           <CustomName>Battery 8</CustomName>
@@ -631,7 +745,7 @@
           <Min x="1" y="1" z="-1" />
           <BlockOrientation Forward="Down" Up="Forward" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
           <Owner>144115188075855897</Owner>
           <ShareMode>Faction</ShareMode>
           <CustomName>Battery 6</CustomName>
@@ -652,7 +766,7 @@
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="0" z="-1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_GravityGenerator">
           <SubtypeName />
@@ -661,7 +775,7 @@
           <Min x="-1" y="0" z="-1" />
           <BlockOrientation Forward="Left" Up="Forward" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
           <Owner>144115188075855897</Owner>
           <ShareMode>Faction</ShareMode>
           <CustomName>Gravity Generator</CustomName>
@@ -677,741 +791,747 @@
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="-1" z="-1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="1" z="-1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="-2" y="-1" z="0" />
           <BlockOrientation Forward="Up" Up="Left" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="2" y="-1" z="0" />
           <BlockOrientation Forward="Up" Up="Right" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="-2" y="1" z="0" />
           <BlockOrientation Forward="Down" Up="Left" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="2" y="1" z="0" />
           <BlockOrientation Forward="Down" Up="Right" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="-2" y="-1" z="1" />
           <BlockOrientation Forward="Up" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="2" y="-1" z="1" />
           <BlockOrientation Forward="Up" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="-2" y="1" z="1" />
           <BlockOrientation Forward="Down" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="2" y="1" z="1" />
           <BlockOrientation Forward="Down" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="-1" y="-2" z="0" />
           <BlockOrientation Forward="Right" Up="Down" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="1" y="-2" z="0" />
           <BlockOrientation Forward="Left" Up="Down" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="-1" y="2" z="0" />
           <BlockOrientation Forward="Right" Up="Up" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="1" y="2" z="0" />
           <BlockOrientation Forward="Left" Up="Up" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="-1" y="-2" z="1" />
           <BlockOrientation Forward="Right" Up="Down" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="1" y="-2" z="1" />
           <BlockOrientation Forward="Left" Up="Down" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="-1" y="2" z="1" />
           <BlockOrientation Forward="Right" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="1" y="2" z="1" />
           <BlockOrientation Forward="Left" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="2" z="0" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="2" z="-1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="-2" z="0" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="-2" z="-1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="0" z="0" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="0" z="-1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="0" z="0" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="0" z="-1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="2" y="2" z="0" />
           <BlockOrientation Forward="Down" Up="Right" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="-2" y="2" z="0" />
           <BlockOrientation Forward="Down" Up="Left" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="2" y="-2" z="0" />
           <BlockOrientation Forward="Up" Up="Right" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="-2" y="-2" z="0" />
           <BlockOrientation Forward="Up" Up="Left" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="2" y="2" z="1" />
           <BlockOrientation Forward="Down" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="-2" y="2" z="1" />
           <BlockOrientation Forward="Down" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="2" y="-2" z="1" />
           <BlockOrientation Forward="Up" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="-2" y="-2" z="1" />
           <BlockOrientation Forward="Up" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="2" y="2" z="-1" />
           <BlockOrientation Forward="Down" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="-2" y="2" z="-1" />
           <BlockOrientation Forward="Down" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="2" y="-2" z="-1" />
           <BlockOrientation Forward="Up" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="-2" y="-2" z="-1" />
           <BlockOrientation Forward="Up" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="-1" y="2" z="-1" />
           <BlockOrientation Forward="Right" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="-2" z="1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="1" y="2" z="-1" />
           <BlockOrientation Forward="Left" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="-1" y="-2" z="-1" />
           <BlockOrientation Forward="Right" Up="Down" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="2" z="1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="1" y="-2" z="-1" />
           <BlockOrientation Forward="Left" Up="Down" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="-2" y="1" z="-1" />
           <BlockOrientation Forward="Down" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="0" z="1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="-2" y="-1" z="-1" />
           <BlockOrientation Forward="Up" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="-1" z="1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="0" z="1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="1" z="1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="-1" z="1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="0" z="1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="1" z="1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="-1" z="1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="0" z="1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="1" z="1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="2" y="1" z="-1" />
           <BlockOrientation Forward="Down" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="0" z="1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Base</SubtypeName>
           <Min x="2" y="-1" z="-1" />
           <BlockOrientation Forward="Up" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
-          <SubtypeName>MA_Interior_Light</SubtypeName>
-          <EntityId>127311695036081440</EntityId>
-          <Name>127311695036081440</Name>
-          <Min x="-2" y="2" z="-4" />
-          <BlockOrientation Forward="Right" Up="Up" />
-          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
-          <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>true</ShowInTerminal>
-          <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <ShowInInventory>true</ShowInInventory>
-          <NumberInGrid>1</NumberInGrid>
-          <Enabled>true</Enabled>
-          <Radius>15.6995993</Radius>
-          <ReflectorRadius>120</ReflectorRadius>
-          <Falloff>3</Falloff>
-          <Intensity>0.5</Intensity>
-          <BlinkIntervalSeconds>0</BlinkIntervalSeconds>
-          <BlinkLenght>10</BlinkLenght>
-          <BlinkOffset>0</BlinkOffset>
-          <Offset>0</Offset>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="0" z="-4" />
+          <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope</SubtypeName>
           <Min x="2" y="-3" z="-2" />
           <BlockOrientation Forward="Up" Up="Backward" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="3" y="-2" z="-2" />
           <BlockOrientation Forward="Left" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorHalfCorner</SubtypeName>
           <Min x="3" y="3" z="-2" />
           <BlockOrientation Forward="Down" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorHalfCorner</SubtypeName>
           <Min x="-3" y="3" z="-2" />
           <BlockOrientation Forward="Forward" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="3" z="-4" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="-3" z="-3" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>LargeHalfArmorBlock</SubtypeName>
-          <Min x="-3" y="1" z="-2" />
-          <BlockOrientation Forward="Right" Up="Down" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-4" y="1" z="-2" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="3" z="-3" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>LargeHalfArmorBlock</SubtypeName>
-          <Min x="-3" y="-3" z="-4" />
-          <BlockOrientation Forward="Right" Up="Down" />
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-3" y="-2" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="-3" z="-3" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="-3" z="-4" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="3" z="-3" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>LargeHalfArmorBlock</SubtypeName>
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-3" y="3" z="-3" />
-          <BlockOrientation Forward="Right" Up="Down" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="3" y="1" z="-2" />
           <BlockOrientation Forward="Left" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope</SubtypeName>
           <Min x="1" y="3" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="2" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="1" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="2" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="1" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="2" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope</SubtypeName>
           <Min x="1" y="-3" z="-2" />
           <BlockOrientation Forward="Up" Up="Backward" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope</SubtypeName>
           <Min x="-1" y="3" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="0" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="-2" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="-1" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
           <SubtypeName>MA_Interior_Light</SubtypeName>
-          <EntityId>137650496095528390</EntityId>
-          <Name>137650496095528390</Name>
-          <Min x="-2" y="-2" z="-4" />
-          <BlockOrientation Forward="Right" Up="Forward" />
+          <EntityId>129292437634795948</EntityId>
+          <Name>129292437634795948</Name>
+          <Min x="-5" y="-2" z="-4" />
+          <BlockOrientation Forward="Up" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
           <ShowOnHUD>false</ShowOnHUD>
           <ShowInTerminal>true</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
-          <NumberInGrid>2</NumberInGrid>
+          <NumberInGrid>3</NumberInGrid>
           <Enabled>true</Enabled>
-          <Radius>15.6995993</Radius>
+          <Radius>11.1586819</Radius>
           <ReflectorRadius>120</ReflectorRadius>
-          <Falloff>3</Falloff>
-          <Intensity>0.5</Intensity>
+          <Falloff>1.3</Falloff>
+          <Intensity>2</Intensity>
           <BlinkIntervalSeconds>0</BlinkIntervalSeconds>
           <BlinkLenght>10</BlinkLenght>
           <BlinkOffset>0</BlinkOffset>
-          <Offset>0</Offset>
+          <Offset>0.5</Offset>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope</SubtypeName>
           <Min x="-2" y="-3" z="-2" />
           <BlockOrientation Forward="Up" Up="Backward" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="0" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorHalfCorner</SubtypeName>
           <Min x="3" y="-3" z="-2" />
           <BlockOrientation Forward="Forward" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="3" y="-1" z="-2" />
           <BlockOrientation Forward="Left" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="3" z="-3" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope</SubtypeName>
           <Min x="2" y="3" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="-3" z="-4" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="1" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="1" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-3" y="0" z="-2" />
-          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="-2" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="0" z="-2" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="3" y="3" z="-3" />
           <BlockOrientation Forward="Left" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="3" z="-3" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>LargeHalfArmorBlock</SubtypeName>
-          <Min x="-3" y="-2" z="-2" />
-          <BlockOrientation Forward="Right" Up="Down" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-4" y="-1" z="-2" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope</SubtypeName>
           <Min x="0" y="-3" z="-2" />
           <BlockOrientation Forward="Up" Up="Backward" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="1" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="-1" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="-1" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="0" z="-2" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope</SubtypeName>
           <Min x="-1" y="-3" z="-2" />
           <BlockOrientation Forward="Up" Up="Backward" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>LargeHalfArmorBlock</SubtypeName>
-          <Min x="-3" y="2" z="-2" />
-          <BlockOrientation Forward="Right" Up="Down" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-4" y="2" z="-2" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="-1" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="-2" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="3" y="2" z="-2" />
           <BlockOrientation Forward="Left" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorHalfCorner</SubtypeName>
           <Min x="-3" y="-3" z="-2" />
           <BlockOrientation Forward="Up" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>Starcore Decal Logo Emissive 5x1x5</SubtypeName>
@@ -1419,15 +1539,18 @@
           <Name>90638191368252773</Name>
           <Min x="0" y="0" z="-7" />
           <BlockOrientation Forward="Forward" Up="Right" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>Starcore Decal Logo Colorable 1x1x1</SubtypeName>
-          <EntityId>88068527029262936</EntityId>
-          <Name>88068527029262936</Name>
-          <Min x="-2" y="-2" z="-3" />
-          <BlockOrientation Forward="Up" Up="Forward" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <SubtypeName>Starcore Decal Logo 1x1x1</SubtypeName>
+          <EntityId>103503271436273133</EntityId>
+          <Name>103503271436273133</Name>
+          <Min x="1" y="0" z="-4" />
+          <BlockOrientation Forward="Left" Up="Forward" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TextPanel">
           <SubtypeName>LargeTextPanel</SubtypeName>
@@ -1435,7 +1558,8 @@
           <Name>130203872708604863</Name>
           <Min x="1" y="0" z="-3" />
           <BlockOrientation Forward="Right" Up="Forward" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
           <Owner>144115188075855897</Owner>
           <ShareMode>Faction</ShareMode>
           <ComponentContainer>
@@ -1548,90 +1672,82 @@ https://discord.gg/starcore
           </Sprites>
           <SelectedRotationIndex xsi:nil="true" />
         </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TextPanel">
-          <SubtypeName>LargeBlockCorner_LCD_1</SubtypeName>
-          <EntityId>88073125151751692</EntityId>
-          <Name>88073125151751692</Name>
-          <Min x="-2" y="0" z="-4" />
-          <BlockOrientation Forward="Backward" Up="Right" />
-          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
-          <Owner>144115188075855897</Owner>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ButtonPanel">
+          <SubtypeName>LargeSciFiButtonTerminal</SubtypeName>
+          <EntityId>118374621255050504</EntityId>
+          <Name>118374621255050504</Name>
+          <Min x="-5" y="-1" z="-3" />
+          <BlockOrientation Forward="Right" Up="Forward" />
+          <ColorMaskHSV x="0" y="0.15" z="0.25" />
+          <Owner>144115188075855895</Owner>
+          <BuiltBy>144115188075855895</BuiltBy>
           <ShareMode>Faction</ShareMode>
           <ComponentContainer>
             <Components>
               <ComponentData>
-                <TypeId>MyLcdSurfaceComponent</TypeId>
-                <Component xsi:type="MyObjectBuilder_LcdSurfaceComponent">
-                  <SelectedRotationIndex>0</SelectedRotationIndex>
-                  <TextPanelContent>
-                    <ChangeInterval>0</ChangeInterval>
-                    <Font Type="MyObjectBuilder_FontDefinition" Subtype="Monospace" />
-                    <FontSize>10</FontSize>
-                    <Text>GRE SPAWN</Text>
-                    <ShowText>NONE</ShowText>
-                    <FontColor>
-                      <PackedValue>4278190080</PackedValue>
-                      <X>0</X>
-                      <Y>0</Y>
-                      <Z>0</Z>
-                      <R>0</R>
-                      <G>0</G>
-                      <B>0</B>
-                      <A>255</A>
-                    </FontColor>
-                    <BackgroundColor>
-                      <PackedValue>4278255360</PackedValue>
-                      <X>0</X>
-                      <Y>255</Y>
-                      <Z>0</Z>
-                      <R>0</R>
-                      <G>255</G>
-                      <B>0</B>
-                      <A>255</A>
-                    </BackgroundColor>
-                    <CurrentShownTexture>0</CurrentShownTexture>
-                    <Alignment>2</Alignment>
-                    <ContentType>TEXT_AND_IMAGE</ContentType>
-                    <SelectedScript />
-                    <TextPadding>2</TextPadding>
-                    <ScriptBackgroundColor>
-                      <PackedValue>4288108544</PackedValue>
-                      <X>0</X>
-                      <Y>88</Y>
-                      <Z>151</Z>
-                      <R>0</R>
-                      <G>88</G>
-                      <B>151</B>
-                      <A>255</A>
-                    </ScriptBackgroundColor>
-                    <ScriptForegroundColor>
-                      <PackedValue>4294962611</PackedValue>
-                      <X>179</X>
-                      <Y>237</Y>
-                      <Z>255</Z>
-                      <R>179</R>
-                      <G>237</G>
-                      <B>255</B>
-                      <A>255</A>
-                    </ScriptForegroundColor>
-                    <Sprites>
-                      <Length>0</Length>
-                    </Sprites>
-                  </TextPanelContent>
-                </Component>
-              </ComponentData>
-              <ComponentData>
-                <TypeId>MyModStorageComponent</TypeId>
-                <Component xsi:type="MyObjectBuilder_ModStorageComponent">
-                  <Storage>
-                    <dictionary>
-                      <item>
-                        <Key>74de02b3-27f9-4960-b1c4-27351f2b06d1</Key>
-                        <Value />
-                      </item>
-                    </dictionary>
-                  </Storage>
+                <TypeId>MyMultiTextPanelComponent</TypeId>
+                <Component xsi:type="MyObjectBuilder_MultiTextPanelComponent">
+                  <TextPanelsContents>
+                    <MySerializedTextPanelData>
+                      <ChangeInterval>0</ChangeInterval>
+                      <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                      <FontSize>2.386</FontSize>
+                      <Text>Unlock
+Door
+(you should
+read the LCDs
+first)</Text>
+                      <ShowText>NONE</ShowText>
+                      <FontColor>
+                        <PackedValue>4294967295</PackedValue>
+                        <X>255</X>
+                        <Y>255</Y>
+                        <Z>255</Z>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                      </FontColor>
+                      <BackgroundColor>
+                        <PackedValue>4278190080</PackedValue>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                        <R>0</R>
+                        <G>0</G>
+                        <B>0</B>
+                        <A>255</A>
+                      </BackgroundColor>
+                      <CurrentShownTexture>0</CurrentShownTexture>
+                      <Alignment>2</Alignment>
+                      <ContentType>TEXT_AND_IMAGE</ContentType>
+                      <SelectedScript />
+                      <TextPadding>0</TextPadding>
+                      <ScriptBackgroundColor>
+                        <PackedValue>4288108544</PackedValue>
+                        <X>0</X>
+                        <Y>88</Y>
+                        <Z>151</Z>
+                        <R>0</R>
+                        <G>88</G>
+                        <B>151</B>
+                        <A>255</A>
+                      </ScriptBackgroundColor>
+                      <ScriptForegroundColor>
+                        <PackedValue>4294962611</PackedValue>
+                        <X>179</X>
+                        <Y>237</Y>
+                        <Z>255</Z>
+                        <R>179</R>
+                        <G>237</G>
+                        <B>255</B>
+                        <A>255</A>
+                      </ScriptForegroundColor>
+                      <Sprites>
+                        <Length>0</Length>
+                      </Sprites>
+                    </MySerializedTextPanelData>
+                  </TextPanelsContents>
                 </Component>
               </ComponentData>
             </Components>
@@ -1642,32 +1758,36 @@ https://discord.gg/starcore
           <ShowInInventory>true</ShowInInventory>
           <NumberInGrid>1</NumberInGrid>
           <Enabled>true</Enabled>
-          <Description />
-          <Title>Title</Title>
-          <AccessFlag>READ_AND_WRITE_FACTION</AccessFlag>
-          <ChangeInterval>0</ChangeInterval>
-          <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
-          <FontSize>1</FontSize>
-          <PublicDescription />
-          <PublicTitle>Public title</PublicTitle>
-          <ShowText>NONE</ShowText>
-          <FontColor xsi:nil="true" />
-          <BackgroundColor xsi:nil="true" />
-          <CurrentShownTexture>0</CurrentShownTexture>
-          <TextPadding>2</TextPadding>
-          <Version>0</Version>
-          <ScriptBackgroundColor xsi:nil="true" />
-          <ScriptForegroundColor xsi:nil="true" />
-          <Sprites>
-            <Length>0</Length>
-          </Sprites>
-          <SelectedRotationIndex xsi:nil="true" />
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                  <Action>Open_On</Action>
+                  <BlockEntityId>141030335283563916</BlockEntityId>
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <AnyoneCanUse>false</AnyoneCanUse>
+          <CustomButtonNames>
+            <dictionary>
+              <item>
+                <Key>0</Key>
+                <Value>Sliding Door 2 -  Open</Value>
+              </item>
+            </dictionary>
+          </CustomButtonNames>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="3" z="-3" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>ArmorCorner</SubtypeName>
@@ -1676,105 +1796,107 @@ https://discord.gg/starcore
           <Min x="3" y="-2" z="-4" />
           <BlockOrientation Forward="Down" Up="Right" />
           <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="-2" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>LargeHalfArmorBlock</SubtypeName>
-          <Min x="-3" y="-3" z="-3" />
-          <BlockOrientation Forward="Right" Up="Down" />
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-3" y="-1" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="3" y="0" z="-2" />
           <BlockOrientation Forward="Left" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="-1" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="3" y="-3" z="-3" />
           <BlockOrientation Forward="Left" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>LargeHalfArmorBlock</SubtypeName>
-          <Min x="-3" y="-1" z="-2" />
-          <BlockOrientation Forward="Right" Up="Down" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-4" y="-2" z="-2" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="-2" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="3" z="-4" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope</SubtypeName>
           <Min x="0" y="3" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope</SubtypeName>
           <Min x="-2" y="3" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="2" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="-3" z="-3" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="3" z="-4" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="2" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="3" z="-4" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-3" y="0" z="1" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
           <SubtypeName>LargeBlockRadioAntennaDish</SubtypeName>
@@ -1783,6 +1905,7 @@ https://discord.gg/starcore
           <Min x="-2" y="-2" z="2" />
           <BlockOrientation Forward="Left" Up="Backward" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
           <Owner>144115188075855897</Owner>
           <ShareMode>Faction</ShareMode>
           <CustomName>Antenna Dish</CustomName>
@@ -1805,51 +1928,51 @@ https://discord.gg/starcore
           <Min x="3" y="-3" z="-4" />
           <BlockOrientation Forward="Left" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="-3" z="-3" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="-3" z="-4" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="-3" z="-4" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>LargeHalfArmorBlock</SubtypeName>
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-3" y="3" z="-4" />
-          <BlockOrientation Forward="Right" Up="Down" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="-3" z="-4" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="-3" z="-3" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="3" y="3" z="-4" />
           <BlockOrientation Forward="Left" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>ArmorSide</SubtypeName>
@@ -1858,13 +1981,14 @@ https://discord.gg/starcore
           <Min x="3" y="-1" z="-3" />
           <BlockOrientation Forward="Up" Up="Right" />
           <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>LargeBlockArmorHalfCorner</SubtypeName>
-          <Min x="-3" y="-2" z="-4" />
-          <BlockOrientation Forward="Forward" Up="Left" />
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-3" y="-3" z="-4" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>ArmorSide</SubtypeName>
@@ -1873,328 +1997,329 @@ https://discord.gg/starcore
           <Min x="3" y="-2" z="-3" />
           <BlockOrientation Forward="Up" Up="Right" />
           <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>LargeBlockArmorHalfCorner</SubtypeName>
-          <Min x="-3" y="2" z="-4" />
-          <BlockOrientation Forward="Up" Up="Left" />
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-3" y="-3" z="-3" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="3" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="2" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="1" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="0" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="-1" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Tip</SubtypeName>
           <Min x="-3" y="-3" z="-5" />
           <BlockOrientation Forward="Backward" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="2" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="1" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="0" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="-1" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="-3" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="2" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="1" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="0" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="-1" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="3" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="2" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="1" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="0" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="-1" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="3" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="2" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="1" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="0" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="-1" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="-3" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="-2" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="-3" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="-2" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="3" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="-2" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Tip</SubtypeName>
           <Min x="-3" y="3" z="-5" />
           <BlockOrientation Forward="Backward" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="-2" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="-3" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="-2" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Tip</SubtypeName>
           <Min x="3" y="3" z="-5" />
           <BlockOrientation Forward="Backward" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Tip</SubtypeName>
           <Min x="3" y="2" z="-5" />
           <BlockOrientation Forward="Backward" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Tip</SubtypeName>
           <Min x="3" y="1" z="-5" />
           <BlockOrientation Forward="Backward" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Tip</SubtypeName>
           <Min x="3" y="0" z="-5" />
           <BlockOrientation Forward="Backward" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Tip</SubtypeName>
           <Min x="3" y="-1" z="-5" />
           <BlockOrientation Forward="Backward" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="3" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>LargeBlockArmorSlope2Tip</SubtypeName>
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-4" y="3" z="-3" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-4" y="3" z="-4" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-3" y="2" z="-5" />
-          <BlockOrientation Forward="Backward" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>LargeBlockArmorSlope2Tip</SubtypeName>
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-3" y="1" z="-5" />
-          <BlockOrientation Forward="Backward" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>LargeBlockArmorSlope2Tip</SubtypeName>
-          <Min x="-3" y="0" z="-5" />
-          <BlockOrientation Forward="Backward" Up="Left" />
-          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>LargeBlockArmorSlope2Tip</SubtypeName>
-          <Min x="-3" y="-1" z="-5" />
-          <BlockOrientation Forward="Backward" Up="Left" />
-          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="-3" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Tip</SubtypeName>
           <Min x="3" y="-2" z="-5" />
           <BlockOrientation Forward="Backward" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope2Tip</SubtypeName>
           <Min x="3" y="-3" z="-5" />
           <BlockOrientation Forward="Backward" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>LargeBlockArmorSlope2Tip</SubtypeName>
-          <Min x="-3" y="-2" z="-5" />
-          <BlockOrientation Forward="Backward" Up="Left" />
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-3" y="0" z="-5" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorHalfSlopeInverted</SubtypeName>
           <Min x="-1" y="-2" z="-6" />
           <BlockOrientation Forward="Left" Up="Forward" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>ArmorCorner</SubtypeName>
@@ -2203,6 +2328,7 @@ https://discord.gg/starcore
           <Min x="3" y="-1" z="-4" />
           <BlockOrientation Forward="Down" Up="Right" />
           <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>ArmorSide</SubtypeName>
@@ -2211,6 +2337,7 @@ https://discord.gg/starcore
           <Min x="3" y="0" z="-3" />
           <BlockOrientation Forward="Up" Up="Right" />
           <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>ArmorCorner</SubtypeName>
@@ -2219,6 +2346,7 @@ https://discord.gg/starcore
           <Min x="3" y="0" z="-4" />
           <BlockOrientation Forward="Down" Up="Right" />
           <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>ArmorSide</SubtypeName>
@@ -2227,6 +2355,7 @@ https://discord.gg/starcore
           <Min x="3" y="1" z="-3" />
           <BlockOrientation Forward="Up" Up="Right" />
           <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>ArmorCorner</SubtypeName>
@@ -2235,6 +2364,7 @@ https://discord.gg/starcore
           <Min x="3" y="1" z="-4" />
           <BlockOrientation Forward="Down" Up="Right" />
           <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>ArmorSide</SubtypeName>
@@ -2243,6 +2373,7 @@ https://discord.gg/starcore
           <Min x="3" y="2" z="-3" />
           <BlockOrientation Forward="Up" Up="Right" />
           <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>ArmorCorner</SubtypeName>
@@ -2251,119 +2382,129 @@ https://discord.gg/starcore
           <Min x="3" y="2" z="-4" />
           <BlockOrientation Forward="Down" Up="Right" />
           <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="0" z="-2" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="1" y="-4" z="-5" />
           <BlockOrientation Forward="Backward" Up="Down" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="-1" y="-4" z="-5" />
           <BlockOrientation Forward="Backward" Up="Down" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="1" y="4" z="-5" />
           <BlockOrientation Forward="Backward" Up="Up" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="-1" y="4" z="-5" />
           <BlockOrientation Forward="Backward" Up="Up" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="1" y="-4" z="-4" />
           <BlockOrientation Forward="Up" Up="Backward" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="-1" y="-4" z="-4" />
           <BlockOrientation Forward="Up" Up="Backward" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="1" y="4" z="-4" />
           <BlockOrientation Forward="Down" Up="Forward" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="-1" y="4" z="-4" />
           <BlockOrientation Forward="Down" Up="Forward" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="-2" z="-3" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="-2" z="-4" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="-1" z="-3" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="-1" z="-4" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="0" z="-3" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="0" z="-4" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="1" z="-3" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="1" z="-4" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="2" z="-3" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="2" y="2" z="-4" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MedicalRoom">
           <SubtypeName>LargeMedicalRoom</SubtypeName>
@@ -2372,7 +2513,7 @@ https://discord.gg/starcore
           <Min x="0" y="1" z="-3" />
           <BlockOrientation Forward="Left" Up="Forward" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
           <Owner>144115188075855897</Owner>
           <ShareMode>All</ShareMode>
           <ComponentContainer>
@@ -2508,7 +2649,7 @@ SPAWN</Text>
               </ComponentData>
             </Components>
           </ComponentContainer>
-          <CustomName>*GRE SPAWN</CustomName>
+          <CustomName>*SPAWN</CustomName>
           <ShowOnHUD>false</ShowOnHUD>
           <ShowInTerminal>true</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -2528,209 +2669,222 @@ SPAWN</Text>
           <Min x="-2" y="2" z="-6" />
           <BlockOrientation Forward="Down" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorHalfCorner</SubtypeName>
           <Min x="-2" y="-2" z="-6" />
           <BlockOrientation Forward="Backward" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorHalfCorner</SubtypeName>
           <Min x="2" y="-2" z="-6" />
           <BlockOrientation Forward="Up" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorHalfSlopeInverted</SubtypeName>
           <Min x="1" y="-2" z="-6" />
           <BlockOrientation Forward="Left" Up="Forward" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorHalfCorner</SubtypeName>
           <Min x="2" y="2" z="-6" />
           <BlockOrientation Forward="Backward" Up="Right" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="-1" z="-6" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="0" z="-6" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="-1" z="-6" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="0" z="-6" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="-1" z="-6" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="0" z="-6" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="1" y="1" z="-6" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="0" y="1" z="-6" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-1" y="1" z="-6" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>Starcore Decal Logo Colorable 1x1x1</SubtypeName>
-          <EntityId>116477618625188360</EntityId>
-          <Name>116477618625188360</Name>
-          <Min x="-2" y="2" z="-3" />
-          <BlockOrientation Forward="Down" Up="Forward" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirtightSlideDoor">
+          <SubtypeName>LargeBlockSlideDoor</SubtypeName>
+          <EntityId>141030335283563916</EntityId>
+          <Name>141030335283563916</Name>
+          <Min x="-6" y="0" z="-3" />
+          <BlockOrientation Forward="Right" Up="Forward" />
+          <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <Owner>144115188075855897</Owner>
+          <BuiltBy>144115188075855895</BuiltBy>
+          <ShareMode>Faction</ShareMode>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <ShowInInventory>true</ShowInInventory>
+          <NumberInGrid>2</NumberInGrid>
+          <Enabled>true</Enabled>
+          <AnyoneCanUse>false</AnyoneCanUse>
+          <Open>false</Open>
+          <CurrOpening>0</CurrOpening>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="-2" y="0" z="-6" />
           <BlockOrientation Forward="Right" Up="Down" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="2" y="0" z="-6" />
           <BlockOrientation Forward="Left" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="-2" y="-1" z="-6" />
           <BlockOrientation Forward="Right" Up="Down" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="2" y="-1" z="-6" />
           <BlockOrientation Forward="Left" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="-2" y="1" z="-6" />
           <BlockOrientation Forward="Right" Up="Down" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfArmorBlock</SubtypeName>
           <Min x="2" y="1" z="-6" />
           <BlockOrientation Forward="Left" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorHalfSlopeInverted</SubtypeName>
           <Min x="-1" y="2" z="-6" />
           <BlockOrientation Forward="Right" Up="Forward" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorHalfSlopeInverted</SubtypeName>
           <Min x="1" y="2" z="-6" />
           <BlockOrientation Forward="Right" Up="Forward" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorHalfSlopeInverted</SubtypeName>
           <Min x="0" y="-2" z="-6" />
           <BlockOrientation Forward="Left" Up="Forward" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorHalfSlopeInverted</SubtypeName>
           <Min x="0" y="2" z="-6" />
           <BlockOrientation Forward="Right" Up="Forward" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="0" y="-3" z="-6" />
           <BlockOrientation Forward="Backward" Up="Down" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="0" y="3" z="-6" />
           <BlockOrientation Forward="Backward" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="-1" y="-3" z="-6" />
           <BlockOrientation Forward="Backward" Up="Down" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="1" y="-3" z="-6" />
           <BlockOrientation Forward="Backward" Up="Down" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="-1" y="3" z="-6" />
           <BlockOrientation Forward="Backward" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeHalfSlopeArmorBlock</SubtypeName>
           <Min x="1" y="3" z="-6" />
           <BlockOrientation Forward="Backward" Up="Up" />
           <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
-          <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>StarCore skinable 5x5x1</SubtypeName>
@@ -2738,55 +2892,832 @@ SPAWN</Text>
           <Name>101445634949325240</Name>
           <Min x="-4" y="0" z="1" />
           <BlockOrientation Forward="Left" Up="Forward" />
-          <ColorMaskHSV x="0.319444448" y="0.2" z="0.55" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-2" y="3" z="-4" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-4" y="0" z="-2" />
-          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-5" y="0" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope</SubtypeName>
           <Min x="-6" y="0" z="-2" />
           <BlockOrientation Forward="Forward" Up="Left" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>LargeBlockArmorSlope</SubtypeName>
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-5" y="1" z="-2" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>LargeBlockArmorSlope</SubtypeName>
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
           <Min x="-5" y="-1" z="-2" />
-          <BlockOrientation Forward="Up" Up="Backward" />
           <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-          <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-3" y="1" z="-2" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-3" y="2" z="-2" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-3" y="-1" z="-2" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-3" y="-2" z="-2" />
+          <ColorMaskHSV x="0" y="-0.81" z="-0.3" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-4" y="-3" z="-3" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-4" y="-3" z="-4" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-4" y="-2" z="-5" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-4" y="-1" z="-5" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-4" y="0" z="-5" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-4" y="2" z="-5" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-4" y="1" z="-5" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-5" y="2" z="-2" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-5" y="3" z="-4" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-5" y="3" z="-3" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-5" y="2" z="-5" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-5" y="1" z="-5" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-5" y="0" z="-5" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-5" y="-1" z="-5" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-5" y="-2" z="-5" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-5" y="-2" z="-2" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="-1" z="-2" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="-2" z="-2" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-5" y="-3" z="-4" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-5" y="-3" z="-3" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="2" z="-2" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="1" z="-2" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="3" z="-4" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="3" z="-3" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="2" z="-5" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="1" z="-5" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="-2" z="-5" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="-1" z="-5" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="0" z="-5" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="-3" z="-3" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="-3" z="-4" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="2" z="-3" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="2" z="-4" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="1" z="-3" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="1" z="-4" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="-2" z="-3" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="-2" z="-4" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="-1" z="-3" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="-6" y="-1" z="-4" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
+          <SubtypeName>MA_Interior_Light</SubtypeName>
+          <EntityId>119617389659194394</EntityId>
+          <Name>119617389659194394</Name>
+          <Min x="-5" y="2" z="-4" />
+          <BlockOrientation Forward="Right" Up="Up" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <ShowInInventory>true</ShowInInventory>
+          <NumberInGrid>4</NumberInGrid>
+          <Enabled>true</Enabled>
+          <Radius>11.1586819</Radius>
+          <ReflectorRadius>120</ReflectorRadius>
+          <Falloff>1.3</Falloff>
+          <Intensity>2</Intensity>
+          <BlinkIntervalSeconds>0</BlinkIntervalSeconds>
+          <BlinkLenght>10</BlinkLenght>
+          <BlinkOffset>0</BlinkOffset>
+          <Offset>0.5</Offset>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
+          <SubtypeName>MA_Interior_Light</SubtypeName>
+          <EntityId>80539628505876453</EntityId>
+          <Name>80539628505876453</Name>
+          <Min x="1" y="-2" z="-4" />
+          <BlockOrientation Forward="Left" Up="Down" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <ShowInInventory>true</ShowInInventory>
+          <NumberInGrid>5</NumberInGrid>
+          <Enabled>true</Enabled>
+          <Radius>11.1586819</Radius>
+          <ReflectorRadius>120</ReflectorRadius>
+          <Falloff>1.3</Falloff>
+          <Intensity>2</Intensity>
+          <BlinkIntervalSeconds>0</BlinkIntervalSeconds>
+          <BlinkLenght>10</BlinkLenght>
+          <BlinkOffset>0</BlinkOffset>
+          <Offset>0.5</Offset>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
+          <SubtypeName>MA_Interior_Light</SubtypeName>
+          <EntityId>75414242635387362</EntityId>
+          <Name>75414242635387362</Name>
+          <Min x="1" y="2" z="-4" />
+          <BlockOrientation Forward="Down" Up="Right" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <ShowInInventory>true</ShowInInventory>
+          <NumberInGrid>6</NumberInGrid>
+          <Enabled>true</Enabled>
+          <Radius>11.1586819</Radius>
+          <ReflectorRadius>120</ReflectorRadius>
+          <Falloff>1.3</Falloff>
+          <Intensity>2</Intensity>
+          <BlinkIntervalSeconds>0</BlinkIntervalSeconds>
+          <BlinkLenght>10</BlinkLenght>
+          <BlinkOffset>0</BlinkOffset>
+          <Offset>0.5</Offset>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TextPanel">
+          <SubtypeName>LargeLCDPanel</SubtypeName>
+          <EntityId>121160967322655097</EntityId>
+          <Name>121160967322655097</Name>
+          <Min x="-4" y="-2" z="-3" />
+          <BlockOrientation Forward="Down" Up="Forward" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <Owner>144115188075855895</Owner>
+          <BuiltBy>144115188075855895</BuiltBy>
+          <ShareMode>Faction</ShareMode>
+          <ComponentContainer>
+            <Components>
+              <ComponentData>
+                <TypeId>MyLcdSurfaceComponent</TypeId>
+                <Component xsi:type="MyObjectBuilder_LcdSurfaceComponent">
+                  <SelectedRotationIndex>0</SelectedRotationIndex>
+                  <TextPanelContent>
+                    <ChangeInterval>0</ChangeInterval>
+                    <Font Type="MyObjectBuilder_FontDefinition" Subtype="Red" />
+                    <FontSize>1.398</FontSize>
+                    <Text>1. Make sure you're 
+in the NEU team
+
+2. Spawn in and set up 
+your grids (use !claim)
+
+3. Type '/SCStartGauntlet 0' 
+to begin
+
+0 = Difficulty (0-10)
+(spawns +0-10 additional
+ships per wave)</Text>
+                    <ShowText>NONE</ShowText>
+                    <FontColor>
+                      <PackedValue>4294967295</PackedValue>
+                      <X>255</X>
+                      <Y>255</Y>
+                      <Z>255</Z>
+                      <R>255</R>
+                      <G>255</G>
+                      <B>255</B>
+                      <A>255</A>
+                    </FontColor>
+                    <BackgroundColor>
+                      <PackedValue>4278190080</PackedValue>
+                      <X>0</X>
+                      <Y>0</Y>
+                      <Z>0</Z>
+                      <R>0</R>
+                      <G>0</G>
+                      <B>0</B>
+                      <A>255</A>
+                    </BackgroundColor>
+                    <CurrentShownTexture>0</CurrentShownTexture>
+                    <ContentType>TEXT_AND_IMAGE</ContentType>
+                    <SelectedScript />
+                    <TextPadding>0</TextPadding>
+                    <ScriptBackgroundColor>
+                      <PackedValue>4288108544</PackedValue>
+                      <X>0</X>
+                      <Y>88</Y>
+                      <Z>151</Z>
+                      <R>0</R>
+                      <G>88</G>
+                      <B>151</B>
+                      <A>255</A>
+                    </ScriptBackgroundColor>
+                    <ScriptForegroundColor>
+                      <PackedValue>4294962611</PackedValue>
+                      <X>179</X>
+                      <Y>237</Y>
+                      <Z>255</Z>
+                      <R>179</R>
+                      <G>237</G>
+                      <B>255</B>
+                      <A>255</A>
+                    </ScriptForegroundColor>
+                    <Sprites>
+                      <Length>0</Length>
+                    </Sprites>
+                  </TextPanelContent>
+                </Component>
+              </ComponentData>
+            </Components>
+          </ComponentContainer>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <ShowInInventory>true</ShowInInventory>
+          <NumberInGrid>1</NumberInGrid>
+          <Enabled>true</Enabled>
+          <Description />
+          <Title>Title</Title>
+          <AccessFlag>READ_AND_WRITE_FACTION</AccessFlag>
+          <ChangeInterval>0</ChangeInterval>
+          <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+          <FontSize>1</FontSize>
+          <PublicDescription />
+          <PublicTitle>Public title</PublicTitle>
+          <ShowText>NONE</ShowText>
+          <FontColor xsi:nil="true" />
+          <BackgroundColor xsi:nil="true" />
+          <CurrentShownTexture>0</CurrentShownTexture>
+          <TextPadding>2</TextPadding>
+          <Version>0</Version>
+          <ScriptBackgroundColor xsi:nil="true" />
+          <ScriptForegroundColor xsi:nil="true" />
+          <Sprites>
+            <Length>0</Length>
+          </Sprites>
+          <SelectedRotationIndex xsi:nil="true" />
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TextPanel">
+          <SubtypeName>LargeLCDPanel</SubtypeName>
+          <EntityId>100636756260466808</EntityId>
+          <Name>100636756260466808</Name>
+          <Min x="-3" y="-2" z="-3" />
+          <BlockOrientation Forward="Down" Up="Forward" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <Owner>144115188075855895</Owner>
+          <BuiltBy>144115188075855895</BuiltBy>
+          <ShareMode>Faction</ShareMode>
+          <ComponentContainer>
+            <Components>
+              <ComponentData>
+                <TypeId>MyLcdSurfaceComponent</TypeId>
+                <Component xsi:type="MyObjectBuilder_LcdSurfaceComponent">
+                  <SelectedRotationIndex>0</SelectedRotationIndex>
+                  <TextPanelContent>
+                    <ChangeInterval>0</ChangeInterval>
+                    <Font Type="MyObjectBuilder_FontDefinition" Subtype="Green" />
+                    <FontSize>1</FontSize>
+                    <Text>NPCs have a random chance
+to roll certain different weapon loadouts.
+
+"Siege (SG)" NPCs will attempt to capture
+the objective
+
+Survive until the timer is up to win!</Text>
+                    <ShowText>NONE</ShowText>
+                    <FontColor>
+                      <PackedValue>4294967295</PackedValue>
+                      <X>255</X>
+                      <Y>255</Y>
+                      <Z>255</Z>
+                      <R>255</R>
+                      <G>255</G>
+                      <B>255</B>
+                      <A>255</A>
+                    </FontColor>
+                    <BackgroundColor>
+                      <PackedValue>4278190080</PackedValue>
+                      <X>0</X>
+                      <Y>0</Y>
+                      <Z>0</Z>
+                      <R>0</R>
+                      <G>0</G>
+                      <B>0</B>
+                      <A>255</A>
+                    </BackgroundColor>
+                    <CurrentShownTexture>0</CurrentShownTexture>
+                    <ContentType>TEXT_AND_IMAGE</ContentType>
+                    <SelectedScript />
+                    <TextPadding>2</TextPadding>
+                    <ScriptBackgroundColor>
+                      <PackedValue>4288108544</PackedValue>
+                      <X>0</X>
+                      <Y>88</Y>
+                      <Z>151</Z>
+                      <R>0</R>
+                      <G>88</G>
+                      <B>151</B>
+                      <A>255</A>
+                    </ScriptBackgroundColor>
+                    <ScriptForegroundColor>
+                      <PackedValue>4294962611</PackedValue>
+                      <X>179</X>
+                      <Y>237</Y>
+                      <Z>255</Z>
+                      <R>179</R>
+                      <G>237</G>
+                      <B>255</B>
+                      <A>255</A>
+                    </ScriptForegroundColor>
+                    <Sprites>
+                      <Length>0</Length>
+                    </Sprites>
+                  </TextPanelContent>
+                </Component>
+              </ComponentData>
+            </Components>
+          </ComponentContainer>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <ShowInInventory>true</ShowInInventory>
+          <NumberInGrid>2</NumberInGrid>
+          <Enabled>true</Enabled>
+          <Description />
+          <Title>Title</Title>
+          <AccessFlag>READ_AND_WRITE_FACTION</AccessFlag>
+          <ChangeInterval>0</ChangeInterval>
+          <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+          <FontSize>1</FontSize>
+          <PublicDescription />
+          <PublicTitle>Public title</PublicTitle>
+          <ShowText>NONE</ShowText>
+          <FontColor xsi:nil="true" />
+          <BackgroundColor xsi:nil="true" />
+          <CurrentShownTexture>0</CurrentShownTexture>
+          <TextPadding>2</TextPadding>
+          <Version>0</Version>
+          <ScriptBackgroundColor xsi:nil="true" />
+          <ScriptForegroundColor xsi:nil="true" />
+          <Sprites>
+            <Length>0</Length>
+          </Sprites>
+          <SelectedRotationIndex xsi:nil="true" />
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeWarningSignEaster9</SubtypeName>
+          <EntityId>137229610712947230</EntityId>
+          <Name>137229610712947230</Name>
+          <Min x="-4" y="-2" z="-4" />
+          <BlockOrientation Forward="Down" Up="Right" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeWarningSignEaster9</SubtypeName>
+          <EntityId>92969341064762997</EntityId>
+          <Name>92969341064762997</Name>
+          <Min x="-3" y="-2" z="-4" />
+          <BlockOrientation Forward="Down" Up="Right" />
+          <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+          <SkinSubtypeId>Weldless</SkinSubtypeId>
+          <BuiltBy>144115188075855895</BuiltBy>
         </MyObjectBuilder_CubeBlock>
       </CubeBlocks>
       <IsStatic>true</IsStatic>
       <IsUnsupportedStation>true</IsUnsupportedStation>
       <XMirroxPlane x="0" y="-3" z="-4" />
       <YMirroxPlane x="0" y="0" z="-6" />
-      <DisplayName>GRE Spawn</DisplayName>
+      <DisplayName>NEU Spawn</DisplayName>
       <DestructibleBlocks>false</DestructibleBlocks>
       <IsRespawnGrid>false</IsRespawnGrid>
       <LocalCoordSys>5</LocalCoordSys>
+      <TargetingTargets />
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>109683251314162912</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <Name>109683251314162912</Name>
+      <PositionAndOrientation>
+        <Position x="-1008.9489125312375" y="-2.3202606596987607" z="1.4353954656671704" />
+        <Forward x="-0.999125063" y="0.0415913761" z="0.00438580848" />
+        <Up x="-0.0415704139" y="-0.9991242" z="0.00476728566" />
+        <Orientation>
+          <X>0.7085355</X>
+          <Y>-0.0130514354</Y>
+          <Z>0.7053649</Z>
+          <W>0.0163572133</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <LocalPositionAndOrientation xsi:nil="true" />
+      <ComponentContainer>
+        <Components>
+          <ComponentData>
+            <TypeId>MyModStorageComponentBase</TypeId>
+            <Component xsi:type="MyObjectBuilder_ModStorageComponent">
+              <Storage>
+                <dictionary>
+                  <item>
+                    <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjA0/zi8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjA0/zi8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                  </item>
+                </dictionary>
+              </Storage>
+            </Component>
+          </ComponentData>
+        </Components>
+      </ComponentContainer>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+          <SubtypeName>EntityCoverEVEDepot</SubtypeName>
+          <EntityId>109683251314162913</EntityId>
+          <Name>109683251314162913</Name>
+          <Owner>144115188075855897</Owner>
+          <BuiltBy>144115188075855895</BuiltBy>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <ShowInInventory>true</ShowInInventory>
+          <NumberInGrid>1</NumberInGrid>
+          <Enabled>true</Enabled>
+          <CurrentStoredPower>3</CurrentStoredPower>
+          <ProducerEnabled>true</ProducerEnabled>
+          <MaxStoredPower>0</MaxStoredPower>
+          <SemiautoEnabled>false</SemiautoEnabled>
+          <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+          <ChargeMode>0</ChargeMode>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Beacon">
+          <SubtypeName>ZoneBlock</SubtypeName>
+          <EntityId>89848540652678756</EntityId>
+          <Name>89848540652678756</Name>
+          <Min x="0" y="1" z="0" />
+          <Owner>144115188075855897</Owner>
+          <BuiltBy>144115188075855895</BuiltBy>
+          <ComponentContainer>
+            <Components>
+              <ComponentData>
+                <TypeId>MyInventoryBase</TypeId>
+                <Component xsi:type="MyObjectBuilder_Inventory">
+                  <Items />
+                  <nextItemId>0</nextItemId>
+                  <Volume>124999.999488</Volume>
+                  <Mass>9223372036854.775807</Mass>
+                  <MaxItemCount>2147483647</MaxItemCount>
+                  <Size xsi:nil="true" />
+                  <InventoryFlags />
+                  <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                </Component>
+              </ComponentData>
+              <ComponentData>
+                <TypeId>MyModStorageComponent</TypeId>
+                <Component xsi:type="MyObjectBuilder_ModStorageComponent">
+                  <Storage>
+                    <dictionary>
+                      <item>
+                        <Key>b7af750e-68e3-4826-bd0e-a75bf36ba3e5</Key>
+                        <Value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ZoneDescription xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;GridId&gt;109683251314162912&lt;/GridId&gt;
+  &lt;BlockId&gt;89848540652678756&lt;/BlockId&gt;
+  &lt;Progress&gt;0&lt;/Progress&gt;
+  &lt;ProgressWhenComplete&gt;3599.99976&lt;/ProgressWhenComplete&gt;
+  &lt;ControlledBy&gt;0&lt;/ControlledBy&gt;
+  &lt;Radius&gt;500&lt;/Radius&gt;
+  &lt;ActivateOnPlayerCount&gt;1&lt;/ActivateOnPlayerCount&gt;
+  &lt;ActivateOnCharacter&gt;false&lt;/ActivateOnCharacter&gt;
+  &lt;ActivateOnSmallGrid&gt;false&lt;/ActivateOnSmallGrid&gt;
+  &lt;ActivateOnLargeGrid&gt;true&lt;/ActivateOnLargeGrid&gt;
+  &lt;ActivateOnUnpoweredGrid&gt;false&lt;/ActivateOnUnpoweredGrid&gt;
+  &lt;IgnoreCopilot&gt;false&lt;/IgnoreCopilot&gt;
+  &lt;AwardPointsAsCredits&gt;false&lt;/AwardPointsAsCredits&gt;
+  &lt;CreditsPerPoint&gt;1000&lt;/CreditsPerPoint&gt;
+  &lt;PointsRemovedOnDeath&gt;0&lt;/PointsRemovedOnDeath&gt;
+  &lt;MinSmallGridBlockCount&gt;50&lt;/MinSmallGridBlockCount&gt;
+  &lt;MinLargeGridBlockCount&gt;25&lt;/MinLargeGridBlockCount&gt;
+  &lt;IdleDrainRate&gt;3&lt;/IdleDrainRate&gt;
+  &lt;ContestedDrainRate&gt;0&lt;/ContestedDrainRate&gt;
+  &lt;FlatProgressRate&gt;false&lt;/FlatProgressRate&gt;
+  &lt;ActiveProgressRate&gt;1&lt;/ActiveProgressRate&gt;
+  &lt;AutomaticActivation&gt;false&lt;/AutomaticActivation&gt;
+  &lt;ActivationDay&gt;3&lt;/ActivationDay&gt;
+  &lt;ActivationStartTime&gt;120&lt;/ActivationStartTime&gt;
+  &lt;ActivationEndTime&gt;1200&lt;/ActivationEndTime&gt;
+  &lt;AwardPointsToAllActiveFactions&gt;false&lt;/AwardPointsToAllActiveFactions&gt;
+  &lt;EncampmentMode&gt;false&lt;/EncampmentMode&gt;
+  &lt;PointsOnCap&gt;0&lt;/PointsOnCap&gt;
+  &lt;Opacity&gt;1&lt;/Opacity&gt;
+  &lt;PointsForPrize&gt;1&lt;/PointsForPrize&gt;
+  &lt;PrizeAmountComponent&gt;1&lt;/PrizeAmountComponent&gt;
+  &lt;PrizeAmountOre&gt;1&lt;/PrizeAmountOre&gt;
+  &lt;PrizeAmountIngot&gt;1&lt;/PrizeAmountIngot&gt;
+  &lt;UseComponentReward&gt;true&lt;/UseComponentReward&gt;
+  &lt;UseOreReward&gt;false&lt;/UseOreReward&gt;
+  &lt;UseIngotReward&gt;false&lt;/UseIngotReward&gt;
+  &lt;PrizeComponentSubtypeId&gt;subtypeId&lt;/PrizeComponentSubtypeId&gt;
+  &lt;PrizeOreSubtypeId&gt;subtypeId&lt;/PrizeOreSubtypeId&gt;
+  &lt;PrizeIngotSubtypeId&gt;subtypeId&lt;/PrizeIngotSubtypeId&gt;
+  &lt;SelectedComponentString /&gt;
+  &lt;AdvancedComponentSelection&gt;false&lt;/AdvancedComponentSelection&gt;
+  &lt;SelectedOreString /&gt;
+  &lt;AdvancedOreSelection&gt;false&lt;/AdvancedOreSelection&gt;
+  &lt;SelectedIngotString /&gt;
+  &lt;AdvancedIngotSelection&gt;false&lt;/AdvancedIngotSelection&gt;
+  &lt;IsLocationNamed&gt;true&lt;/IsLocationNamed&gt;
+  &lt;SpawnIntoPrizeBox&gt;false&lt;/SpawnIntoPrizeBox&gt;
+  &lt;PointsEarnedSincePrize&gt;0&lt;/PointsEarnedSincePrize&gt;
+&lt;/ZoneDescription&gt;</Value>
+                      </item>
+                    </dictionary>
+                  </Storage>
+                </Component>
+              </ComponentData>
+            </Components>
+          </ComponentContainer>
+          <CustomName>IDLE - 0% </CustomName>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <ShowInInventory>true</ShowInInventory>
+          <NumberInGrid>1</NumberInGrid>
+          <Enabled>true</Enabled>
+          <BroadcastRadius>50000</BroadcastRadius>
+          <HudText />
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <IsUnsupportedStation>true</IsUnsupportedStation>
+      <DisplayName>#EntityCover</DisplayName>
+      <DestructibleBlocks>false</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
       <TargetingTargets />
     </MyObjectBuilder_EntityBase>
   </SectorObjects>
