@@ -8,10 +8,10 @@
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
     <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>4</MaxPlayers>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>56</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
-    <MaxBackupSaves>5</MaxBackupSaves>
+    <MaxBackupSaves>0</MaxBackupSaves>
     <MaxGridSize>0</MaxGridSize>
     <MaxBlocksPerPlayer>0</MaxBlocksPerPlayer>
     <TotalPCU>0</TotalPCU>
@@ -558,5 +558,5 @@
     </ModItem>
   </Mods>
   <SessionName>StarCoreMTWaveDefense</SessionName>
-  <LastSaveTime>2024-01-22T03:25:51.2902351-06:00</LastSaveTime>
+  <LastSaveTime>2024-01-22T03:55:26.2274228-06:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
