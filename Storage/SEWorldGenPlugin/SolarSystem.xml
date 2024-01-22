@@ -20,18 +20,6 @@
           <Max>1024</Max>
         </AsteroidSize>
       </MySystemObject>
-      <MySystemObject xsi:type="MySystemPlanet">
-        <Type>PLANET</Type>
-        <DisplayName>BlackHole</DisplayName>
-        <Id>ff6c7ea4-b1db-454b-bcbd-517d43f92fd0</Id>
-        <CenterPosition x="12.499999909510823" y="12.499999909510819" z="12.499999611157946" />
-        <ParentId>eb1cc900-50a7-4418-9524-5a22eeb888ce</ParentId>
-        <ChildObjects />
-        <SubtypeId>Pertam</SubtypeId>
-        <Diameter>1000</Diameter>
-        <Generated>true</Generated>
-        <EntityId>-7042660506472184355</EntityId>
-      </MySystemObject>
     </ChildObjects>
   </CenterObject>
 </MyObjectBuilder_SystemData>
