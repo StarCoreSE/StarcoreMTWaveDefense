@@ -1,5 +1,5 @@
-[03:23:25.471] [T1] [DS=False] DEBUG | Log Started
-[03:23:25.606] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
+[03:28:36.390] [T1] [DS=False] DEBUG | Log Started
+[03:28:36.440] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
 -> GroupName = UniqueNameHere
 ->-> Setting has 1 definitions:
 ->->-> Definition = (null)/(null)
@@ -2621,6 +2621,8 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_TurretControlBlock/MES-NpcLargeTurretControlBlock
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_TurretControlBlock/MES-NpcSmallTurretControlBlock
+->-> Setting added successfully
+-> Setting = MyObjectBuilder_TerminalBlock/PM_LG_BLASTPLATE_BLASTPLATE
 ->-> Setting added successfully
 
 BeforeStart() - Checking Entity Components
