@@ -128,7 +128,7 @@
     <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
     <DestructibleBlocks>true</DestructibleBlocks>
     <EnableIngameScripts>true</EnableIngameScripts>
-    <ViewDistance>20000</ViewDistance>
+    <ViewDistance>30000</ViewDistance>
     <EnableToolShake>true</EnableToolShake>
     <VoxelGeneratorVersion>4</VoxelGeneratorVersion>
     <EnableOxygen>false</EnableOxygen>
