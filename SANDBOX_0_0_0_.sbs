@@ -22,70 +22,6 @@
   <SectorObjects>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
       <SubtypeName />
-      <EntityId>120450100864697911</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <Name>107685946150256286</Name>
-      <PositionAndOrientation>
-        <Position x="-19208.915497757131" y="-598.38180551902735" z="154.83865429244457" />
-        <Forward x="0.976365864" y="-0.0566056333" z="0.208579853" />
-        <Up x="-0.05694963" y="-0.998367548" z="-0.004360687" />
-        <Orientation>
-          <X>0.7770833</X>
-          <Y>-0.020773368</Y>
-          <Z>-0.628749</Z>
-          <W>-0.01961383</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <LocalPositionAndOrientation xsi:nil="true" />
-      <ComponentContainer>
-        <Components>
-          <ComponentData>
-            <TypeId>MyModStorageComponent</TypeId>
-            <Component xsi:type="MyObjectBuilder_ModStorageComponent">
-              <Storage>
-                <dictionary>
-                  <item>
-                    <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
-                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjgm5Tj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjgm5Tj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
-                  </item>
-                </dictionary>
-              </Storage>
-            </Component>
-          </ComponentData>
-        </Components>
-      </ComponentContainer>
-      <GridSizeEnum>Large</GridSizeEnum>
-      <CubeBlocks>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
-          <SubtypeName>EntityCoverSatellite</SubtypeName>
-          <EntityId>123105897484553686</EntityId>
-          <Name>123105897484553686</Name>
-          <Owner>144115188075855897</Owner>
-          <BuiltBy>144115188075855895</BuiltBy>
-          <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>true</ShowInTerminal>
-          <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <ShowInInventory>true</ShowInInventory>
-          <NumberInGrid>1</NumberInGrid>
-          <Enabled>true</Enabled>
-          <CurrentStoredPower>3</CurrentStoredPower>
-          <ProducerEnabled>true</ProducerEnabled>
-          <MaxStoredPower>0</MaxStoredPower>
-          <SemiautoEnabled>false</SemiautoEnabled>
-          <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
-          <ChargeMode>0</ChargeMode>
-        </MyObjectBuilder_CubeBlock>
-      </CubeBlocks>
-      <IsStatic>true</IsStatic>
-      <IsUnsupportedStation>true</IsUnsupportedStation>
-      <DisplayName>#EntityCover</DisplayName>
-      <DestructibleBlocks>false</DestructibleBlocks>
-      <IsRespawnGrid>false</IsRespawnGrid>
-      <LocalCoordSys>12</LocalCoordSys>
-      <TargetingTargets />
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
-      <SubtypeName />
       <EntityId>100368098177292335</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>95066932544157656</Name>
@@ -110,7 +46,7 @@
                 <dictionary>
                   <item>
                     <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
-                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjgm5Tj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjgm5Tj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgig0ZXj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgig0ZXj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
                   </item>
                 </dictionary>
               </Storage>
@@ -150,6 +86,70 @@
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
       <SubtypeName />
+      <EntityId>120450100864697911</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <Name>107685946150256286</Name>
+      <PositionAndOrientation>
+        <Position x="-19208.915497757131" y="-598.38180551902735" z="154.83865429244457" />
+        <Forward x="0.976365864" y="-0.0566056333" z="0.208579853" />
+        <Up x="-0.05694963" y="-0.998367548" z="-0.004360687" />
+        <Orientation>
+          <X>0.7770833</X>
+          <Y>-0.020773368</Y>
+          <Z>-0.628749</Z>
+          <W>-0.01961383</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <LocalPositionAndOrientation xsi:nil="true" />
+      <ComponentContainer>
+        <Components>
+          <ComponentData>
+            <TypeId>MyModStorageComponent</TypeId>
+            <Component xsi:type="MyObjectBuilder_ModStorageComponent">
+              <Storage>
+                <dictionary>
+                  <item>
+                    <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgig0ZXj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgig0ZXj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                  </item>
+                </dictionary>
+              </Storage>
+            </Component>
+          </ComponentData>
+        </Components>
+      </ComponentContainer>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+          <SubtypeName>EntityCoverSatellite</SubtypeName>
+          <EntityId>123105897484553686</EntityId>
+          <Name>123105897484553686</Name>
+          <Owner>144115188075855897</Owner>
+          <BuiltBy>144115188075855895</BuiltBy>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <ShowInInventory>true</ShowInInventory>
+          <NumberInGrid>1</NumberInGrid>
+          <Enabled>true</Enabled>
+          <CurrentStoredPower>3</CurrentStoredPower>
+          <ProducerEnabled>true</ProducerEnabled>
+          <MaxStoredPower>0</MaxStoredPower>
+          <SemiautoEnabled>false</SemiautoEnabled>
+          <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+          <ChargeMode>0</ChargeMode>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <IsUnsupportedStation>true</IsUnsupportedStation>
+      <DisplayName>#EntityCover</DisplayName>
+      <DestructibleBlocks>false</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>12</LocalCoordSys>
+      <TargetingTargets />
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
       <EntityId>82053612844443031</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>82656839088622602</Name>
@@ -174,7 +174,7 @@
                 <dictionary>
                   <item>
                     <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
-                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjgm5Tj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjgm5Tj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgig0ZXj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgig0ZXj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
                   </item>
                 </dictionary>
               </Storage>
@@ -220,9 +220,9 @@
       <PositionAndOrientation>
         <Position x="-19162.124680826564" y="508.0203020204525" z="165.65376168005241" />
         <Forward x="0.976365864" y="-0.0566056445" z="0.208579853" />
-        <Up x="0.0589468926" y="0.9982485" z="-0.00502078747" />
+        <Up x="0.0589468926" y="0.9982485" z="-0.005020787" />
         <Orientation>
-          <X>-0.0245002043</X>
+          <X>-0.0245002024</X>
           <Y>-0.7769747</Y>
           <Z>-0.0165979844</Z>
           <W>0.6288359</W>
@@ -238,7 +238,7 @@
                 <dictionary>
                   <item>
                     <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
-                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjgm5Tj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjgm5Tj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgig0ZXj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgig0ZXj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
                   </item>
                 </dictionary>
               </Storage>
@@ -282,14 +282,14 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>106275631190478509</Name>
       <PositionAndOrientation>
-        <Position x="-5.3994532128174919" y="0.82419480946417223" z="37.704386521014172" />
-        <Forward x="0.9951533" y="0.06269493" z="-0.07575659" />
-        <Up x="0.06320188" y="-0.9979912" z="0.0043106433" />
+        <Position x="-4.2955776720846508" y="0.89545731781560023" z="38.089781776659315" />
+        <Forward x="0.997688651" y="0.06296264" z="-0.02553631" />
+        <Up x="0.06309962" y="-0.997995734" z="0.004593786" />
         <Orientation>
-          <X>-0.6795036</X>
-          <Y>-0.0199131276</Y>
-          <Z>0.7329874</Z>
-          <W>-0.0246524</W>
+          <X>-0.6977221</X>
+          <Y>-0.0203896165</Y>
+          <Z>0.7156691</Z>
+          <W>-0.0242060758</W>
         </Orientation>
       </PositionAndOrientation>
       <LocalPositionAndOrientation xsi:nil="true" />
@@ -355,7 +355,7 @@
       </Battery>
       <LightEnabled>false</LightEnabled>
       <UsingLadder xsi:nil="true" />
-      <HeadAngle x="-1.45223856" y="0" />
+      <HeadAngle x="-5.954275" y="0" />
       <LinearVelocity x="0" y="0" z="0" />
       <AutoenableJetpackDelay>0</AutoenableJetpackDelay>
       <JetpackEnabled>false</JetpackEnabled>
@@ -418,7 +418,7 @@
                   </item>
                   <item>
                     <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
-                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjgm5Tj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjgm5Tj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgig0ZXj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgig0ZXj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
                   </item>
                 </dictionary>
               </Storage>
@@ -3467,7 +3467,7 @@ Survive until the timer is up to win!</Text>
                 <dictionary>
                   <item>
                     <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
-                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjgm5Tj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjgm5Tj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgig0ZXj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgig0ZXj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
                   </item>
                 </dictionary>
               </Storage>
@@ -3589,7 +3589,7 @@ Survive until the timer is up to win!</Text>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <NumberInGrid>1</NumberInGrid>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
           <BroadcastRadius>50000</BroadcastRadius>
           <HudText />
         </MyObjectBuilder_CubeBlock>
