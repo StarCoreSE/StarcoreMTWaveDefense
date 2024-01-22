@@ -146,33 +146,9 @@
     <EnableTrashSettingsPlatformOverride>true</EnableTrashSettingsPlatformOverride>
   </Settings>
   <Mods>
-    <ModItem FriendlyName="StarCorePracticeAI">
-      <Name>3024311955.sbm</Name>
-      <PublishedFileId>3024311955</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="StarCoreMESAI">
-      <Name>StarCoreMESAI</Name>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Modular Encounters Systems">
-      <Name>1521905890.sbm</Name>
-      <PublishedFileId>1521905890</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="AE NPC Dummies - Interactable NPC Blocks v. 0.6">
-      <Name>2289675817.sbm</Name>
-      <PublishedFileId>2289675817</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="StarCore Skybox - Cool Superneptune">
-      <Name>3133652217.sbm</Name>
-      <PublishedFileId>3133652217</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="StarCoreLinkUtility">
-      <Name>2927550954.sbm</Name>
-      <PublishedFileId>2927550954</PublishedFileId>
+    <ModItem FriendlyName="sclitekoth">
+      <Name>2971952487.sbm</Name>
+      <PublishedFileId>2971952487</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="WeaponCore - 2.4">
@@ -210,9 +186,28 @@
       <PublishedFileId>3037494862</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="StarCorePracticeAI">
+      <Name>3024311955.sbm</Name>
+      <PublishedFileId>3024311955</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="StarCoreMESAI">
+      <Name>StarCoreMESAI</Name>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="StarCoreLinkUtility">
+      <Name>2927550954.sbm</Name>
+      <PublishedFileId>2927550954</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="StarCore Tournament Weapon Category">
       <Name>2785856511.sbm</Name>
       <PublishedFileId>2785856511</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="StarCore Skybox - ReflectiveIce">
+      <Name>2888276235.sbm</Name>
+      <PublishedFileId>2888276235</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Starcore Serpent Arms Heavy Metal">
@@ -390,6 +385,16 @@
       <PublishedFileId>2824332148</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="Modular Encounters Systems">
+      <Name>1521905890.sbm</Name>
+      <PublishedFileId>1521905890</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="ModAdjusterV2">
+      <Name>3017795356.sbm</Name>
+      <PublishedFileId>3017795356</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Military Industrial Complex">
       <Name>2902380862.sbm</Name>
       <PublishedFileId>2902380862</PublishedFileId>
@@ -443,11 +448,6 @@
     <ModItem FriendlyName="Control Module - basically key binding for ships">
       <Name>655948251.sbm</Name>
       <PublishedFileId>655948251</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Combat Zone Muzzmod">
-      <Name>2759080043.sbm</Name>
-      <PublishedFileId>2759080043</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Cast Spectator">
@@ -515,6 +515,11 @@
       <PublishedFileId>2880317963</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="AE NPC Dummies - Interactable NPC Blocks v. 0.6">
+      <Name>2289675817.sbm</Name>
+      <PublishedFileId>2289675817</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="[SpraysAddon]SyFy-Font">
       <Name>2414545923.sbm</Name>
       <PublishedFileId>2414545923</PublishedFileId>
@@ -552,5 +557,5 @@
     </ModItem>
   </Mods>
   <SessionName>StarCoreMTWaveDefense</SessionName>
-  <LastSaveTime>2024-01-20T16:48:01.0311026-06:00</LastSaveTime>
+  <LastSaveTime>2024-01-21T23:58:03.5839963-06:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>

@@ -1,5 +1,5 @@
-[04:54:53.766] [T1] [DS=False] DEBUG | Log Started
-[04:54:53.820] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
+[23:42:09.528] [T1] [DS=False] DEBUG | Log Started
+[23:42:09.592] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
 -> GroupName = UniqueNameHere
 ->-> Setting has 1 definitions:
 ->->-> Definition = (null)/(null)
@@ -2332,9 +2332,9 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_Thrust/HugeHydrogenThruster
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_Beacon/ZoneBlock
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_CargoContainer/Prizebox
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_BatteryBlock/EntityCover
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_BatteryBlock/EntityCover2

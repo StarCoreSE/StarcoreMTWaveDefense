@@ -146,6 +146,11 @@
     <EnableTrashSettingsPlatformOverride>true</EnableTrashSettingsPlatformOverride>
   </Settings>
   <Mods>
+    <ModItem FriendlyName="sclitekoth">
+      <Name>2971952487.sbm</Name>
+      <PublishedFileId>2971952487</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="WeaponCore - 2.4">
       <Name>1918681825.sbm</Name>
       <PublishedFileId>1918681825</PublishedFileId>
@@ -445,11 +450,6 @@
       <PublishedFileId>655948251</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Combat Zone Muzzmod">
-      <Name>2759080043.sbm</Name>
-      <PublishedFileId>2759080043</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="Cast Spectator">
       <Name>2968491433.sbm</Name>
       <PublishedFileId>2968491433</PublishedFileId>
@@ -557,5 +557,5 @@
     </ModItem>
   </Mods>
   <SessionName>StarCoreMTWaveDefense</SessionName>
-  <LastSaveTime>2024-01-21T04:39:05.5040124-06:00</LastSaveTime>
+  <LastSaveTime>2024-01-22T00:16:13.9429185-06:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>

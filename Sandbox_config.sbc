@@ -146,9 +146,9 @@
     <EnableTrashSettingsPlatformOverride>true</EnableTrashSettingsPlatformOverride>
   </Settings>
   <Mods>
-    <ModItem FriendlyName="StarCoreMESAI">
-      <Name>2890542787.sbm</Name>
-      <PublishedFileId>2890542787</PublishedFileId>
+    <ModItem FriendlyName="sclitekoth">
+      <Name>2971952487.sbm</Name>
+      <PublishedFileId>2971952487</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="WeaponCore - 2.4">
@@ -189,6 +189,10 @@
     <ModItem FriendlyName="StarCorePracticeAI">
       <Name>3024311955.sbm</Name>
       <PublishedFileId>3024311955</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="StarCoreMESAI">
+      <Name>StarCoreMESAI</Name>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="StarCoreLinkUtility">
@@ -446,11 +450,6 @@
       <PublishedFileId>655948251</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Combat Zone Muzzmod">
-      <Name>2759080043.sbm</Name>
-      <PublishedFileId>2759080043</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="Cast Spectator">
       <Name>2968491433.sbm</Name>
       <PublishedFileId>2968491433</PublishedFileId>
@@ -558,5 +557,5 @@
     </ModItem>
   </Mods>
   <SessionName>StarCoreMTWaveDefense</SessionName>
-  <LastSaveTime>2024-01-21T04:39:05.5040124-06:00</LastSaveTime>
+  <LastSaveTime>2024-01-22T00:16:20.8930664-06:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
