@@ -33,9 +33,9 @@
       <GravityFalloff>7</GravityFalloff>
     </PlanetSettings>
     <GPSSettings>
-      <PlanetGPSMode>PERSISTENT</PlanetGPSMode>
+      <PlanetGPSMode>NONE</PlanetGPSMode>
       <MoonGPSMode>NONE</MoonGPSMode>
-      <AsteroidGPSMode>DISCOVERY</AsteroidGPSMode>
+      <AsteroidGPSMode>NONE</AsteroidGPSMode>
       <PlanetDiscoveryDistance>50000</PlanetDiscoveryDistance>
       <MoonDiscoveryDistance>50000</MoonDiscoveryDistance>
       <AsteroidDiscoveryDistance>5000</AsteroidDiscoveryDistance>
