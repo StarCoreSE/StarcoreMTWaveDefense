@@ -6,7 +6,7 @@
   <SpectatorPosition>
     <Position x="-8.9517478335493212" y="0.78545220251601289" z="42.592965379623422" />
     <Forward x="-0.657270849" y="-0.5711045" z="-0.49176687" />
-    <Up x="-0.406561047" y="0.8181071" z="-0.406704843" />
+    <Up x="-0.406561077" y="0.8181071" z="-0.406704873" />
     <Orientation>
       <X>-0.284918845</X>
       <Y>0.415857941</Y>
@@ -59,7 +59,7 @@
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
     <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>32</MaxPlayers>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>56</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
     <MaxBackupSaves>0</MaxBackupSaves>
@@ -131,7 +131,7 @@
     <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
     <EnableTurretsFriendlyFire>false</EnableTurretsFriendlyFire>
     <EnableSubgridDamage>false</EnableSubgridDamage>
-    <SyncDistance>25000</SyncDistance>
+    <SyncDistance>20000</SyncDistance>
     <ExperimentalMode>true</ExperimentalMode>
     <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
     <EnableVoxelHand>true</EnableVoxelHand>
@@ -834,24 +834,29 @@ ReplacePaintSurvival=False
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
-    <ModItem FriendlyName="StarCoreMESAI">
-      <Name>2890542787.sbm</Name>
-      <PublishedFileId>2890542787</PublishedFileId>
+    <ModItem FriendlyName="WeaponCore-StarCore">
+      <Name>3149625043.sbm</Name>
+      <PublishedFileId>3149625043</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="sclitekoth">
-      <Name>2971952487.sbm</Name>
-      <PublishedFileId>2971952487</PublishedFileId>
+    <ModItem FriendlyName="DefenseShields-StarCore">
+      <Name>3149619582.sbm</Name>
+      <PublishedFileId>3149619582</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="WeaponCore - 2.4">
-      <Name>1918681825.sbm</Name>
-      <PublishedFileId>1918681825</PublishedFileId>
+    <ModItem FriendlyName="Starcore-One-Shot-2024">
+      <Name>3149645583.sbm</Name>
+      <PublishedFileId>3149645583</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="WC Radar">
-      <Name>2957590632.sbm</Name>
-      <PublishedFileId>2957590632</PublishedFileId>
+    <ModItem FriendlyName="REEECore-2024">
+      <Name>3149648890.sbm</Name>
+      <PublishedFileId>3149648890</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Heavy-Assault-Systems-2024">
+      <Name>3149644542.sbm</Name>
+      <PublishedFileId>3149644542</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Upgradable Reactors">
@@ -884,6 +889,11 @@ ReplacePaintSurvival=False
       <PublishedFileId>3024311955</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="StarCoreMESAI">
+      <Name>2890542787.sbm</Name>
+      <PublishedFileId>2890542787</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="StarCoreLinkUtility">
       <Name>2927550954.sbm</Name>
       <PublishedFileId>2927550954</PublishedFileId>
@@ -909,11 +919,6 @@ ReplacePaintSurvival=False
       <PublishedFileId>2862022197</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Starcore REEECore">
-      <Name>2683126168.sbm</Name>
-      <PublishedFileId>2683126168</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="Starcore Reaction Control System">
       <Name>2973091771.sbm</Name>
       <PublishedFileId>2973091771</PublishedFileId>
@@ -922,11 +927,6 @@ ReplacePaintSurvival=False
     <ModItem FriendlyName="Starcore Paperdoll">
       <Name>2846569122.sbm</Name>
       <PublishedFileId>2846569122</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Starcore One-Shot">
-      <Name>2822027695.sbm</Name>
-      <PublishedFileId>2822027695</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Starcore MA weapons natebranch Supar Sekrit AutoMcDognut Bootleg">
@@ -1002,6 +1002,11 @@ ReplacePaintSurvival=False
     <ModItem FriendlyName="SCMobilityBlocks">
       <Name>3020885446.sbm</Name>
       <PublishedFileId>3020885446</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="sclitekoth">
+      <Name>2971952487.sbm</Name>
+      <PublishedFileId>2971952487</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="SCEntityCover">
@@ -1104,11 +1109,6 @@ ReplacePaintSurvival=False
       <PublishedFileId>2953725395</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Heavy Assault Systems">
-      <Name>2737684960.sbm</Name>
-      <PublishedFileId>2737684960</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="Font: Mono Color">
       <Name>2174915662.sbm</Name>
       <PublishedFileId>2174915662</PublishedFileId>
@@ -1127,11 +1127,6 @@ ReplacePaintSurvival=False
     <ModItem FriendlyName="Definition Extension API">
       <Name>2756894170.sbm</Name>
       <PublishedFileId>2756894170</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Defense Shields - v2.2(8)">
-      <Name>1365616918.sbm</Name>
-      <PublishedFileId>1365616918</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Control Module - basically key binding for ships">
@@ -1245,6 +1240,7 @@ ReplacePaintSurvival=False
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
   </Mods>
+  <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
@@ -1623,6 +1619,8 @@ ReplacePaintSurvival=False
       </item>
     </dictionary>
   </AllPlayersColors>
+  <ChatHistory />
+  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855896</long>
     <long>144115188075855897</long>
@@ -2187,4 +2185,7 @@ ReplacePaintSurvival=False
   </VicinityArmorModelsCache>
   <VicinityVoxelCache />
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
+  <RemoteAdminSettings>
+    <dictionary />
+  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>
