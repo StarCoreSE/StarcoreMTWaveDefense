@@ -1,5 +1,5 @@
-[23:49:40.639] [T1] [DS=False] DEBUG | Log Started
-[23:49:40.685] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
+[04:26:02.981] [T1] [DS=False] DEBUG | Log Started
+[04:26:03.095] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
 -> GroupName = UniqueNameHere
 ->-> Setting has 1 definitions:
 ->->-> Definition = (null)/(null)
@@ -1658,10 +1658,9 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/SC_Coil_Cannon
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ShipWelder/SELtdLargeNanobotBuildAndRepairSystem
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ShipWelder/SELtdSmallNanobotBuildAndRepairSystem
-->-> Definition added to restricted list
-->-> Setting added successfully
+->-> Unable to retrieve MyCubeBlockDefinition
 -> Setting = MyObjectBuilder_ConveyorSorter/AMP_SwordMelee
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/AMP_ShieldAmplifier
