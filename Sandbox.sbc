@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>32074720000</ElapsedGameTime>
+  <ElapsedGameTime>32169920000</ElapsedGameTime>
   <SessionName>StarCoreMTWaveDefense</SessionName>
   <SpectatorPosition>
-    <Position x="-8.9517478335493141" y="0.78545220251601555" z="42.592965379623422" />
+    <Position x="-8.9517478335493124" y="0.78545220251602" z="42.592965379623429" />
     <Forward x="-0.657270849" y="-0.5711045" z="-0.49176687" />
-    <Up x="-0.406561077" y="0.8181071" z="-0.406704873" />
+    <Up x="-0.406561047" y="0.8181071" z="-0.406704843" />
     <Orientation>
       <X>-0.284918845</X>
       <Y>0.415857941</Y>
@@ -21,7 +21,7 @@
   <ControlledObject>106275631190478509</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2024-02-01T04:26:11.6086404-06:00</LastSaveTime>
+  <LastSaveTime>2024-03-03T23:32:40.8852069-06:00</LastSaveTime>
   <SpectatorDistance>3.04549623</SpectatorDistance>
   <WorkshopId xsi:nil="true" />
   <WorkshopId1 xsi:nil="true" />
@@ -59,7 +59,7 @@
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
     <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>32</MaxPlayers>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>56</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
     <MaxBackupSaves>0</MaxBackupSaves>
@@ -131,7 +131,7 @@
     <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
     <EnableTurretsFriendlyFire>false</EnableTurretsFriendlyFire>
     <EnableSubgridDamage>false</EnableSubgridDamage>
-    <SyncDistance>25000</SyncDistance>
+    <SyncDistance>20000</SyncDistance>
     <ExperimentalMode>true</ExperimentalMode>
     <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
     <EnableVoxelHand>true</EnableVoxelHand>
@@ -226,6 +226,7 @@ SiegeCooldownTimer=18000
 RequireAmmo=True
 PaintSpeedMultiplier=1
 ReplacePaintSurvival=False
+PaintUnfinishedBlocks=False
 </Value>
         </item>
         <item>
@@ -964,7 +965,7 @@ ReplacePaintSurvival=False
       <PublishedFileId>2902780249</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="StarCore Enabler Rewards">
+    <ModItem FriendlyName="[SpraysAddon]StarCore Enabler Rewards">
       <Name>2961654766.sbm</Name>
       <PublishedFileId>2961654766</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -999,7 +1000,7 @@ ReplacePaintSurvival=False
       <PublishedFileId>2414738008</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Ship Points - Sharetrack Starcore">
+    <ModItem FriendlyName="Starcore Sharetrack - Ship Points">
       <Name>2756825813.sbm</Name>
       <PublishedFileId>2756825813</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -1239,8 +1240,13 @@ ReplacePaintSurvival=False
       <PublishedFileId>2956906605</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="ModAdjusterV2">
+      <Name>3017795356.sbm</Name>
+      <PublishedFileId>3017795356</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+      <IsDependency>true</IsDependency>
+    </ModItem>
   </Mods>
-  <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
@@ -1249,7 +1255,7 @@ ReplacePaintSurvival=False
       <DisplayName>I HATE THE ANTICHRIST</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-02-01T04:26:00.5033692-06:00</LastLoginTime>
+      <LastLoginTime>2024-03-03T23:32:27.7633325-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2024-01-20T16:30:55.6322015-06:00</LastLogoutTime>
       <RespawnShips />
@@ -1262,7 +1268,7 @@ ReplacePaintSurvival=False
       <DisplayName>WHAT IS MY PURPOSE</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-02-01T04:26:00.5153673-06:00</LastLoginTime>
+      <LastLoginTime>2024-03-03T23:32:27.7653318-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2024-01-20T16:30:55.6452104-06:00</LastLogoutTime>
       <RespawnShips />
@@ -1275,7 +1281,7 @@ ReplacePaintSurvival=False
       <DisplayName>I HATE THE ANTICHRIST</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-02-01T04:26:00.5153673-06:00</LastLoginTime>
+      <LastLoginTime>2024-03-03T23:32:27.7653318-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2024-01-20T16:32:28.6072429-06:00</LastLogoutTime>
       <RespawnShips />
@@ -1288,7 +1294,7 @@ ReplacePaintSurvival=False
       <DisplayName>WHAT IS MY PURPOSE</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-02-01T04:26:00.5153673-06:00</LastLoginTime>
+      <LastLoginTime>2024-03-03T23:32:27.7653318-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2024-01-20T16:32:28.6072429-06:00</LastLogoutTime>
       <RespawnShips />
@@ -1301,7 +1307,7 @@ ReplacePaintSurvival=False
       <DisplayName>I HATE THE ANTICHRIST</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-02-01T04:26:00.5153673-06:00</LastLoginTime>
+      <LastLoginTime>2024-03-03T23:32:27.7653318-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2024-01-20T16:43:10.9804051-06:00</LastLogoutTime>
       <RespawnShips />
@@ -1314,7 +1320,7 @@ ReplacePaintSurvival=False
       <DisplayName>WHAT IS MY PURPOSE</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-02-01T04:26:00.5153673-06:00</LastLoginTime>
+      <LastLoginTime>2024-03-03T23:32:27.7653318-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2024-01-20T16:43:10.9804051-06:00</LastLogoutTime>
       <RespawnShips />
@@ -1329,11 +1335,11 @@ ReplacePaintSurvival=False
       <Model>Default_Astronaut</Model>
       <ColorMask x="0.0222222228" y="0" z="7.450581E-09" />
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-02-01T04:26:00.5363692-06:00</LastLoginTime>
+      <LastLoginTime>2024-03-03T23:32:27.7663312-06:00</LastLoginTime>
       <SavedCharacters>
         <long>106275631190478509</long>
       </SavedCharacters>
-      <LastLogoutTime>2024-02-01T04:26:11.6186414-06:00</LastLogoutTime>
+      <LastLogoutTime>2024-03-03T23:32:40.8852069-06:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1344,7 +1350,7 @@ ReplacePaintSurvival=False
       <DisplayName>Space Pirates</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-02-01T04:26:04.5881363-06:00</LastLoginTime>
+      <LastLoginTime>2024-03-03T23:32:29.915954-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
       <RespawnShips />
@@ -1357,7 +1363,7 @@ ReplacePaintSurvival=False
       <DisplayName>ADM NPC4313</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-02-01T04:26:00.5153673-06:00</LastLoginTime>
+      <LastLoginTime>2024-03-03T23:32:27.7653318-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2024-01-20T16:28:20.4604299-06:00</LastLogoutTime>
       <RespawnShips />
@@ -1370,7 +1376,7 @@ ReplacePaintSurvival=False
       <DisplayName>OUT NPC4592</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-02-01T04:26:00.5153673-06:00</LastLoginTime>
+      <LastLoginTime>2024-03-03T23:32:27.7653318-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2024-01-20T16:28:20.4604299-06:00</LastLogoutTime>
       <RespawnShips />
@@ -1383,7 +1389,7 @@ ReplacePaintSurvival=False
       <DisplayName>NEU NPC5252</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-02-01T04:26:00.5153673-06:00</LastLoginTime>
+      <LastLoginTime>2024-03-03T23:32:27.7653318-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2024-01-20T16:28:20.4604299-06:00</LastLogoutTime>
       <RespawnShips />
@@ -1396,7 +1402,7 @@ ReplacePaintSurvival=False
       <DisplayName>BLU NPC7436</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-02-01T04:26:00.5153673-06:00</LastLoginTime>
+      <LastLoginTime>2024-03-03T23:32:27.7653318-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2024-01-20T16:28:20.4604299-06:00</LastLogoutTime>
       <RespawnShips />
@@ -1409,7 +1415,7 @@ ReplacePaintSurvival=False
       <DisplayName>RED NPC7680</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-02-01T04:26:00.5153673-06:00</LastLoginTime>
+      <LastLoginTime>2024-03-03T23:32:27.7653318-06:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2024-01-20T16:28:20.4604299-06:00</LastLogoutTime>
       <RespawnShips />
@@ -1619,8 +1625,6 @@ ReplacePaintSurvival=False
       </item>
     </dictionary>
   </AllPlayersColors>
-  <ChatHistory />
-  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855896</long>
     <long>144115188075855897</long>
@@ -1840,7 +1844,7 @@ ReplacePaintSurvival=False
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
       <BaseSunDirection x="0.339467347" y="0.709795356" z="-0.617213368" />
-      <SunDirectionNormalized x="0.1277429" y="0.690573931" z="-0.7118914" />
+      <SunDirectionNormalized x="0.127098352" y="0.6904602" z="-0.7121171" />
       <WeatherPlanetData />
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentAssetModifiers" />
@@ -1905,7 +1909,7 @@ ReplacePaintSurvival=False
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AntennaSessionComponent" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
-      <TimeSinceLastEventInMs>111665</TimeSinceLastEventInMs>
+      <TimeSinceLastEventInMs>1550</TimeSinceLastEventInMs>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_TradingManager" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
@@ -2164,28 +2168,25 @@ ReplacePaintSurvival=False
     <string>Models\Characters\Astronaut\SE_astronaut.mwm</string>
     <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlateCorner2TipFront.mwm</string>
     <string>Models\Cubes\Large\Armor\SquarePlate.mwm</string>
-    <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlateSlope2Tip.mwm</string>
-    <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm</string>
-    <string>Models\Cubes\Large\Armor\SlopePlateSlope2Tip.mwm</string>
-    <string>Models\Cubes\Large\Armor\SquarePlateCenter.mwm</string>
-    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseLeft.mwm</string>
-    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseRight.mwm</string>
+    <string>Models\Cubes\Large\Armor\CornerTriangleRightPlateSlope2Tip.mwm</string>
     <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm</string>
-    <string>Models\Cubes\Large\Armor\SlopePlate.mwm</string>
-    <string>Models\Cubes\Large\Armor\HalfSlopedCornerBaseTop.mwm</string>
-    <string>Models\Cubes\Large\Armor\SlopePlateSlab.mwm</string>
-    <string>Models\Cubes\Large\Armor\HalfSlopeInvertedRight.mwm</string>
-    <string>Models\Cubes\Large\Armor\HalfCornerDiagonal.mwm</string>
-    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseTop.mwm</string>
-    <string>Models\Cubes\Large\Armor\HalfSlopeInvertedLeft.mwm</string>
     <string>Models\Cubes\Large\Armor\CornerTriangleRightPlate.mwm</string>
     <string>Models\Cubes\Large\Armor\SquarePlateSlope2TipBack.mwm</string>
+    <string>Models\Cubes\Large\Armor\SlopePlateSlab.mwm</string>
+    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseRight.mwm</string>
+    <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlateSlope2Tip.mwm</string>
+    <string>Models\Cubes\Large\Armor\HalfCornerDiagonal.mwm</string>
+    <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm</string>
+    <string>Models\Cubes\Large\Armor\HalfSlopedCornerBaseTop.mwm</string>
+    <string>Models\Cubes\Large\Armor\SquarePlateCenter.mwm</string>
+    <string>Models\Cubes\Large\Armor\SlopePlateSlope2Tip.mwm</string>
+    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseTop.mwm</string>
+    <string>Models\Cubes\Large\Armor\HalfSlopeInvertedRight.mwm</string>
+    <string>Models\Cubes\Large\Armor\HalfSlopeInvertedLeft.mwm</string>
+    <string>Models\Cubes\Large\Armor\SlopePlate.mwm</string>
+    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseLeft.mwm</string>
     <string>Models\Cubes\Large\Armor\HalfSlopeInvertedDiagonal.mwm</string>
-    <string>Models\Cubes\Large\Armor\CornerTriangleRightPlateSlope2Tip.mwm</string>
   </VicinityArmorModelsCache>
   <VicinityVoxelCache />
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
-  <RemoteAdminSettings>
-    <dictionary />
-  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>

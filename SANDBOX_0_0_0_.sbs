@@ -22,134 +22,6 @@
   <SectorObjects>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
       <SubtypeName />
-      <EntityId>100368098177292335</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <Name>95066932544157656</Name>
-      <PositionAndOrientation>
-        <Position x="-19471.310477403535" y="-20.646443367425647" z="855.62878900480393" />
-        <Forward x="0.976365864" y="-0.0566056371" z="0.208579823" />
-        <Up x="-0.20776464" y="0.01998845" z="0.9779746" />
-        <Orientation>
-          <X>-0.531286955</X>
-          <Y>0.5674717</Y>
-          <Z>0.455784976</Z>
-          <W>-0.433555216</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <LocalPositionAndOrientation xsi:nil="true" />
-      <ComponentContainer>
-        <Components>
-          <ComponentData>
-            <TypeId>MyModStorageComponent</TypeId>
-            <Component xsi:type="MyObjectBuilder_ModStorageComponent">
-              <Storage>
-                <dictionary>
-                  <item>
-                    <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
-                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgiAn6jj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgiAn6jj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
-                  </item>
-                </dictionary>
-              </Storage>
-            </Component>
-          </ComponentData>
-        </Components>
-      </ComponentContainer>
-      <GridSizeEnum>Large</GridSizeEnum>
-      <CubeBlocks>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
-          <SubtypeName>EntityCoverSatellite</SubtypeName>
-          <EntityId>135216034915307870</EntityId>
-          <Name>135216034915307870</Name>
-          <Owner>144115188075855897</Owner>
-          <BuiltBy>144115188075855895</BuiltBy>
-          <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>true</ShowInTerminal>
-          <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <ShowInInventory>true</ShowInInventory>
-          <NumberInGrid>1</NumberInGrid>
-          <Enabled>true</Enabled>
-          <CurrentStoredPower>3</CurrentStoredPower>
-          <ProducerEnabled>true</ProducerEnabled>
-          <MaxStoredPower>0</MaxStoredPower>
-          <SemiautoEnabled>false</SemiautoEnabled>
-          <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
-          <ChargeMode>0</ChargeMode>
-        </MyObjectBuilder_CubeBlock>
-      </CubeBlocks>
-      <IsStatic>true</IsStatic>
-      <IsUnsupportedStation>true</IsUnsupportedStation>
-      <DisplayName>#EntityCover</DisplayName>
-      <DestructibleBlocks>false</DestructibleBlocks>
-      <IsRespawnGrid>false</IsRespawnGrid>
-      <LocalCoordSys>9</LocalCoordSys>
-      <TargetingTargets />
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
-      <SubtypeName />
-      <EntityId>120450100864697911</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <Name>107685946150256286</Name>
-      <PositionAndOrientation>
-        <Position x="-19208.915497757131" y="-598.38180551902735" z="154.83865429244457" />
-        <Forward x="0.976365864" y="-0.0566056333" z="0.208579853" />
-        <Up x="-0.05694963" y="-0.998367548" z="-0.004360687" />
-        <Orientation>
-          <X>0.7770833</X>
-          <Y>-0.020773368</Y>
-          <Z>-0.628749</Z>
-          <W>-0.01961383</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <LocalPositionAndOrientation xsi:nil="true" />
-      <ComponentContainer>
-        <Components>
-          <ComponentData>
-            <TypeId>MyModStorageComponent</TypeId>
-            <Component xsi:type="MyObjectBuilder_ModStorageComponent">
-              <Storage>
-                <dictionary>
-                  <item>
-                    <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
-                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgiAn6jj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgiAn6jj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
-                  </item>
-                </dictionary>
-              </Storage>
-            </Component>
-          </ComponentData>
-        </Components>
-      </ComponentContainer>
-      <GridSizeEnum>Large</GridSizeEnum>
-      <CubeBlocks>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
-          <SubtypeName>EntityCoverSatellite</SubtypeName>
-          <EntityId>123105897484553686</EntityId>
-          <Name>123105897484553686</Name>
-          <Owner>144115188075855897</Owner>
-          <BuiltBy>144115188075855895</BuiltBy>
-          <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>true</ShowInTerminal>
-          <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <ShowInInventory>true</ShowInInventory>
-          <NumberInGrid>1</NumberInGrid>
-          <Enabled>true</Enabled>
-          <CurrentStoredPower>3</CurrentStoredPower>
-          <ProducerEnabled>true</ProducerEnabled>
-          <MaxStoredPower>0</MaxStoredPower>
-          <SemiautoEnabled>false</SemiautoEnabled>
-          <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
-          <ChargeMode>0</ChargeMode>
-        </MyObjectBuilder_CubeBlock>
-      </CubeBlocks>
-      <IsStatic>true</IsStatic>
-      <IsUnsupportedStation>true</IsUnsupportedStation>
-      <DisplayName>#EntityCover</DisplayName>
-      <DestructibleBlocks>false</DestructibleBlocks>
-      <IsRespawnGrid>false</IsRespawnGrid>
-      <LocalCoordSys>12</LocalCoordSys>
-      <TargetingTargets />
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
-      <SubtypeName />
       <EntityId>82053612844443031</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>82656839088622602</Name>
@@ -174,7 +46,7 @@
                 <dictionary>
                   <item>
                     <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
-                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgiAn6jj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgiAn6jj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjA46jj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjA46jj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
                   </item>
                 </dictionary>
               </Storage>
@@ -214,13 +86,77 @@
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
       <SubtypeName />
+      <EntityId>120450100864697911</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <Name>107685946150256286</Name>
+      <PositionAndOrientation>
+        <Position x="-19208.915497757131" y="-598.38180551902735" z="154.83865429244457" />
+        <Forward x="0.976365864" y="-0.0566056333" z="0.208579853" />
+        <Up x="-0.05694963" y="-0.998367548" z="-0.004360687" />
+        <Orientation>
+          <X>0.7770833</X>
+          <Y>-0.020773368</Y>
+          <Z>-0.628749</Z>
+          <W>-0.01961383</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <LocalPositionAndOrientation xsi:nil="true" />
+      <ComponentContainer>
+        <Components>
+          <ComponentData>
+            <TypeId>MyModStorageComponent</TypeId>
+            <Component xsi:type="MyObjectBuilder_ModStorageComponent">
+              <Storage>
+                <dictionary>
+                  <item>
+                    <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjA46jj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjA46jj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                  </item>
+                </dictionary>
+              </Storage>
+            </Component>
+          </ComponentData>
+        </Components>
+      </ComponentContainer>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+          <SubtypeName>EntityCoverSatellite</SubtypeName>
+          <EntityId>123105897484553686</EntityId>
+          <Name>123105897484553686</Name>
+          <Owner>144115188075855897</Owner>
+          <BuiltBy>144115188075855895</BuiltBy>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <ShowInInventory>true</ShowInInventory>
+          <NumberInGrid>1</NumberInGrid>
+          <Enabled>true</Enabled>
+          <CurrentStoredPower>3</CurrentStoredPower>
+          <ProducerEnabled>true</ProducerEnabled>
+          <MaxStoredPower>0</MaxStoredPower>
+          <SemiautoEnabled>false</SemiautoEnabled>
+          <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+          <ChargeMode>0</ChargeMode>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <IsUnsupportedStation>true</IsUnsupportedStation>
+      <DisplayName>#EntityCover</DisplayName>
+      <DestructibleBlocks>false</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>12</LocalCoordSys>
+      <TargetingTargets />
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
       <EntityId>125650504315046047</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>115161051855144852</Name>
       <PositionAndOrientation>
         <Position x="-19162.124680826564" y="508.0203020204525" z="165.65376168005241" />
         <Forward x="0.976365864" y="-0.0566056445" z="0.208579853" />
-        <Up x="0.0589468926" y="0.9982485" z="-0.005020786" />
+        <Up x="0.0589468926" y="0.9982485" z="-0.00502078561" />
         <Orientation>
           <X>-0.0245002024</X>
           <Y>-0.7769747</Y>
@@ -238,7 +174,7 @@
                 <dictionary>
                   <item>
                     <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
-                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgiAn6jj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgiAn6jj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjA46jj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjA46jj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
                   </item>
                 </dictionary>
               </Storage>
@@ -278,6 +214,182 @@
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
       <SubtypeName />
+      <EntityId>100368098177292335</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <Name>95066932544157656</Name>
+      <PositionAndOrientation>
+        <Position x="-19471.310477403535" y="-20.646443367425647" z="855.62878900480393" />
+        <Forward x="0.976365864" y="-0.0566056371" z="0.208579823" />
+        <Up x="-0.20776464" y="0.01998845" z="0.9779746" />
+        <Orientation>
+          <X>-0.531286955</X>
+          <Y>0.5674717</Y>
+          <Z>0.455784976</Z>
+          <W>-0.433555216</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <LocalPositionAndOrientation xsi:nil="true" />
+      <ComponentContainer>
+        <Components>
+          <ComponentData>
+            <TypeId>MyModStorageComponent</TypeId>
+            <Component xsi:type="MyObjectBuilder_ModStorageComponent">
+              <Storage>
+                <dictionary>
+                  <item>
+                    <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjA46jj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjA46jj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                  </item>
+                </dictionary>
+              </Storage>
+            </Component>
+          </ComponentData>
+        </Components>
+      </ComponentContainer>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+          <SubtypeName>EntityCoverSatellite</SubtypeName>
+          <EntityId>135216034915307870</EntityId>
+          <Name>135216034915307870</Name>
+          <Owner>144115188075855897</Owner>
+          <BuiltBy>144115188075855895</BuiltBy>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <ShowInInventory>true</ShowInInventory>
+          <NumberInGrid>1</NumberInGrid>
+          <Enabled>true</Enabled>
+          <CurrentStoredPower>3</CurrentStoredPower>
+          <ProducerEnabled>true</ProducerEnabled>
+          <MaxStoredPower>0</MaxStoredPower>
+          <SemiautoEnabled>false</SemiautoEnabled>
+          <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+          <ChargeMode>0</ChargeMode>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <IsUnsupportedStation>true</IsUnsupportedStation>
+      <DisplayName>#EntityCover</DisplayName>
+      <DestructibleBlocks>false</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>9</LocalCoordSys>
+      <TargetingTargets />
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Character">
+      <SubtypeName>Default_Astronaut</SubtypeName>
+      <EntityId>106275631190478509</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <Name>106275631190478509</Name>
+      <PositionAndOrientation>
+        <Position x="-4.5691344411857635" y="0.87756728832261277" z="37.947596314475163" />
+        <Forward x="0.997947156" y="0.06330597" z="0.009692614" />
+        <Up x="0.0632683858" y="-0.997988045" z="0.004136309" />
+        <Orientation>
+          <X>0.710213959</X>
+          <Y>0.02103373</Y>
+          <Z>-0.703271</Z>
+          <W>0.023740124</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <LocalPositionAndOrientation xsi:nil="true" />
+      <ComponentContainer>
+        <Components>
+          <ComponentData>
+            <TypeId>MyEntityStatComponent</TypeId>
+            <Component xsi:type="MyObjectBuilder_CharacterStatComponent">
+              <Stats>
+                <MyObjectBuilder_EntityStat>
+                  <SubtypeName>SpaceCharacterHealth</SubtypeName>
+                  <Value>1</Value>
+                  <MaxValue>1</MaxValue>
+                  <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+                  <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+                </MyObjectBuilder_EntityStat>
+              </Stats>
+              <ScriptNames>
+                <string>SpaceStatEffect</string>
+              </ScriptNames>
+            </Component>
+          </ComponentData>
+          <ComponentData>
+            <TypeId>MyAssetModifierComponent</TypeId>
+            <Component xsi:type="MyObjectBuilder_AssetModifierComponent">
+              <AssetModifiers>
+                <AssetModifier Type="MyObjectBuilder_AssetModifierDefinition" Subtype="VeteranMarkII_Helmet" />
+                <AssetModifier Type="MyObjectBuilder_AssetModifierDefinition" Subtype="Retro_Suit" />
+                <AssetModifier Type="MyObjectBuilder_AssetModifierDefinition" Subtype="Retro_Gloves" />
+                <AssetModifier Type="MyObjectBuilder_AssetModifierDefinition" Subtype="Retro_Boots" />
+              </AssetModifiers>
+            </Component>
+          </ComponentData>
+          <ComponentData>
+            <TypeId>MyInventoryBase</TypeId>
+            <Component xsi:type="MyObjectBuilder_Inventory">
+              <Items />
+              <nextItemId>0</nextItemId>
+              <Volume>0.4</Volume>
+              <Mass>9223372036854.775807</Mass>
+              <MaxItemCount>2147483647</MaxItemCount>
+              <Size xsi:nil="true" />
+              <InventoryFlags />
+              <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+            </Component>
+          </ComponentData>
+        </Components>
+      </ComponentContainer>
+      <CharacterModel>Default_Astronaut</CharacterModel>
+      <Inventory>
+        <Items />
+        <nextItemId>0</nextItemId>
+        <Volume>0.4</Volume>
+        <Mass>9223372036854.775807</Mass>
+        <MaxItemCount>2147483647</MaxItemCount>
+        <Size xsi:nil="true" />
+        <InventoryFlags />
+        <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+      </Inventory>
+      <Battery>
+        <CurrentCapacity>1E-05</CurrentCapacity>
+        <RegenEffects />
+      </Battery>
+      <LightEnabled>false</LightEnabled>
+      <UsingLadder xsi:nil="true" />
+      <HeadAngle x="0.43567884" y="0" />
+      <LinearVelocity x="0" y="0" z="0" />
+      <AutoenableJetpackDelay>0</AutoenableJetpackDelay>
+      <JetpackEnabled>false</JetpackEnabled>
+      <ColorMaskHSV x="0.0222222228" y="0" z="7.450581E-09" />
+      <LootingCounter>0</LootingCounter>
+      <DisplayName>Invalid</DisplayName>
+      <IsInFirstPersonView>true</IsInFirstPersonView>
+      <EnableBroadcasting>true</EnableBroadcasting>
+      <OxygenLevel>1</OxygenLevel>
+      <EnvironmentOxygenLevel>0</EnvironmentOxygenLevel>
+      <StoredGases>
+        <StoredGas>
+          <Id Type="MyObjectBuilder_GasProperties" Subtype="Hydrogen" />
+          <FillLevel>1</FillLevel>
+        </StoredGas>
+        <StoredGas>
+          <Id Type="MyObjectBuilder_GasProperties" Subtype="Oxygen" />
+          <FillLevel>1</FillLevel>
+        </StoredGas>
+      </StoredGases>
+      <EnabledComponents>
+        <string>RagdollComponent</string>
+        <string>InventorySpawnComponent</string>
+      </EnabledComponents>
+      <NeedsOxygenFromSuit>false</NeedsOxygenFromSuit>
+      <OwningPlayerIdentityId>144115188075855895</OwningPlayerIdentityId>
+      <IsPersistenceCharacter>true</IsPersistenceCharacter>
+      <IsStartingCharacterForLobby>false</IsStartingCharacterForLobby>
+      <RelativeDampeningEntity>0</RelativeDampeningEntity>
+      <UsingLadderInfo xsi:nil="true" />
+      <EnableBroadcastingPlayerToggle>true</EnableBroadcastingPlayerToggle>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
       <EntityId>109683251314162912</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>109683251314162912</Name>
@@ -302,7 +414,7 @@
                 <dictionary>
                   <item>
                     <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
-                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgiAn6jj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgiAn6jj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjA46jj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjA46jj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
                   </item>
                 </dictionary>
               </Storage>
@@ -467,7 +579,7 @@
                   </item>
                   <item>
                     <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
-                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgiAn6jj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgiAn6jj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjA46jj8ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjA46jj8ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
                   </item>
                 </dictionary>
               </Storage>
@@ -3492,118 +3604,6 @@ Survive until the timer is up to win!</Text>
       <IsRespawnGrid>false</IsRespawnGrid>
       <LocalCoordSys>5</LocalCoordSys>
       <TargetingTargets />
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Character">
-      <SubtypeName>Default_Astronaut</SubtypeName>
-      <EntityId>106275631190478509</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <Name>106275631190478509</Name>
-      <PositionAndOrientation>
-        <Position x="-3.3695163643604351" y="0.9533154118302809" z="37.912404051631718" />
-        <Forward x="0.9978595" y="0.06310117" z="-0.0171458367" />
-        <Up x="0.06318316" y="-0.997992039" z="0.00428209826" />
-        <Orientation>
-          <X>-0.700715</X>
-          <Y>-0.020631399</Y>
-          <Z>0.7127376</Z>
-          <W>-0.0240409113</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <LocalPositionAndOrientation xsi:nil="true" />
-      <ComponentContainer>
-        <Components>
-          <ComponentData>
-            <TypeId>MyEntityStatComponent</TypeId>
-            <Component xsi:type="MyObjectBuilder_CharacterStatComponent">
-              <Stats>
-                <MyObjectBuilder_EntityStat>
-                  <SubtypeName>SpaceCharacterHealth</SubtypeName>
-                  <Value>1</Value>
-                  <MaxValue>1</MaxValue>
-                  <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
-                  <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
-                </MyObjectBuilder_EntityStat>
-              </Stats>
-              <ScriptNames>
-                <string>SpaceStatEffect</string>
-              </ScriptNames>
-            </Component>
-          </ComponentData>
-          <ComponentData>
-            <TypeId>MyAssetModifierComponent</TypeId>
-            <Component xsi:type="MyObjectBuilder_AssetModifierComponent">
-              <AssetModifiers>
-                <AssetModifier Type="MyObjectBuilder_AssetModifierDefinition" Subtype="VeteranMarkII_Helmet" />
-                <AssetModifier Type="MyObjectBuilder_AssetModifierDefinition" Subtype="Retro_Suit" />
-                <AssetModifier Type="MyObjectBuilder_AssetModifierDefinition" Subtype="Retro_Gloves" />
-                <AssetModifier Type="MyObjectBuilder_AssetModifierDefinition" Subtype="Retro_Boots" />
-              </AssetModifiers>
-            </Component>
-          </ComponentData>
-          <ComponentData>
-            <TypeId>MyInventoryBase</TypeId>
-            <Component xsi:type="MyObjectBuilder_Inventory">
-              <Items />
-              <nextItemId>0</nextItemId>
-              <Volume>0.4</Volume>
-              <Mass>9223372036854.775807</Mass>
-              <MaxItemCount>2147483647</MaxItemCount>
-              <Size xsi:nil="true" />
-              <InventoryFlags />
-              <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
-            </Component>
-          </ComponentData>
-        </Components>
-      </ComponentContainer>
-      <CharacterModel>Default_Astronaut</CharacterModel>
-      <Inventory>
-        <Items />
-        <nextItemId>0</nextItemId>
-        <Volume>0.4</Volume>
-        <Mass>9223372036854.775807</Mass>
-        <MaxItemCount>2147483647</MaxItemCount>
-        <Size xsi:nil="true" />
-        <InventoryFlags />
-        <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
-      </Inventory>
-      <Battery>
-        <CurrentCapacity>1E-05</CurrentCapacity>
-        <RegenEffects />
-      </Battery>
-      <LightEnabled>false</LightEnabled>
-      <UsingLadder xsi:nil="true" />
-      <HeadAngle x="0" y="0" />
-      <LinearVelocity x="0" y="0" z="0" />
-      <AutoenableJetpackDelay>0</AutoenableJetpackDelay>
-      <JetpackEnabled>false</JetpackEnabled>
-      <ColorMaskHSV x="0.0222222228" y="0" z="7.450581E-09" />
-      <LootingCounter>0</LootingCounter>
-      <DisplayName>Invalid</DisplayName>
-      <IsInFirstPersonView>true</IsInFirstPersonView>
-      <EnableBroadcasting>true</EnableBroadcasting>
-      <OxygenLevel>1</OxygenLevel>
-      <EnvironmentOxygenLevel>0</EnvironmentOxygenLevel>
-      <StoredGases>
-        <StoredGas>
-          <Id Type="MyObjectBuilder_GasProperties" Subtype="Hydrogen" />
-          <FillLevel>1</FillLevel>
-        </StoredGas>
-        <StoredGas>
-          <Id Type="MyObjectBuilder_GasProperties" Subtype="Oxygen" />
-          <FillLevel>1</FillLevel>
-        </StoredGas>
-      </StoredGases>
-      <EnabledComponents>
-        <string>RagdollComponent</string>
-        <string>InventorySpawnComponent</string>
-      </EnabledComponents>
-      <NeedsOxygenFromSuit>false</NeedsOxygenFromSuit>
-      <OwningPlayerIdentityId>144115188075855895</OwningPlayerIdentityId>
-      <IsPersistenceCharacter>true</IsPersistenceCharacter>
-      <IsStartingCharacterForLobby>false</IsStartingCharacterForLobby>
-      <RelativeDampeningEntity>0</RelativeDampeningEntity>
-      <UsingLadderInfo xsi:nil="true" />
-      <EnableBroadcastingPlayerToggle>true</EnableBroadcastingPlayerToggle>
     </MyObjectBuilder_EntityBase>
   </SectorObjects>
 </MyObjectBuilder_Sector>

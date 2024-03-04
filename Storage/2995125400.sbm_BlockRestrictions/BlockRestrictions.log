@@ -1,5 +1,5 @@
-[03:12:42.947] [T1] [DS=False] DEBUG | Log Started
-[03:12:43.080] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
+[23:32:28.539] [T1] [DS=False] DEBUG | Log Started
+[23:32:28.615] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
 -> GroupName = UniqueNameHere
 ->-> Setting has 1 definitions:
 ->->-> Definition = (null)/(null)
@@ -2356,9 +2356,9 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_Thrust/HugeHydrogenThruster
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_Beacon/ZoneBlock
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_CargoContainer/Prizebox
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_BatteryBlock/EntityCover
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_BatteryBlock/EntityCover2
@@ -2463,145 +2463,190 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_TerminalBlock/LargeBlockLargeContainer
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_Beacon/DisposableNpcBeaconLarge
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Beacon/DisposableNpcBeaconSmall
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_ConveyorSorter/ProprietaryLargeBlockConveyorSorter
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Gyro/ProprietaryLargeBlockGyro
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Atmo-LargeGrid-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Atmo-LargeGrid-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Atmo-SmallGrid-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Atmo-SmallGrid-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Hydro-LargeGrid-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Hydro-LargeGrid-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Hydro-SmallGrid-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Hydro-SmallGrid-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Ion-SmallGrid-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Ion-SmallGrid-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Ion-LargeGrid-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Ion-LargeGrid-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-IonSciFi-SmallGrid-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-IonSciFi-SmallGrid-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-IonSciFi-LargeGrid-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-IonSciFi-LargeGrid-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-AtmoSciFi-LargeGrid-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-AtmoSciFi-LargeGrid-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-AtmoSciFi-SmallGrid-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-AtmoSciFi-SmallGrid-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_RadioAntenna/MES-Suppressor-Nanobots-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_RadioAntenna/MES-Suppressor-JumpDrive-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_RadioAntenna/MES-Suppressor-Drill-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Reactor/ProprietarySmallBlockSmallGenerator
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Reactor/ProprietarySmallBlockLargeGenerator
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Reactor/ProprietaryLargeBlockSmallGenerator
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Reactor/ProprietaryLargeBlockLargeGenerator
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_GravityGenerator/ProprietaryGravGen
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_GravityGeneratorSphere/ProprietaryGravGenSphere
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_VirtualMass/ProprietaryVirtualMassLarge
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_VirtualMass/ProprietaryVirtualMassSmall
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_SpaceBall/ProprietarySpaceBallLarge
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_SpaceBall/ProprietarySpaceBallSmall
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/ProprietarySmallBlockSmallThrust
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/ProprietarySmallBlockLargeThrust
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/ProprietaryLargeBlockSmallThrust
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/ProprietaryLargeBlockLargeThrust
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_LaserAntenna/ProprietaryLargeBlockLaserAntenna
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_LaserAntenna/ProprietarySmallBlockLaserAntenna
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_JumpDrive/ProprietaryLargeJumpDrive
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Definition added to restricted list
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Projector/MES-Blocks-ShipyardTerminal
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_ButtonPanel/MES-Blocks-SuitUpgradeStation
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_ButtonPanel/MES-Blocks-ResearchTerminal
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_BatteryBlock/MES-NPC-Battery-SmallGrid-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-IndustryHydro-LargeGrid-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-IndustryHydro-LargeGrid-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-IndustryHydro-SmallGrid-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-IndustryHydro-SmallGrid-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-WarfareIon-SmallGrid-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-WarfareIon-SmallGrid-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-WarfareIon-LargeGrid-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-WarfareIon-LargeGrid-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_RemoteControl/RivalAIRemoteControlLarge
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_RemoteControl/RivalAIRemoteControlSmall
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_RadioAntenna/MES-Suppressor-Energy-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_RadioAntenna/MES-Suppressor-Energy-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_RadioAntenna/MES-Suppressor-Player-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_RadioAntenna/MES-Suppressor-Player-Large
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_RadioAntenna/MES-Suppressor-Nanobots-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_RadioAntenna/MES-Suppressor-JumpDrive-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_RadioAntenna/MES-Suppressor-Drill-Small
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_InteriorTurret/NpcLargeInteriorTurret
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_TurretControlBlock/MES-NpcLargeTurretControlBlock
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_TurretControlBlock/MES-NpcSmallTurretControlBlock
-->-> Unable to retrieve MyCubeBlockDefinition
+->-> Setting added successfully
 -> Setting = MyObjectBuilder_TerminalBlock/PM_LG_BLASTPLATE_BLASTPLATE
 ->-> Setting added successfully
 -> Setting = MyObjectBuilder_Collector/SELtdLargeNanobotBuildAndRepairSystem
@@ -2643,8 +2688,110 @@ BeforeStart() - Checking Config for saved settings
 -> Setting = MyObjectBuilder_ConveyorSorter/MonoWhipSmall
 ->-> Definition added to restricted list
 ->-> Setting added successfully
+-> Setting = MyObjectBuilder_ConveyorSorter/HAS_Nyx
+->-> Setting added successfully
 
 BeforeStart() - Checking Entity Components
+-> Found EC: Subtype = BlockRestrictions_MES_Blocks
+->-> EC contains 48 settings
+->->-> Setting = MyObjectBuilder_Beacon/DisposableNpcBeaconLarge (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Beacon/DisposableNpcBeaconSmall (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_ConveyorSorter/ProprietaryLargeBlockConveyorSorter (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_ConveyorSorter/ProprietaryLargeBlockConveyor (ForceSetting = False)
+->->->-> Unable to retrieve MyCubeBlockDefinition
+->->-> Setting = MyObjectBuilder_ConveyorSorter/ProprietaryConveyorTube (ForceSetting = False)
+->->->-> Unable to retrieve MyCubeBlockDefinition
+->->-> Setting = MyObjectBuilder_ConveyorSorter/ProprietaryConveyorTubeCurved (ForceSetting = False)
+->->->-> Unable to retrieve MyCubeBlockDefinition
+->->-> Setting = MyObjectBuilder_Gyro/ProprietaryLargeBlockGyro (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Atmo-LargeGrid-Large (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Atmo-LargeGrid-Small (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Atmo-SmallGrid-Large (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Atmo-SmallGrid-Small (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Hydro-LargeGrid-Large (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Hydro-LargeGrid-Small (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Hydro-SmallGrid-Large (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Hydro-SmallGrid-Small (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Ion-SmallGrid-Small (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Ion-SmallGrid-Large (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Ion-LargeGrid-Small (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-Ion-LargeGrid-Large (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-IonSciFi-SmallGrid-Small (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-IonSciFi-SmallGrid-Large (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-IonSciFi-LargeGrid-Small (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-IonSciFi-LargeGrid-Large (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-AtmoSciFi-LargeGrid-Large (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-AtmoSciFi-LargeGrid-Small (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-AtmoSciFi-SmallGrid-Large (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/MES-NPC-Thrust-AtmoSciFi-SmallGrid-Small (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_RadioAntenna/MES-Suppressor-Nanobots-Large (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_RadioAntenna/MES-Suppressor-JumpDrive-Large (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_RadioAntenna/MES-Suppressor-Drill-Large (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Reactor/ProprietarySmallBlockSmallGenerator (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Reactor/ProprietarySmallBlockLargeGenerator (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Reactor/ProprietaryLargeBlockSmallGenerator (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Reactor/ProprietaryLargeBlockLargeGenerator (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_GravityGenerator/ProprietaryGravGen (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_GravityGeneratorSphere/ProprietaryGravGenSphere (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_VirtualMass/ProprietaryVirtualMassLarge (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_VirtualMass/ProprietaryVirtualMassSmall (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_SpaceBall/ProprietarySpaceBallLarge (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_SpaceBall/ProprietarySpaceBallSmall (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/ProprietarySmallBlockSmallThrust (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/ProprietarySmallBlockLargeThrust (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/ProprietaryLargeBlockSmallThrust (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_Thrust/ProprietaryLargeBlockLargeThrust (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_LaserAntenna/ProprietaryLargeBlockLaserAntenna (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_LaserAntenna/ProprietarySmallBlockLaserAntenna (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+->->-> Setting = MyObjectBuilder_JumpDrive/ProprietaryLargeJumpDrive (ForceSetting = False)
+->->->-> A setting already exists (skipping this default setting)
+
+
 
 Finished with settings
 
