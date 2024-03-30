@@ -59,7 +59,7 @@
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
     <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>32</MaxPlayers>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>56</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
     <MaxBackupSaves>0</MaxBackupSaves>
@@ -131,7 +131,7 @@
     <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
     <EnableTurretsFriendlyFire>false</EnableTurretsFriendlyFire>
     <EnableSubgridDamage>false</EnableSubgridDamage>
-    <SyncDistance>25000</SyncDistance>
+    <SyncDistance>20000</SyncDistance>
     <ExperimentalMode>true</ExperimentalMode>
     <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
     <EnableVoxelHand>true</EnableVoxelHand>
@@ -839,6 +839,11 @@ PaintUnfinishedBlocks=False
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
+    <ModItem FriendlyName="SC_RelativeTopSpeed_Logarithmic_Angular">
+      <Name>3206802244.sbm</Name>
+      <PublishedFileId>3206802244</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="SC_HitSounds">
       <Name>3173935498.sbm</Name>
       <PublishedFileId>3173935498</PublishedFileId>
@@ -1062,11 +1067,6 @@ PaintUnfinishedBlocks=False
     <ModItem FriendlyName="Rich HUD Master">
       <Name>1965654081.sbm</Name>
       <PublishedFileId>1965654081</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Relative Top Speed">
-      <Name>1359618037.sbm</Name>
-      <PublishedFileId>1359618037</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Paint Gun - realistic painting for survival + special creative features">
