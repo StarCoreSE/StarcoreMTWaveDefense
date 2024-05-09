@@ -146,6 +146,11 @@
     <EnableTrashSettingsPlatformOverride>true</EnableTrashSettingsPlatformOverride>
   </Settings>
   <Mods>
+    <ModItem FriendlyName="[Unfinished]MESAdvancedWaveSpawner">
+      <Name>3148873280.sbm</Name>
+      <PublishedFileId>3148873280</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="TyranidMESAI">
       <Name>TyranidMESAI</Name>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -574,5 +579,5 @@
     </ModItem>
   </Mods>
   <SessionName>StarCoreMTWaveDefense</SessionName>
-  <LastSaveTime>2024-05-08T23:16:03.8502173-04:00</LastSaveTime>
+  <LastSaveTime>2024-05-09T00:12:43.8414602-04:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
