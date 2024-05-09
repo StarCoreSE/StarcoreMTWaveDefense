@@ -146,13 +146,14 @@
     <EnableTrashSettingsPlatformOverride>true</EnableTrashSettingsPlatformOverride>
   </Settings>
   <Mods>
+    <ModItem FriendlyName="TyranidMESAI">
+      <Name>3242654004.sbm</Name>
+      <PublishedFileId>3242654004</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="[Unfinished]MESAdvancedWaveSpawner">
       <Name>3148873280.sbm</Name>
       <PublishedFileId>3148873280</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="TyranidMESAI">
-      <Name>TyranidMESAI</Name>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="StarCore Skybox - COLDGREENICE">
@@ -564,18 +565,6 @@
       <Name>2956906605.sbm</Name>
       <PublishedFileId>2956906605</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Tyranids: Hive-Fleet Grendel (WIP) (WEAPONCORE)">
-      <Name>3164709074.sbm</Name>
-      <PublishedFileId>3164709074</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="WeaponCore - 2.4">
-      <Name>3154371364.sbm</Name>
-      <PublishedFileId>3154371364</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
     </ModItem>
   </Mods>
   <SessionName>StarCoreMTWaveDefense</SessionName>
