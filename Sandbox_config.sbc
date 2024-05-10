@@ -7,7 +7,7 @@
     <AssemblerSpeedMultiplier>1</AssemblerSpeedMultiplier>
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
-    <OnlineMode>PUBLIC</OnlineMode>
+    <OnlineMode>OFFLINE</OnlineMode>
     <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>56</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
@@ -146,14 +146,9 @@
     <EnableTrashSettingsPlatformOverride>true</EnableTrashSettingsPlatformOverride>
   </Settings>
   <Mods>
-    <ModItem FriendlyName="TyranidMESAI">
-      <Name>3242654004.sbm</Name>
-      <PublishedFileId>3242654004</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="[Unfinished]MESAdvancedWaveSpawner">
-      <Name>3148873280.sbm</Name>
-      <PublishedFileId>3148873280</PublishedFileId>
+    <ModItem FriendlyName="WeaponCore-StarCore">
+      <Name>3149625043.sbm</Name>
+      <PublishedFileId>3149625043</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="StarCore Skybox - COLDGREENICE">
@@ -161,39 +156,9 @@
       <PublishedFileId>3206763981</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Shipyards Revival">
-      <Name>3013053286.sbm</Name>
-      <PublishedFileId>3013053286</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Tyranid Weaponry: Hive-Fleet Grendel (WIP) (WEAPONCORE)">
-      <Name>2906673718.sbm</Name>
-      <PublishedFileId>2906673718</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="SC_RelativeTopSpeed_Logarithmic_Angular">
-      <Name>3206802244.sbm</Name>
-      <PublishedFileId>3206802244</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="SC_HitSounds">
-      <Name>3173935498.sbm</Name>
-      <PublishedFileId>3173935498</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="DamageInfo">
-      <Name>3109350369.sbm</Name>
-      <PublishedFileId>3109350369</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="WC Radar">
       <Name>2957590632.sbm</Name>
       <PublishedFileId>2957590632</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="WeaponCore-StarCore">
-      <Name>3149625043.sbm</Name>
-      <PublishedFileId>3149625043</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="DefenseShields-StarCore">
@@ -334,11 +299,6 @@
     <ModItem FriendlyName="SpraysMod">
       <Name>2414738008.sbm</Name>
       <PublishedFileId>2414738008</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Starcore Sharetrack - Ship Points">
-      <Name>2756825813.sbm</Name>
-      <PublishedFileId>2756825813</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="SCThrusterFX">
@@ -568,5 +528,5 @@
     </ModItem>
   </Mods>
   <SessionName>StarCoreMTWaveDefense</SessionName>
-  <LastSaveTime>2024-05-09T21:55:43.9058656-04:00</LastSaveTime>
+  <LastSaveTime>2024-05-09T21:42:12.4593114-05:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
