@@ -7,8 +7,8 @@
     <AssemblerSpeedMultiplier>1</AssemblerSpeedMultiplier>
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
-    <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>32</MaxPlayers>
+    <OnlineMode>OFFLINE</OnlineMode>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>56</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
     <MaxBackupSaves>0</MaxBackupSaves>
@@ -146,6 +146,11 @@
     <EnableTrashSettingsPlatformOverride>true</EnableTrashSettingsPlatformOverride>
   </Settings>
   <Mods>
+    <ModItem FriendlyName="Starcore Sharetrack - Ship Points">
+      <Name>2756825813.sbm</Name>
+      <PublishedFileId>2756825813</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="TyranidMESAI">
       <Name>3242654004.sbm</Name>
       <PublishedFileId>3242654004</PublishedFileId>
@@ -261,11 +266,6 @@
       <PublishedFileId>2683126590</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Starcore Season 4 Pointslist">
-      <Name>2862022197.sbm</Name>
-      <PublishedFileId>2862022197</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="Starcore Reaction Control System">
       <Name>2973091771.sbm</Name>
       <PublishedFileId>2973091771</PublishedFileId>
@@ -334,11 +334,6 @@
     <ModItem FriendlyName="SpraysMod">
       <Name>2414738008.sbm</Name>
       <PublishedFileId>2414738008</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Starcore Sharetrack - Ship Points">
-      <Name>2756825813.sbm</Name>
-      <PublishedFileId>2756825813</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="SCThrusterFX">
@@ -566,7 +561,19 @@
       <PublishedFileId>2956906605</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="Tyranids: Hive-Fleet Grendel (WIP) (WEAPONCORE)">
+      <Name>3164709074.sbm</Name>
+      <PublishedFileId>3164709074</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+      <IsDependency>true</IsDependency>
+    </ModItem>
+    <ModItem FriendlyName="WeaponCore - 2.4">
+      <Name>3154371364.sbm</Name>
+      <PublishedFileId>3154371364</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+      <IsDependency>true</IsDependency>
+    </ModItem>
   </Mods>
   <SessionName>StarCoreMTWaveDefense</SessionName>
-  <LastSaveTime>2024-05-09T00:12:43.8414602-04:00</LastSaveTime>
+  <LastSaveTime>2024-05-11T00:28:37.7773023-04:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
