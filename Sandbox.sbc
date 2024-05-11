@@ -1,32 +1,33 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>184076960000</ElapsedGameTime>
+  <ElapsedGameTime>235697600000</ElapsedGameTime>
   <SessionName>StarCoreMTWaveDefense</SessionName>
   <SpectatorPosition>
-    <Position x="-504.9736763781479" y="318.40332651696411" z="-23.943150648672358" />
-    <Forward x="0.4607306" y="-0.228824973" z="0.857535064" />
-    <Up x="0.109106928" y="0.9734672" z="0.2011401" />
+    <Position x="245.97422888531133" y="101.49661619639924" z="410.9109666505517" />
+    <Forward x="-0.856420636" y="-0.09867224" z="-0.5067617" />
+    <Up x="-0.1042233" y="0.9944002" z="-0.0174849555" />
     <Orientation>
-      <X>0.0285472348</X>
-      <Y>0.96330297</Y>
-      <Z>0.111586154</Z>
-      <W>-0.2424479</W>
+      <X>-0.0334936939</X>
+      <Y>0.495476842</Y>
+      <Z>0.04096422</Z>
+      <W>0.867008</W>
     </Orientation>
   </SpectatorPosition>
-  <SpectatorSpeed x="8.649756" y="1" />
+  <SpectatorSpeed x="19.46195" y="1" />
   <SpectatorIsLightOn>false</SpectatorIsLightOn>
-  <CameraEntity>0</CameraEntity>
+  <CameraController>Entity</CameraController>
+  <CameraEntity>106275631190478509</CameraEntity>
   <ControlledObject>106275631190478509</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2024-05-09T20:55:43.9058656-05:00</LastSaveTime>
+  <LastSaveTime>2024-05-11T00:28:37.7773023-04:00</LastSaveTime>
   <SpectatorDistance>3.04549623</SpectatorDistance>
   <WorkshopId xsi:nil="true" />
   <WorkshopId1 xsi:nil="true" />
   <CharacterToolbar>
     <ToolbarType>Character</ToolbarType>
-    <SelectedSlot>0</SelectedSlot>
+    <SelectedSlot xsi:nil="true" />
     <Slots>
       <Slot>
         <Index>0</Index>
@@ -88,68 +89,11 @@
         <Index>8</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_AirtightSlideDoor" Subtype="LargeBlockSlideDoor" />
+          <DefinitionId Type="MyObjectBuilder_RemoteControl" Subtype="LargeBlockRemoteControl" />
         </Data>
       </Slot>
     </Slots>
-    <SlotsGamepad>
-      <Slot>
-        <Index>0</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="PhysicalPaintGun" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>1</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorBlock" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>2</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>3</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>4</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrust" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>5</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="DampeningEnhancer_x2_Large" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>6</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>8</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_AirtightSlideDoor" Subtype="LargeBlockSlideDoor" />
-        </Data>
-      </Slot>
-    </SlotsGamepad>
+    <SlotsGamepad />
   </CharacterToolbar>
   <ControlledEntities>
     <dictionary>
@@ -170,7 +114,7 @@
     <AssemblerSpeedMultiplier>1</AssemblerSpeedMultiplier>
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
-    <OnlineMode>PUBLIC</OnlineMode>
+    <OnlineMode>OFFLINE</OnlineMode>
     <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>56</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
@@ -1104,6 +1048,11 @@ PaintUnfinishedBlocks=False
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
+    <ModItem FriendlyName="Starcore Sharetrack - Ship Points">
+      <Name>2756825813.sbm</Name>
+      <PublishedFileId>2756825813</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="TyranidMESAI">
       <Name>3242654004.sbm</Name>
       <PublishedFileId>3242654004</PublishedFileId>
@@ -1514,8 +1463,19 @@ PaintUnfinishedBlocks=False
       <PublishedFileId>2956906605</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="Tyranids: Hive-Fleet Grendel (WIP) (WEAPONCORE)">
+      <Name>3164709074.sbm</Name>
+      <PublishedFileId>3164709074</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+      <IsDependency>true</IsDependency>
+    </ModItem>
+    <ModItem FriendlyName="WeaponCore - 2.4">
+      <Name>3154371364.sbm</Name>
+      <PublishedFileId>3154371364</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+      <IsDependency>true</IsDependency>
+    </ModItem>
   </Mods>
-  <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
@@ -1524,9 +1484,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>I HATE THE ANTICHRIST</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-09T16:28:29.4810529-05:00</LastLoginTime>
+      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T16:30:55.6322015-06:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T17:30:55.6322015-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1537,9 +1497,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>WHAT IS MY PURPOSE</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-09T16:28:29.4900616-05:00</LastLoginTime>
+      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T16:30:55.6452104-06:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T17:30:55.6452104-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1550,9 +1510,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>I HATE THE ANTICHRIST</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-09T16:28:29.4900616-05:00</LastLoginTime>
+      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T16:32:28.6072429-06:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T17:32:28.6072429-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1563,9 +1523,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>WHAT IS MY PURPOSE</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-09T16:28:29.4900616-05:00</LastLoginTime>
+      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T16:32:28.6072429-06:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T17:32:28.6072429-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1576,9 +1536,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>I HATE THE ANTICHRIST</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-09T16:28:29.4900616-05:00</LastLoginTime>
+      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T16:43:10.9804051-06:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T17:43:10.9804051-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1589,9 +1549,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>WHAT IS MY PURPOSE</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-09T16:28:29.4900616-05:00</LastLoginTime>
+      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T16:43:10.9804051-06:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T17:43:10.9804051-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1602,9 +1562,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>Undescribable Void</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-09T16:28:29.4900616-05:00</LastLoginTime>
+      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-05-08T22:12:45.1401634-05:00</LastLogoutTime>
+      <LastLogoutTime>2024-05-08T23:12:45.1401634-04:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1615,9 +1575,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>HIVEMIND</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-09T16:28:29.4900616-05:00</LastLoginTime>
+      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-05-08T22:47:01.6689875-05:00</LastLogoutTime>
+      <LastLogoutTime>2024-05-08T23:47:01.6689875-04:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1630,11 +1590,11 @@ PaintUnfinishedBlocks=False
       <Model>Default_Astronaut</Model>
       <ColorMask x="1" y="0.199999988" z="-0.450000018" />
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-09T16:28:29.5070772-05:00</LastLoginTime>
+      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
       <SavedCharacters>
         <long>106275631190478509</long>
       </SavedCharacters>
-      <LastLogoutTime>2024-05-09T20:55:43.9058656-05:00</LastLogoutTime>
+      <LastLogoutTime>2024-05-11T00:28:37.7773023-04:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1645,7 +1605,7 @@ PaintUnfinishedBlocks=False
       <DisplayName>Space Pirates</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-09T16:28:37.4941565-05:00</LastLoginTime>
+      <LastLoginTime>2024-05-11T00:27:36.0424977-04:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
       <RespawnShips />
@@ -1658,9 +1618,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>ADM NPC4313</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-09T16:28:29.4900616-05:00</LastLoginTime>
+      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T16:28:20.4604299-06:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T17:28:20.4604299-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1671,9 +1631,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>OUT NPC4592</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-09T16:28:29.4900616-05:00</LastLoginTime>
+      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T16:28:20.4604299-06:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T17:28:20.4604299-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1684,9 +1644,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>NEU NPC5252</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-09T16:28:29.4900616-05:00</LastLoginTime>
+      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T16:28:20.4604299-06:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T17:28:20.4604299-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1697,9 +1657,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>BLU NPC7436</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-09T16:28:29.4900616-05:00</LastLoginTime>
+      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T16:28:20.4604299-06:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T17:28:20.4604299-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1710,9 +1670,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>RED NPC7680</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-09T16:28:29.4900616-05:00</LastLoginTime>
+      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T16:28:20.4604299-06:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T17:28:20.4604299-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1797,7 +1757,7 @@ PaintUnfinishedBlocks=False
                 <Index>8</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_AirtightSlideDoor" Subtype="LargeBlockSlideDoor" />
+                  <DefinitionId Type="MyObjectBuilder_RemoteControl" Subtype="LargeBlockRemoteControl" />
                 </Data>
               </Slot>
             </Slots>
@@ -1805,41 +1765,6 @@ PaintUnfinishedBlocks=False
           </Toolbar>
           <EntityCameraData>
             <CameraControllerSettings EntityId="106275631190478509">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>3.0454962253570557</Distance>
-              <HeadAngle x="2.61407042" y="0" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="103015392758963815">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>3.0454962253570557</Distance>
-              <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="117227842934071307">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>3.0454962253570557</Distance>
-              <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="99161418045571689">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>3.0454962253570557</Distance>
-              <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="126826647620036846">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>3.0454962253570557</Distance>
-              <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="124087922477816009">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>3.0454962253570557</Distance>
-              <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="82692776056633554">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>3.0454962253570557</Distance>
-              <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="88294998245364519">
               <IsFirstPerson>true</IsFirstPerson>
               <Distance>3.0454962253570557</Distance>
               <HeadAngle x="0" y="0" />
@@ -1892,14 +1817,14 @@ PaintUnfinishedBlocks=False
               <Z>-0.000418417156</Z>
             </Vector3>
             <Vector3>
-              <X>0</X>
-              <Y>-0.7</Y>
-              <Z>-0.27</Z>
+              <X>0.0583333336</X>
+              <Y>-0.34</Y>
+              <Z>-0.43</Z>
             </Vector3>
             <Vector3>
-              <X>0.575</X>
-              <Y>0.15</Y>
-              <Z>0.2</Z>
+              <X>0</X>
+              <Y>0.199999988</Y>
+              <Z>-0.200189978</Z>
             </Vector3>
             <Vector3>
               <X>0.122222222</X>
@@ -1918,9 +1843,9 @@ PaintUnfinishedBlocks=False
             </Vector3>
           </BuildColorSlots>
           <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <RemoteAdminSettings>20</RemoteAdminSettings>
           <PromoteLevel>None</PromoteLevel>
-          <BuildArmorSkin>Weldless</BuildArmorSkin>
+          <BuildArmorSkin />
           <BuildColorSlot>9</BuildColorSlot>
           <IsWildlifeAgent>false</IsWildlifeAgent>
           <PlatformIcon></PlatformIcon>
@@ -2011,8 +1936,6 @@ PaintUnfinishedBlocks=False
       </item>
     </dictionary>
   </AllPlayersColors>
-  <ChatHistory />
-  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855896</long>
     <long>144115188075855897</long>
@@ -2234,7 +2157,7 @@ PaintUnfinishedBlocks=False
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
       <BaseSunDirection x="0.339467347" y="0.709795356" z="-0.617213368" />
-      <SunDirectionNormalized x="-0.774608254" y="0.163304329" z="-0.61099416" />
+      <SunDirectionNormalized x="-0.915702641" y="-0.101327322" z="-0.3888721" />
       <WeatherPlanetData />
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentAssetModifiers" />
@@ -64617,18 +64540,18 @@ PaintUnfinishedBlocks=False
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AntennaSessionComponent" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
-      <TimeSinceLastEventInMs>103566</TimeSinceLastEventInMs>
+      <TimeSinceLastEventInMs>80116</TimeSinceLastEventInMs>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_TradingManager" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
       <Definition Type="MyObjectBuilder_CoordinateSystemDefinition" Subtype="CoordinateSystem" />
-      <LastCoordSysId>45</LastCoordSysId>
+      <LastCoordSysId>47</LastCoordSysId>
       <CoordSystems>
         <CoordSysInfo>
-          <Id>5</Id>
+          <Id>46</Id>
           <EntityCount>1</EntityCount>
-          <Rotation x="-0.708317637" y="-0.0206720866" z="0.0240114741" w="0.705182433" />
-          <Position x="-3.8419992704636634" y="8.4421202017539443" z="39.348249626541282" />
+          <Rotation x="0.705297232" y="-0.0131189814" z="-0.0162896626" w="0.7086031" />
+          <Position x="1476.7481657221965" y="1.4198692095554417" z="39.867606142606427" />
         </CoordSysInfo>
         <CoordSysInfo>
           <Id>9</Id>
@@ -64653,24 +64576,6 @@ PaintUnfinishedBlocks=False
           <EntityCount>1</EntityCount>
           <Rotation x="0.7770833" y="-0.0207733661" z="-0.628749" w="-0.01961383" />
           <Position x="-19210.325375772649" y="-597.05356297866786" z="155.80587471805035" />
-        </CoordSysInfo>
-        <CoordSysInfo>
-          <Id>33</Id>
-          <EntityCount>1</EntityCount>
-          <Rotation x="-0.00272301654" y="-0.000470939354" z="-0.712076664" w="0.7020963" />
-          <Position x="-151.24483398634425" y="-180.80256065898772" z="569.24991546991077" />
-        </CoordSysInfo>
-        <CoordSysInfo>
-          <Id>41</Id>
-          <EntityCount>1</EntityCount>
-          <Rotation x="0.705463648" y="-0.0186872967" z="-0.0203132741" w="0.708208442" />
-          <Position x="-119.2214177152141" y="485.64446840684064" z="846.83795948911313" />
-        </CoordSysInfo>
-        <CoordSysInfo>
-          <Id>42</Id>
-          <EntityCount>1</EntityCount>
-          <Rotation x="-0.0017754318" y="-0.0009236969" z="-0.7321496" w="0.6811409" />
-          <Position x="-122.89273180983321" y="-81.235342354742585" z="712.37969600247493" />
         </CoordSysInfo>
       </CoordSystems>
     </MyObjectBuilder_SessionComponent>
@@ -64905,13 +64810,46 @@ PaintUnfinishedBlocks=False
   <SessionComponentDisabled />
   <InGameTime>2081-01-01T07:00:00</InGameTime>
   <CustomSkybox />
-  <VicinityModelsCache />
+  <VicinityModelsCache>
+    <string>Models\Cubes\Large\BatteryLarge.mwm</string>
+    <string>Models\Cubes\Large\GravityGenerator.mwm</string>
+    <string>C:\Program Files (x86)\Steam\steamapps\workshop\content\244850\2953252400\Models\MA_Laser2\MA_Interior_Light.mwm</string>
+    <string>C:\Program Files (x86)\Steam\steamapps\workshop\content\244850\2425204399\Models\Starcore Decal Logo Emissive 5x1x5.mwm</string>
+    <string>C:\Program Files (x86)\Steam\steamapps\workshop\content\244850\2425204399\Models\Starcore Decal Logo 1x1x1.mwm</string>
+    <string>Models\Cubes\Large\TextPanel.mwm</string>
+    <string>Models\Cubes\Large\SciFiButtonTerminal.mwm</string>
+    <string>Models\Cubes\Large\ArmorCorner.mwm</string>
+    <string>Models\Cubes\Large\AntennaDish.mwm</string>
+    <string>Models\Cubes\Large\ArmorSide.mwm</string>
+    <string>Models\Cubes\Large\MedicalRoom.mwm</string>
+    <string>Models\Cubes\Large\SlideDoor.mwm</string>
+    <string>C:\Program Files (x86)\Steam\steamapps\workshop\content\244850\2425204399\Models\StarCore skinable 5x5x1.mwm</string>
+    <string>Models\Cubes\Large\LCDPanel.mwm</string>
+    <string>Models\Cubes\Large\WarningSignEaster9.mwm</string>
+  </VicinityModelsCache>
   <VicinityArmorModelsCache>
     <string>Models\Characters\Astronaut\SE_astronaut.mwm</string>
+    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseFront.mwm</string>
+    <string>Models\Cubes\Large\Armor\HalfSlopedCornerBaseTop.mwm</string>
+    <string>Models\Cubes\Large\Armor\SquarePlate.mwm</string>
+    <string>Models\Cubes\Large\Armor\HalfSlopeInvertedDiagonal.mwm</string>
+    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseTop.mwm</string>
+    <string>Models\Cubes\Large\Armor\SquarePlateCenter.mwm</string>
+    <string>Models\Cubes\Large\Armor\SlopePlateSlope2Tip.mwm</string>
+    <string>Models\Cubes\Large\Armor\CornerTriangleRightPlate.mwm</string>
+    <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlateCorner2TipFront.mwm</string>
+    <string>Models\Cubes\Large\Armor\SlopePlateSlab.mwm</string>
+    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseRight.mwm</string>
+    <string>Models\Cubes\Large\Armor\SlopePlate.mwm</string>
+    <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlateSlope2Tip.mwm</string>
+    <string>Models\Cubes\Large\Armor\CornerTriangleRightPlateSlope2Tip.mwm</string>
+    <string>Models\Cubes\Large\Armor\SquarePlateSlope2BaseLeft.mwm</string>
+    <string>Models\Cubes\Large\Armor\SquarePlateSlope2TipBack.mwm</string>
+    <string>Models\Cubes\Large\Armor\HalfSlopeInvertedRight.mwm</string>
+    <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm</string>
+    <string>Models\Cubes\Large\Armor\HalfCornerDiagonal.mwm</string>
+    <string>Models\Cubes\Large\Armor\HalfSlopeInvertedLeft.mwm</string>
   </VicinityArmorModelsCache>
   <VicinityVoxelCache />
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
-  <RemoteAdminSettings>
-    <dictionary />
-  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>
