@@ -146,11 +146,6 @@
     <EnableTrashSettingsPlatformOverride>true</EnableTrashSettingsPlatformOverride>
   </Settings>
   <Mods>
-    <ModItem FriendlyName="MESSpawnerUI">
-      <Name>3242721372.sbm</Name>
-      <PublishedFileId>3242721372</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="Starcore Sharetrack - Ship Points">
       <Name>2756825813.sbm</Name>
       <PublishedFileId>2756825813</PublishedFileId>
