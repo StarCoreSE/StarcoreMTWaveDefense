@@ -21,7 +21,7 @@
   <ControlledObject>106275631190478509</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2024-05-11T00:28:37.7773023-04:00</LastSaveTime>
+  <LastSaveTime>2024-05-10T23:28:37.7773023-05:00</LastSaveTime>
   <SpectatorDistance>3.04549623</SpectatorDistance>
   <WorkshopId xsi:nil="true" />
   <WorkshopId1 xsi:nil="true" />
@@ -115,7 +115,7 @@
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
     <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>32</MaxPlayers>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>56</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
     <MaxBackupSaves>0</MaxBackupSaves>
@@ -187,7 +187,7 @@
     <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
     <EnableTurretsFriendlyFire>false</EnableTurretsFriendlyFire>
     <EnableSubgridDamage>false</EnableSubgridDamage>
-    <SyncDistance>25000</SyncDistance>
+    <SyncDistance>20000</SyncDistance>
     <ExperimentalMode>true</ExperimentalMode>
     <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
     <EnableVoxelHand>true</EnableVoxelHand>
@@ -1048,6 +1048,11 @@ PaintUnfinishedBlocks=False
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
+    <ModItem FriendlyName="MESSpawnerUI">
+      <Name>3242721372.sbm</Name>
+      <PublishedFileId>3242721372</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Starcore Sharetrack - Ship Points">
       <Name>2756825813.sbm</Name>
       <PublishedFileId>2756825813</PublishedFileId>
@@ -1463,18 +1468,6 @@ PaintUnfinishedBlocks=False
       <PublishedFileId>2956906605</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Tyranids: Hive-Fleet Grendel (WIP) (WEAPONCORE)">
-      <Name>3164709074.sbm</Name>
-      <PublishedFileId>3164709074</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="WeaponCore - 2.4">
-      <Name>3154371364.sbm</Name>
-      <PublishedFileId>3154371364</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
   </Mods>
   <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
@@ -1485,9 +1478,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>I HATE THE ANTICHRIST</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
+      <LastLoginTime>2024-05-10T23:27:33.947595-05:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T17:30:55.6322015-05:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T16:30:55.6322015-06:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1498,9 +1491,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>WHAT IS MY PURPOSE</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
+      <LastLoginTime>2024-05-10T23:27:33.947595-05:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T17:30:55.6452104-05:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T16:30:55.6452104-06:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1511,9 +1504,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>I HATE THE ANTICHRIST</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
+      <LastLoginTime>2024-05-10T23:27:33.947595-05:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T17:32:28.6072429-05:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T16:32:28.6072429-06:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1524,9 +1517,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>WHAT IS MY PURPOSE</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
+      <LastLoginTime>2024-05-10T23:27:33.947595-05:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T17:32:28.6072429-05:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T16:32:28.6072429-06:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1537,9 +1530,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>I HATE THE ANTICHRIST</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
+      <LastLoginTime>2024-05-10T23:27:33.947595-05:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T17:43:10.9804051-05:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T16:43:10.9804051-06:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1550,9 +1543,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>WHAT IS MY PURPOSE</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
+      <LastLoginTime>2024-05-10T23:27:33.947595-05:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T17:43:10.9804051-05:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T16:43:10.9804051-06:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1563,9 +1556,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>Undescribable Void</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
+      <LastLoginTime>2024-05-10T23:27:33.947595-05:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-05-08T23:12:45.1401634-04:00</LastLogoutTime>
+      <LastLogoutTime>2024-05-08T22:12:45.1401634-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1576,9 +1569,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>HIVEMIND</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
+      <LastLoginTime>2024-05-10T23:27:33.947595-05:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-05-08T23:47:01.6689875-04:00</LastLogoutTime>
+      <LastLogoutTime>2024-05-08T22:47:01.6689875-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1591,11 +1584,11 @@ PaintUnfinishedBlocks=False
       <Model>Default_Astronaut</Model>
       <ColorMask x="1" y="0.199999988" z="-0.450000018" />
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
+      <LastLoginTime>2024-05-10T23:27:33.947595-05:00</LastLoginTime>
       <SavedCharacters>
         <long>106275631190478509</long>
       </SavedCharacters>
-      <LastLogoutTime>2024-05-11T00:28:37.7773023-04:00</LastLogoutTime>
+      <LastLogoutTime>2024-05-10T23:28:37.7773023-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1606,7 +1599,7 @@ PaintUnfinishedBlocks=False
       <DisplayName>Space Pirates</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-11T00:27:36.0424977-04:00</LastLoginTime>
+      <LastLoginTime>2024-05-10T23:27:36.0424977-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
       <RespawnShips />
@@ -1619,9 +1612,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>ADM NPC4313</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
+      <LastLoginTime>2024-05-10T23:27:33.947595-05:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T17:28:20.4604299-05:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T16:28:20.4604299-06:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1632,9 +1625,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>OUT NPC4592</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
+      <LastLoginTime>2024-05-10T23:27:33.947595-05:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T17:28:20.4604299-05:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T16:28:20.4604299-06:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1645,9 +1638,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>NEU NPC5252</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
+      <LastLoginTime>2024-05-10T23:27:33.947595-05:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T17:28:20.4604299-05:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T16:28:20.4604299-06:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1658,9 +1651,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>BLU NPC7436</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
+      <LastLoginTime>2024-05-10T23:27:33.947595-05:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T17:28:20.4604299-05:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T16:28:20.4604299-06:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
@@ -1671,9 +1664,9 @@ PaintUnfinishedBlocks=False
       <DisplayName>RED NPC7680</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-05-11T00:27:33.947595-04:00</LastLoginTime>
+      <LastLoginTime>2024-05-10T23:27:33.947595-05:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2024-01-20T17:28:20.4604299-05:00</LastLogoutTime>
+      <LastLogoutTime>2024-01-20T16:28:20.4604299-06:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition xsi:nil="true" />
       <ActiveContracts />
