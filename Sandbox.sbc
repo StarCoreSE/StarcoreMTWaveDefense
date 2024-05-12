@@ -5,12 +5,12 @@
   <SessionName>StarCoreMTWaveDefense</SessionName>
   <SpectatorPosition>
     <Position x="1473.6755217353787" y="11.156028099446651" z="43.377567055797925" />
-    <Forward x="-0.5841076" y="-0.5723666" z="-0.575512648" />
-    <Up x="-0.4047123" y="0.8199904" z="-0.40475148" />
+    <Forward x="-0.5841076" y="-0.572366655" z="-0.5755126" />
+    <Up x="-0.404712319" y="0.819990337" z="-0.40475148" />
     <Orientation>
-      <X>-0.2775239</X>
+      <X>-0.277523935</X>
       <Y>0.3677284</Y>
-      <Z>0.113953084</Z>
+      <Z>0.1139531</Z>
       <W>0.880210757</W>
     </Orientation>
   </SpectatorPosition>
@@ -115,7 +115,7 @@
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
     <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>32</MaxPlayers>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>56</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
     <MaxBackupSaves>0</MaxBackupSaves>
@@ -187,7 +187,7 @@
     <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
     <EnableTurretsFriendlyFire>false</EnableTurretsFriendlyFire>
     <EnableSubgridDamage>false</EnableSubgridDamage>
-    <SyncDistance>25000</SyncDistance>
+    <SyncDistance>20000</SyncDistance>
     <ExperimentalMode>true</ExperimentalMode>
     <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
     <EnableVoxelHand>true</EnableVoxelHand>
@@ -1048,6 +1048,11 @@ PaintUnfinishedBlocks=False
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
+    <ModItem FriendlyName="Starcore Season 4 Pointslist">
+      <Name>2862022197.sbm</Name>
+      <PublishedFileId>2862022197</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Starcore Sharetrack - Ship Points">
       <Name>2756825813.sbm</Name>
       <PublishedFileId>2756825813</PublishedFileId>
@@ -1463,19 +1468,8 @@ PaintUnfinishedBlocks=False
       <PublishedFileId>2956906605</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Tyranids: Hive-Fleet Grendel (WIP) (WEAPONCORE)">
-      <Name>3164709074.sbm</Name>
-      <PublishedFileId>3164709074</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="WeaponCore - 2.4">
-      <Name>3154371364.sbm</Name>
-      <PublishedFileId>3154371364</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
   </Mods>
+  <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
@@ -1936,6 +1930,8 @@ PaintUnfinishedBlocks=False
       </item>
     </dictionary>
   </AllPlayersColors>
+  <ChatHistory />
+  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855896</long>
     <long>144115188075855897</long>
@@ -64828,4 +64824,7 @@ PaintUnfinishedBlocks=False
   </VicinityArmorModelsCache>
   <VicinityVoxelCache />
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
+  <RemoteAdminSettings>
+    <dictionary />
+  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>
