@@ -8,7 +8,7 @@
   <SectorEvents>
     <Events />
   </SectorEvents>
-  <AppVersion>1203630</AppVersion>
+  <AppVersion>1204015</AppVersion>
   <Environment>
     <SunAzimuth>-0.5028429</SunAzimuth>
     <SunElevation>0.7892078</SunElevation>
@@ -22,13 +22,79 @@
   <SectorObjects>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
       <SubtypeName />
+      <EntityId>108007323990070973</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <Name>108007323990070973</Name>
+      <PositionAndOrientation>
+        <Position x="-21259.703471342586" y="2324.996545786872" z="-1020.4846436749431" />
+        <Forward x="-0.325616449" y="0.732379" z="0.597992361" />
+        <Up x="-0.653265" y="0.282962382" z="-0.702265739" />
+        <Orientation>
+          <X>-0.3973336</X>
+          <Y>0.8007011</Y>
+          <Z>-0.447933942</Z>
+          <W>-0.01894712</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <LocalPositionAndOrientation xsi:nil="true" />
+      <ComponentContainer>
+        <Components>
+          <ComponentData>
+            <TypeId>MyModStorageComponentBase</TypeId>
+            <Component xsi:type="MyObjectBuilder_ModStorageComponent">
+              <Storage>
+                <dictionary>
+                  <item>
+                    <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCAiA7tSMGhADcgB4AIABAIgBAZABAJkBAAAAAAAAAACoAQCwAQC6ARsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAA8L/CARsJAAAAAAAAAAAhAAAAAAAA8D85AAAAAAAAAADKAQgIgO7UjBoQA9IBTggAEAAYACAAKAAwATgAQABIAFAAWABgAGgAcAB4AIABAIgBAJABAJgBAKABAKgBALABALgBAMABAMgBANABANgBAOABAOgBAPABAPgBANoBTggAEAAYACAAKAAwADgAQABIAFAAWABgAGgAcAB4AIABAIgBAJABAJgBAKABAKgBAbABAbgBAcABAcgBAdABANgBAOABAOgBAPABAPgBAOIBAIACAIoCAJICAJgCAKICBAgBEA8=</Value>
+                  </item>
+                </dictionary>
+              </Storage>
+            </Component>
+          </ComponentData>
+        </Components>
+      </ComponentContainer>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+          <SubtypeName>EntityCoverEveDerelict</SubtypeName>
+          <EntityId>108007323990070974</EntityId>
+          <Name>108007323990070974</Name>
+          <ColorMaskHSV x="0.0583333336" y="-0.34" z="-0.43" />
+          <Owner>144115188075855897</Owner>
+          <BuiltBy>144115188075855895</BuiltBy>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <ShowInInventory>true</ShowInInventory>
+          <NumberInGrid>1</NumberInGrid>
+          <Enabled>true</Enabled>
+          <CurrentStoredPower>3</CurrentStoredPower>
+          <ProducerEnabled>true</ProducerEnabled>
+          <MaxStoredPower>0</MaxStoredPower>
+          <SemiautoEnabled>false</SemiautoEnabled>
+          <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+          <ChargeMode>0</ChargeMode>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <IsUnsupportedStation>true</IsUnsupportedStation>
+      <DisplayName>#EntityCover</DisplayName>
+      <DestructibleBlocks>false</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+      <TargetingTargets />
+      <NPCGridClaimElapsed xsi:nil="true" />
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
       <EntityId>109246746467389218</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>109246746467389218</Name>
       <PositionAndOrientation>
         <Position x="-22265.017924467586" y="546.6644535017158" z="-529.0602357159587" />
-        <Forward x="0.0595281571" y="0.9981966" z="-0.00775539875" />
-        <Up x="-0.4216347" y="0.0321850777" z="0.906194568" />
+        <Forward x="0.05952815" y="0.9981965" z="-0.007755398" />
+        <Up x="-0.421634644" y="0.0321850739" z="0.906194448" />
         <Orientation>
           <X>0.682801068</X>
           <Y>-0.172930583</Y>
@@ -37,6 +103,23 @@
         </Orientation>
       </PositionAndOrientation>
       <LocalPositionAndOrientation xsi:nil="true" />
+      <ComponentContainer>
+        <Components>
+          <ComponentData>
+            <TypeId>MyModStorageComponentBase</TypeId>
+            <Component xsi:type="MyObjectBuilder_ModStorageComponent">
+              <Storage>
+                <dictionary>
+                  <item>
+                    <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCAiA7tSMGhADcgB4AIABAIgBAZABAJkBAAAAAAAAAACoAQCwAQC6ARsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAA8L/CARsJAAAAAAAAAAAhAAAAAAAA8D85AAAAAAAAAADKAQgIgO7UjBoQA9IBTggAEAAYACAAKAAwATgAQABIAFAAWABgAGgAcAB4AIABAIgBAJABAJgBAKABAKgBALABALgBAMABAMgBANABANgBAOABAOgBAPABAPgBANoBTggAEAAYACAAKAAwADgAQABIAFAAWABgAGgAcAB4AIABAIgBAJABAJgBAKABAKgBAbABAbgBAcABAcgBAdABANgBAOABAOgBAPABAPgBAOIBAIACAIoCAJICAJgCAKICBAgBEA8=</Value>
+                  </item>
+                </dictionary>
+              </Storage>
+            </Component>
+          </ComponentData>
+        </Components>
+      </ComponentContainer>
       <GridSizeEnum>Large</GridSizeEnum>
       <CubeBlocks>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
@@ -67,6 +150,7 @@
       <IsRespawnGrid>false</IsRespawnGrid>
       <LocalCoordSys>0</LocalCoordSys>
       <TargetingTargets />
+      <NPCGridClaimElapsed xsi:nil="true" />
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
       <SubtypeName />
@@ -94,7 +178,7 @@
                 <dictionary>
                   <item>
                     <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
-                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjAteT28ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjAteT28ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCAiA7tSMGhADcgB4AIABAIgBAZABAJkBAAAAAAAAAACoAQCwAQC6ARsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAA8L/CARsJAAAAAAAAAAAhAAAAAAAA8D85AAAAAAAAAADKAQgIgO7UjBoQA9IBTggAEAAYACAAKAAwATgAQABIAFAAWABgAGgAcAB4AIABAIgBAJABAJgBAKABAKgBALABALgBAMABAMgBANABANgBAOABAOgBAPABAPgBANoBTggAEAAYACAAKAAwADgAQABIAFAAWABgAGgAcAB4AIABAIgBAJABAJgBAKABAKgBAbABAbgBAcABAcgBAdABANgBAOABAOgBAPABAPgBAOIBAIACAIoCAJICAJgCAKICBAgBEA8=</Value>
                   </item>
                 </dictionary>
               </Storage>
@@ -131,6 +215,7 @@
       <IsRespawnGrid>false</IsRespawnGrid>
       <LocalCoordSys>0</LocalCoordSys>
       <TargetingTargets />
+      <NPCGridClaimElapsed xsi:nil="true" />
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Character">
       <SubtypeName>Default_Astronaut</SubtypeName>
@@ -138,14 +223,14 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>106275631190478509</Name>
       <PositionAndOrientation>
-        <Position x="1471.3206703733301" y="9.1559588358483328" z="41.1742667234307" />
-        <Forward x="-0.5592993" y="0.01938" z="-0.8287392" />
-        <Up x="0.0416058972" y="0.999123" z="-0.00471456256" />
+        <Position x="1472.4097391245637" y="9.1219760189548449" z="43.540717719672465" />
+        <Forward x="-0.755115569" y="0.0282213632" z="-0.654984" />
+        <Up x="0.0415632874" y="0.999124" z="-0.00486797653" />
         <Orientation>
-          <X>0.00383508229</X>
-          <Y>0.292601556</Y>
-          <Z>-0.0205864962</Z>
-          <W>0.956005156</W>
+          <X>0.006419662</X>
+          <Y>0.4152912</Y>
+          <Z>-0.0199193582</Z>
+          <W>0.9094477</W>
         </Orientation>
       </PositionAndOrientation>
       <LocalPositionAndOrientation xsi:nil="true" />
@@ -182,6 +267,7 @@
           <ComponentData>
             <TypeId>MyInventoryBase</TypeId>
             <Component xsi:type="MyObjectBuilder_Inventory">
+              <CanPutItems>true</CanPutItems>
               <Items />
               <nextItemId>0</nextItemId>
               <Volume>0.4</Volume>
@@ -196,6 +282,7 @@
       </ComponentContainer>
       <CharacterModel>Default_Astronaut</CharacterModel>
       <Inventory>
+        <CanPutItems>true</CanPutItems>
         <Items />
         <nextItemId>0</nextItemId>
         <Volume>0.4</Volume>
@@ -211,7 +298,7 @@
       </Battery>
       <LightEnabled>false</LightEnabled>
       <UsingLadder xsi:nil="true" />
-      <HeadAngle x="-5.056605" y="0" />
+      <HeadAngle x="-6.9528265" y="0" />
       <LinearVelocity x="0" y="0" z="0" />
       <AutoenableJetpackDelay>0</AutoenableJetpackDelay>
       <JetpackEnabled>false</JetpackEnabled>
@@ -274,7 +361,7 @@
                   </item>
                   <item>
                     <Key>29ffd684-13d7-4045-bf76-cd48bf80e36a</Key>
-                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCgjAteT28ssBEARyAHgAgAEAiAEBkAEAmQEAAAAAAAAAAKgBALABALoBGwkAAAAAAAAAACEAAAAAAAAAADkAAAAAAADwv8IBGwkAAAAAAAAAACEAAAAAAADwPzkAAAAAAAAAAMoBCgjAteT28ssBEATSAU4IABAAGAAgACgAMAE4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQCwAQC4AQDAAQDIAQDQAQDYAQDgAQDoAQDwAQD4AQDaAU4IABAAGAAgACgAMAA4AEAASABQAFgAYABoAHAAeACAAQCIAQCQAQCYAQCgAQCoAQGwAQG4AQHAAQHIAQHQAQDYAQDgAQDoAQDwAQD4AQDiAQCAAgCKAgCSAgCYAgCiAgQIARAP</Value>
+                    <Value>CAAQABiAgAEiACgAMAA6AEIASgBVAAAAAFobCQAAAAAAAAAAIQAAAAAAAAAAOQAAAAAAAAAAYhsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAAAABqCAiA7tSMGhADcgB4AIABAIgBAZABAJkBAAAAAAAAAACoAQCwAQC6ARsJAAAAAAAAAAAhAAAAAAAAAAA5AAAAAAAA8L/CARsJAAAAAAAAAAAhAAAAAAAA8D85AAAAAAAAAADKAQgIgO7UjBoQA9IBTggAEAAYACAAKAAwATgAQABIAFAAWABgAGgAcAB4AIABAIgBAJABAJgBAKABAKgBALABALgBAMABAMgBANABANgBAOABAOgBAPABAPgBANoBTggAEAAYACAAKAAwADgAQABIAFAAWABgAGgAcAB4AIABAIgBAJABAJgBAKABAKgBAbABAbgBAcABAcgBAdABANgBAOABAOgBAPABAPgBAOIBAIACAIoCAJICAJgCAKICBAgBEA8=</Value>
                   </item>
                 </dictionary>
               </Storage>
@@ -3225,54 +3312,7 @@ Survive until the timer is up to win!</Text>
       <IsRespawnGrid>false</IsRespawnGrid>
       <LocalCoordSys>46</LocalCoordSys>
       <TargetingTargets />
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
-      <SubtypeName />
-      <EntityId>108007323990070973</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <Name>108007323990070973</Name>
-      <PositionAndOrientation>
-        <Position x="-21259.703471342586" y="2324.996545786872" z="-1020.4846436749431" />
-        <Forward x="-0.325616479" y="0.7323791" z="0.5979924" />
-        <Up x="-0.653265" y="0.282962352" z="-0.702265739" />
-        <Orientation>
-          <X>-0.3973336</X>
-          <Y>0.8007011</Y>
-          <Z>-0.447933942</Z>
-          <W>-0.0189471226</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <LocalPositionAndOrientation xsi:nil="true" />
-      <GridSizeEnum>Large</GridSizeEnum>
-      <CubeBlocks>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
-          <SubtypeName>EntityCoverEveDerelict</SubtypeName>
-          <EntityId>108007323990070974</EntityId>
-          <Name>108007323990070974</Name>
-          <ColorMaskHSV x="0.0583333336" y="-0.34" z="-0.43" />
-          <Owner>144115188075855897</Owner>
-          <BuiltBy>144115188075855895</BuiltBy>
-          <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>true</ShowInTerminal>
-          <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <ShowInInventory>true</ShowInInventory>
-          <NumberInGrid>1</NumberInGrid>
-          <Enabled>true</Enabled>
-          <CurrentStoredPower>3</CurrentStoredPower>
-          <ProducerEnabled>true</ProducerEnabled>
-          <MaxStoredPower>0</MaxStoredPower>
-          <SemiautoEnabled>false</SemiautoEnabled>
-          <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
-          <ChargeMode>0</ChargeMode>
-        </MyObjectBuilder_CubeBlock>
-      </CubeBlocks>
-      <IsStatic>true</IsStatic>
-      <IsUnsupportedStation>true</IsUnsupportedStation>
-      <DisplayName>#EntityCover</DisplayName>
-      <DestructibleBlocks>false</DestructibleBlocks>
-      <IsRespawnGrid>false</IsRespawnGrid>
-      <LocalCoordSys>0</LocalCoordSys>
-      <TargetingTargets />
+      <NPCGridClaimElapsed xsi:nil="true" />
     </MyObjectBuilder_EntityBase>
   </SectorObjects>
 </MyObjectBuilder_Sector>
